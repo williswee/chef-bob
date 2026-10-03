@@ -23,16 +23,18 @@ If the assistant cannot fetch files, download the repository ZIP, extract the co
 
 ## Invoke Chef Bob
 
-OpenClaw has a built-in `/help`. Its documented generic skill entrypoint can route a request to Chef Bob explicitly:
+OpenClaw has its own built-in help command. Its documented generic skill entrypoint can route a request to Chef Bob explicitly:
 
 ```text
-/skill chef-bob /help
+/skill chef-bob /demo
 /skill chef-bob /plan Three dinners next week.
 /skill chef-bob /preferences Replace pork with chicken.
 /skill chef-bob /recipe-add Save the recipe below for me.
 ```
 
 These invoke the same four Chef Bob actions. Direct native skill aliases depend on channel configuration and may be renamed after collisions. If you cannot use the wrapper in your channel, send ordinary text such as `Chef Bob: /plan Three dinners next week.` and verify that the assistant loaded the skill. [OpenClaw slash-command behavior](https://docs.openclaw.ai/tools/slash-commands)
+
+The demo keeps changes in the conversation until you choose to use it for real. Type "help" to see Chef Bob's menu without restarting the trial. See [the demo guide](../docs/demo.md).
 
 Telegram's registered command names allow lowercase letters, digits and underscores, so a menu alias for `/recipe-add` must use `/recipe_add`. Chef Bob does not register or replace your bot's command menu automatically. [Telegram BotCommand format](https://core.telegram.org/bots/api#botcommand)
 

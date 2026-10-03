@@ -98,7 +98,7 @@ def check():
     commands_path = ROOT / 'COMMANDS.md'
     if commands_path.exists():
         commands = re.findall(r'^## (/\S+)$', commands_path.read_text(), re.M)
-        if commands != ['/help', '/plan', '/preferences', '/recipe-add']:
+        if commands != ['/demo', '/plan', '/preferences', '/recipe-add']:
             errors.append('COMMANDS.md: expected exactly the four documented commands')
     if errors:
         for error in errors:

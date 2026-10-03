@@ -1,5 +1,13 @@
 # Changelog
 
+## Unreleased
+
+- Interactive `/demo` with a trial plan, conversational edits, and a handoff to real use.
+- `/demo` replaces the dedicated help command. Type "help" for the menu; the four commands remain `/demo`, `/plan`, `/preferences`, and `/recipe-add`.
+- Demo changes stay in the conversation and do not update personal files or notification jobs.
+- README and adapter examples explain how to start the demo before setup.
+- Ten demo versions tested with GPT-6.1 Sol at ultra reasoning as the adversarial judge, with an aggregate scorecard and explicit tie handling. Version 6 is the selected default.
+
 ## 0.1.0 - 3 October 2026
 
 - First public Chef Bob package with fresh repository history.

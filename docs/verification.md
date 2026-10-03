@@ -1,4 +1,14 @@
-# v0.1 verification
+# Verification
+
+## Demo study
+
+On 3 October 2026, GPT-6.1 Sol with ultra reasoning evaluated ten demo candidates. Each received the same four-turn conversation and one distinct adversarial follow-up, for 50 generated replies. The baseline scores were frozen before each follow-up. See the [ranked summary and methodology](demo-evaluation/README.md).
+
+The selected guide is version 6, with an equally weighted score of 9.00/10. Versions 7, 9, and 10 tied on all four criteria and unnecessary-question count; the predefined earlier-round tie-break selected version 6. Each version received one different adversarial follow-up, so the selected version was not tested against all ten attacks.
+
+This was a fixed-scenario AI conversation study with one sample per version. It did not test human usability, live bot delivery, or real storage and scheduling through the demo. The local helper checks below are separate. The published demo guide matches the selected candidate exactly.
+
+## v0.1 local checks
 
 Checked on 3 October 2026. These results describe the shipped files and local workflows; each AI host still needs its own setup check.
 

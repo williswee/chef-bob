@@ -4,18 +4,22 @@ Use these four commands in a conversation with the AI running Chef Bob. They are
 
 | Command | What it does | Example |
 | --- | --- | --- |
-| [/help](#help) | Show the full menu and where to start. | `/help` |
+| [/demo](#demo) | Try a meal plan and changes in this chat before setting up. | `/demo` |
 | [/plan](#plan) | Make or revise a meal plan, grocery list, and preparation reminders. | `/plan next week for four servings` |
 | [/preferences](#preferences) | Show or change your household settings. | `/preferences replace pork with chicken and stop daily reminders` |
 | [/recipe-add](#recipe-add) | Add a recipe to your private library. | `/recipe-add` followed by text, a link, or a photo |
 
 You do not need a command for every action. "Show the tofu recipes," "Replace Wednesday's dinner," and "Change that to six servings" work as follow-up requests.
 
-## /help
+Type "help" or "commands" for the four-command menu, a short example for each, and the available capabilities. Help does not reset your progress. `/demo` replaces the earlier dedicated help command to keep the menu at four. A host's own help command remains unchanged.
 
-Show the entire four-command menu with a short example for each. Link to the [starter recipes](recipes/STARTER_RECIPES.md), [imported reference recipes](RECIPES.md), and [preference guide](docs/preferences.md). Also identify the private recipe library when it exists and the host can open it.
+## /demo
 
-For a new user, offer to guide setup a few questions at a time. State any relevant missing capability, such as file saving, image reading, or reminders. Do not ask users to learn Git, JSON, or cron to get a first plan.
+Follow [the demo guide](docs/demo.md). Show a small meal-planning trial, accept changes in ordinary language, and preserve the relevant context across turns. Demo state stays in the conversation. Do not initialize or change a personal profile, plan, recipe library, or notification job.
+
+While a demo is active, `/plan`, `/preferences`, and `/recipe-add` also operate on the trial. A request to use it for real follows the guide's handoff; do not silently treat demo samples as real household preferences. An ordinary "help" request shows the menu and useful links without clearing the trial.
+
+The regular save behavior below applies outside demo mode.
 
 ## /plan
 

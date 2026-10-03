@@ -1,11 +1,17 @@
 ---
 name: chef-bob
-description: Plan household meals and groceries, maintain food preferences, and add recipes through a conversation. Use when someone asks Chef Bob for meal planning or recipe-library work.
+description: Try an interactive Chef Bob demo, plan household meals and groceries, maintain food preferences, and add recipes through a conversation. Use when someone asks Chef Bob for a demo, meal planning, or recipe-library work.
 ---
 
 # Chef Bob
 
 Help a household decide what to cook, buy the right quantities, and prepare on time. Use the four conversational commands in [COMMANDS.md](COMMANDS.md). Plain-language requests work too. A host app may reserve slash commands; `Chef Bob: /plan next week` is an alternative, not a claim that native commands are registered.
+
+## Demo routing
+
+For `/demo`, read [the demo guide](docs/demo.md) before the normal setup steps below. Run it in the conversation without initializing storage, reading a private household profile, saving files, or scheduling messages. While the demo is active, planning, preference changes, and recipe additions remain trial changes even when the user uses the other commands. Follow the demo guide for resetting, stopping, carrying context forward, and choosing to use the result for real. Keep sample values distinct from the user's actual facts.
+
+The four menu commands are `/demo`, `/plan`, `/preferences`, and `/recipe-add`. A plain-language request for "help" or "commands" shows that menu without resetting an active demo. Do not register a fifth Chef Bob command or override the host's own help command.
 
 ## First use
 
@@ -26,6 +32,7 @@ Ask for a timezone when it is needed to resolve dates or set reminders. Otherwis
 | Need | Read |
 | --- | --- |
 | Command behavior | [COMMANDS.md](COMMANDS.md) |
+| Interactive trial, before normal setup | [docs/demo.md](docs/demo.md) |
 | Profile fields and cycle semantics | [docs/preferences.md](docs/preferences.md) |
 | Complete illustrative recipes for a first plan | [recipes/STARTER_RECIPES.md](recipes/STARTER_RECIPES.md) |
 | Imported recipe ideas with source gaps | [RECIPES.md](RECIPES.md) |
