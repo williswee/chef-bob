@@ -24,13 +24,13 @@ If the assistant cannot download files, extract the repository ZIP into that fol
 Hermes documents installed skills as chat commands using their skill name. Where this is available, pass the Chef Bob action as input:
 
 ```text
-/chef-bob /demo
+/chef-bob /help
 /chef-bob /plan Three dinners next week.
 /chef-bob /preferences Cook for 2 and avoid pork.
 /chef-bob /recipe-add Save the recipe below for me.
 ```
 
-The wrapper reaches the same four Chef Bob actions. Host help commands may belong to Hermes, and messaging platforms can impose different command-name rules. If needed, send `Chef Bob: /demo` as ordinary text and verify that Hermes loaded the skill. Type "help" to see Chef Bob's menu without clearing the trial. [Hermes skill invocation](https://hermes-agent.nousresearch.com/docs/user-guide/features/skills/)
+The wrapper reaches the same four Chef Bob actions. Host help commands may belong to Hermes, and messaging platforms can impose different command-name rules. If needed, send `Chef Bob: /help` as ordinary text and verify that Hermes loaded the skill. Type "help" to see Chef Bob's menu without clearing the current plan. [Hermes skill invocation](https://hermes-agent.nousresearch.com/docs/user-guide/features/skills/)
 
 Telegram command menus cannot contain a hyphen. Use `/recipe_add` only as a configured alias for the logical `/recipe-add` action; do not assume a menu or alias was installed. The plain-text prefix also avoids a conflict with platform help. [Telegram command names](https://core.telegram.org/bots/api#botcommand)
 

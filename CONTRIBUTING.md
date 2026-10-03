@@ -25,7 +25,11 @@ Use a separate temporary data directory for tests. Never point test runs at an a
 
 ## Automatic checks
 
-The [GitHub Actions template](scripts/github-actions-check.yml) runs the local checks on Python 3.9 and 3.12 with read-only repository permissions. It is provided as a template and is not active in v0.1. To enable it, a maintainer can copy it to `.github/workflows/check.yml` and commit it using a GitHub credential permitted to write workflows. Confirm the first run passes before relying on it.
+The [GitHub Actions workflow](.github/workflows/check.yml) runs the local checks on Python 3.9 and 3.12 for pushes and pull requests, with read-only repository permissions. Check the [latest runs](https://github.com/williswee/chef-bob/actions/workflows/check.yml) before merging.
+
+## Maintainer UX checks
+
+For an isolated onboarding test, follow [the maintainer guide](docs/demo.md). Test controls are not part of the public help menu. Use fictional data and keep transcripts, generated household files, and evaluation reports outside the checkout. Do not commit them.
 
 ## Community
 

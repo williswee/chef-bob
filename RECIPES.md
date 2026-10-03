@@ -2,7 +2,7 @@
 
 104 recipe entries and variants, including incomplete recipe notes. Imported on **3 October 2026** from the maintainer's recipe collection, last modified **26 August 2026**.
 
-For a first plan, start with the six complete [starter recipes](recipes/STARTER_RECIPES.md). Use the index below to browse this larger collection. Ask Chef Bob to show a dish or category in plain language. The [command guide](COMMANDS.md) explains `/demo`, `/plan`, `/preferences`, and `/recipe-add`.
+For a first plan, start with the six complete [starter recipes](recipes/STARTER_RECIPES.md). Use the index below to browse this larger collection. Ask Chef Bob to show a dish or category in plain language. The [command guide](COMMANDS.md) explains `/help`, `/plan`, `/preferences`, and `/recipe-add`.
 
 ## How to use this collection
 

@@ -4,7 +4,7 @@ Use these four commands in a conversation with the AI running Chef Bob. They are
 
 | Command | What it does | Example |
 | --- | --- | --- |
-| [/demo](#demo) | Try a meal plan and changes in this chat before setting up. | `/demo` |
+| [/help](#help) | Show the menu and what Bob can do here. | `/help` |
 | [/plan](#plan) | Make or revise a meal plan, grocery list, and preparation reminders. | `/plan next week for four servings` |
 | [/preferences](#preferences) | Show or change your household settings. | `/preferences replace pork with chicken and stop daily reminders` |
 | [/recipe-add](#recipe-add) | Add a recipe to your private library. | `/recipe-add` followed by text, a link, or a photo |
@@ -13,15 +13,15 @@ You do not need a command for every action. "Show the tofu recipes," "Replace We
 
 Use [selectable answers](SKILL.md#conversation-and-questions) for every question when the host supports them, including clarification and recipe-import questions. Keep optional free text available. Apply clear requests directly without adding a needless question.
 
-Type "help" or "commands" for the four-command menu, a short example for each, and the available capabilities. Help does not reset your progress. `/demo` replaces the earlier dedicated help command to keep the menu at four. A host's own help command remains unchanged.
+Type "help" or "commands" for the same menu. If the host reserves `/help`, use `Chef Bob: /help`. Help does not reset your progress or change the host's own help command.
 
-## /demo
+## /help
 
-Follow [the demo guide](docs/demo.md). Introduce Bob, offer to change his name, and get to know the user through selectable answers before the first meal plan. Honor a request to skip directly to a sample. Accept changes in ordinary language and preserve context across turns. Demo state stays in the conversation. Do not initialize or change a personal profile, plan, recipe library, or notification job.
+Show all four commands above with a short description and a useful example. Use clickable replies when the host supports them. Briefly summarize the user's known preferences and say which capabilities are available. Link to recipes or preference details when relevant.
 
-While a demo is active, `/plan`, `/preferences`, and `/recipe-add` also operate on the trial. A request to use it for real follows the guide's handoff; do not silently treat demo samples as real household preferences. An ordinary "help" request shows the menu and useful links without clearing the trial.
+For a new user, follow the onboarding in [SKILL.md](SKILL.md). For a returning user, preserve the current plan and offer useful next actions. Show only the four public commands. Developer test controls are not part of the help menu.
 
-The regular save behavior below applies outside demo mode.
+When a maintainer test or chat-only preview is active, help preserves that state and never enables saving or reminders. The save behavior below applies only when the current request permits it.
 
 ## /plan
 

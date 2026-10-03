@@ -1,6 +1,6 @@
-# Try Chef Bob
+# Maintainer UX test
 
-`/demo` starts a small meal-planning trial in the current conversation. Ordinary requests such as "show me the demo" work too. The four commands are `/demo`, `/plan`, `/preferences`, and `/recipe-add`; type `help` to see them.
+This internal guide runs only after an explicit request to test the experience with `/demo`. Do not advertise it in the README, onboarding, help, or user command registration. It exercises the normal onboarding in a chat-only trial. The four public commands remain `/help`, `/plan`, `/preferences`, and `/recipe-add`.
 
 ## Demo contract
 
@@ -17,7 +17,7 @@ Read and apply [soul.md](../soul.md) for Bob's personality. Humor should make th
 
 ## Welcome and first plan
 
-Follow [the conversation flow in SKILL.md](../SKILL.md#conversation-and-questions). The copy-and-paste start prompt opens with Bob's introduction and a real choice control to keep or change his name. Ask who the user is next, with selectable cooking-context answers and optional free text. Then collect the missing servings, meals, restrictions, and time limit one question at a time using choice controls. Do not assume names or preferences from the repository owner's account, previous synthetic tests, or fictional examples.
+Follow [the conversation flow in SKILL.md](../SKILL.md#conversation-and-questions). Start with Bob's introduction and a real choice control to keep or change his name. Ask who the user is next, with selectable cooking-context answers and optional free text. Then collect the missing servings, meals, restrictions, and time limit one question at a time using choice controls. Do not assume names or preferences from the repository owner's account, previous tests, or fictional examples.
 
 Mention once that this stays in the chat without saving a profile or enabling reminders. A tap is a real answer; apply it and move forward. Every follow-up question also uses choices when supported. If a host has no choice control, explain its text-only fallback rather than pretending Markdown choices are tappable.
 

@@ -1,121 +1,86 @@
 # Chef Bob
 
-Turn your recipes into a meal plan and shopping list with the AI assistant you already use.
+Plan meals, adjust portions, and make a shopping list with the AI assistant you already use.
 
-Plan dinners, swap a protein, or save a recipe from text, a link or a photo. Chef Bob uses your household size, food preferences and meal schedule. Your AI handles the files.
+Chef Bob is an open-source skill for your AI tool. It includes recipes and an optional local helper, with no account or backend.
 
-This is an open-source skill with a small local helper. You bring the AI tool and model. There is no Chef Bob account or hosted backend.
-
-## Try the demo first
-
-Once the latest Chef Bob is loaded, send `/demo`. In OpenClaw, use `/skill chef-bob /demo`. If your app intercepts slash commands, type `Chef Bob: /demo`.
-
-For a new chat, copy this message:
-
-```text
-Try Chef Bob from https://github.com/williswee/chef-bob.
-Read SKILL.md, soul.md, COMMANDS.md and docs/demo.md, then run /demo.
-Guide me through a small meal plan and let me change it.
-Keep this a trial in this chat. Do not save a personal profile or plan,
-add recipes to my real collection, or enable reminders.
-If you cannot read the repository, tell me which files to attach.
-```
-
-Bob introduces himself and offers to change his name. Next, he asks about you, then gathers what he needs for your first plan. Each question comes with selectable answers when your AI tool provides question controls, so the usual setup needs no typing. You can always add details in your own words, and sharing your name is optional.
-
-In Codex, Bob uses the available question controls. If they do not appear, he switches to clickable reply controls where the host supports them. Other hosts need their own quick replies or buttons; this Markdown skill cannot add controls an app does not support. In a text-only host, Bob explains the limitation and offers numbered answers. Button support has not been verified in Claude, OpenClaw, or Hermes.
-
-The demo lets you try planning, preference changes and recipe additions before saving anything. Ask to skip straight to a sample if you prefer. Type "help" for the menu, "start over" for a fresh trial, or "use this for real" when ready. Chef Bob keeps the trial in the conversation; your AI provider's usual chat-history settings still apply. Chosen names and personal introductions stay in this conversation or a handoff you request; the current saved-profile format does not store them.
-
-If the link cannot be opened, download the repository ZIP and attach `SKILL.md`, `soul.md`, `COMMANDS.md`, `docs/demo.md` and `recipes/STARTER_RECIPES.md`. No local installation is needed for the chat preview.
-
-## Set up when you are ready
+## Get started
 
 Copy this into your AI assistant:
 
 ```text
 Help me set up Chef Bob from https://github.com/williswee/chef-bob.
-Read START_HERE.md and soul.md. Guide me one step at a time, ask only
-what you need for my first meal plan, and show me a preview.
-Keep my preferences and recipes private, and leave notifications off.
-If you cannot read the repository or save files, explain the attachment
-or manual option instead of saying setup is complete.
+Read START_HERE.md, SKILL.md, soul.md and COMMANDS.md.
+Guide me through onboarding one question at a time, then show a first
+meal plan before saving it. Offer clickable answers when this app
+supports them, with optional free text.
+Keep my data private and reminders off.
+If you cannot read files or save private data, explain the manual option.
 ```
 
-Can't open the link? Select **Code → Download ZIP**, then attach the extracted `START_HERE.md`, `SKILL.md`, `soul.md`, `COMMANDS.md` and `recipes/STARTER_RECIPES.md`. Add `RECIPES.md` for the larger collection. Without attachments, paste the instructions and selected recipes. [Manual setup](adapters/generic-chat.md)
+Bob offers to change his name, then asks about your cooking routine, portions, meals, food restrictions, and time limit.
 
-## Bob's personality
+If the link fails, download the repository ZIP and attach `START_HERE.md`, `SKILL.md`, `soul.md`, `COMMANDS.md`, and `recipes/STARTER_RECIPES.md`. Pasting their contents also works.
 
-[soul.md](soul.md) gives Bob his defaults: humorous, accurate, concise, fun, and focused on getting things done. He owns mistakes and corrects them. When a decision is still sound, he explains the reasoning and tradeoff instead of agreeing just to be agreeable.
+Clickable answers depend on the app. Otherwise, Bob offers numbered choices. Free text is always welcome.
 
-The skill loads this file for onboarding, demos, and everyday use. Ask for a different tone, such as "less banter" or "more detail," and Bob adapts. The file contains generic public instructions, not a personal profile, and should stay inside the Chef Bob folder. It does not replace your existing assistant's `SOUL.md`.
-
-## Four things to remember
+## Four commands
 
 | Command | What it does | Example |
 | --- | --- | --- |
-| `/demo` | Tries a plan and changes in this chat before setup. | `/demo` |
-| `/plan` | Creates or revises a meal plan with a shopping list and preparation notes. | `/plan Three dinners next week. Use the broccoli first.` |
-| `/preferences` | Shows or changes your household, food, planning and notification settings. | `/preferences Cook for 3 people, replace pork with chicken, and keep reminders off.` |
-| `/recipe-add` | Saves a recipe draft to your personal collection for review. | `/recipe-add Save the recipe below and flag any missing quantities.` |
+| `/help` | Shows the menu and next steps. | `/help` |
+| `/plan` | Creates or revises meals, groceries, and preparation notes. | `/plan Three dinners next week. Use the broccoli first.` |
+| `/preferences` | Shows or changes your settings. | `/preferences Cook for 2 and use tofu instead of pork.` |
+| `/recipe-add` | Adds a recipe draft to your private collection. | `/recipe-add Save the recipe below and flag missing quantities.` |
 
-For a link, send `/recipe-add Save this recipe: <recipe URL>`. For a photo, attach it with `/recipe-add Save this photo as a recipe draft and flag anything unreadable.` These need browsing or image support. Ask for a preview if you want to see it without saving.
+Plain language works too: "Swap Tuesday's dinner." If the app reserves slash commands, use `Chef Bob: /plan`.
 
-Type "help" for the menu. Browse in ordinary language: "Show me quick tofu recipes" or "What soups do I have?" `/demo` replaces the earlier help command so the menu still has four commands. While the demo is active, the other commands make trial changes too.
-
-Some tools reserve slash commands. If that happens, prefix your message with `Chef Bob:`, for example `Chef Bob: /demo`. A configured Telegram menu alias uses `/recipe_add` for `/recipe-add`. These reach the same four actions. See your adapter below.
+Add recipes through text, links, or photos your AI can read. Bob flags missing details and saves private drafts when file access is available. Ask for a preview to avoid saving. See [command details](COMMANDS.md).
 
 ## Make it yours
 
-Change preferences in chat, without editing configuration files:
+Set portions, preferred proteins, foods to avoid, cooking time, meal days, and notifications in chat. No configuration editing is required.
 
 ```text
-/preferences Plan weekday dinners for 2 adults. No shellfish.
-Use RRNRRN: R means rice, N means noodles or pasta. Continue the cycle
-across weeks. I prefer chicken and tofu. Keep active cooking under
-30 minutes and notifications off.
+/preferences Plan weekday dinners for 2 portions. Prefer chicken and tofu.
+Use RRNRRN: R means rice, N means noodles or pasta. Keep reminders off.
 ```
 
-The cycle is optional. Change its pattern and eligible days in chat. Skipped meals do not advance it in v0.1. Specify when a preference change applies to just one day or week.
+The optional cycle continues across weeks. Skipped meals do not advance it. Say when a preference applies to one meal or week.
 
-Reminders start off. Use `/preferences` to request a timezone, schedule and destination. Your AI tool must support and verify scheduling and delivery before Bob calls them active.
+[soul.md](soul.md) makes Bob concise and lightly humorous. He checks facts, owns mistakes, and explains decisions. Ask for a different tone. Keep this file inside Chef Bob's folder, separate from your assistant's personality.
 
-## Recipes included
+## Storage and supported tools
 
-- [Six original starter recipes](recipes/STARTER_RECIPES.md) give you a small first-plan collection. They have not been kitchen-tested.
-- [104 imported recipes](RECIPES.md) cover drinks, soups, vegetables, fish, eggs, meat and one-pot meals. They are untested drafts with source links and review notes for missing quantities, methods or temperature units.
-- Your additions go into your private `recipes.md`. `/recipe-add` does not publish them or push them to GitHub.
+[The setup guide](START_HERE.md) keeps private data outside the source folder, in `~/.chef-bob` or `CHEF_BOB_DATA_DIR`. Without file access, save Bob's handoff record and bring it to your next chat.
 
-Ask Bob to review a recipe's gaps before using it. Missing instructions should stay visible until resolved.
-
-## Choose your AI tool
-
-| Tool | v0.1 path |
+| Tool | Setup and limits |
 | --- | --- |
-| [OpenClaw](adapters/openclaw.md) | Recommended setup. Skill discovery checked on 2026.9.7; live chat and delivery not tested. |
-| [Hermes Agent](adapters/hermes.md) | Experimental adapter based on its documented skill system. |
-| [Other chats and bots](adapters/generic-chat.md) | Paste or attach the instructions. Persistence, links, photos and scheduling depend on your tool. |
+| [OpenClaw](adapters/openclaw.md) | Skill discovery checked on 2026.9.7. Live conversations and delivery remain unverified. |
+| [Hermes Agent](adapters/hermes.md) | Experimental adapter. No live host test. |
+| [Codex, Claude, and other chats](adapters/generic-chat.md) | Read or attach the instructions. Available capabilities depend on the host. |
 
-Dot, Instinct and Grok users can try the manual path if their product accepts instructions or attachments. Native integrations are not verified. Each adapter explains the checks to run on your own bot.
+Dot, Instinct, and Grok have a manual path where they accept instructions or attachments. See [verification notes](docs/verification.md) for integration limits.
 
-The local helper passed 16 tests, including saved-plan revisions, recipe imports and quantity checks across two example weeks. See [what was tested](docs/verification.md) and the remaining host checks.
+Reminders start off. They require your chosen schedule and destination, plus verified host support. The helper does not send messages or create jobs.
 
-For the earlier demo, GPT-6.1 Sol with ultra reasoning judged ten versions across 50 generated replies. Version 6 scored 9.00/10, tied with three alternatives. The [historical comparison](docs/demo-evaluation/README.md) covers delightful UX, ease of use, context capturing, and clarity. The current personality, introduction, and selectable-question flow were added after that study and have not been scored. Those earlier results are AI judgments from a fixed scenario, not human usability results or live bot tests.
+## Recipes and privacy
 
-## Privacy, costs and updates
+The [six starter recipes](recipes/STARTER_RECIPES.md) are complete but not kitchen-tested. The [104 imported recipes](RECIPES.md) retain source links and review notes for missing details. Your additions stay in your private collection. The helper checks data and quantities, not dietary suitability or cooking safety.
 
-With file access, personal data lives outside the repository in `~/.chef-bob`, or a directory selected through `CHEF_BOB_DATA_DIR`. The optional Python 3.9+ helper has no third-party dependencies and makes no AI calls, messages or scheduled jobs.
-
-Your chosen AI receives the prompts, preferences, recipes and images you share or let it read. Enabled notifications also pass through your messaging service. Local storage does not hide a cloud conversation from its provider. Keep credentials in your tool's settings.
-
-Chef Bob has no subscription fee. Your AI subscription, model/API usage, hosting and optional services may cost money. Check your providers' prices.
-
-To update, ask your AI to back up your personal directory and update only Chef Bob's source. Preserve saved preferences, recipes and reminder settings. [Update procedure](START_HERE.md#update-without-losing-personal-data)
+Your AI provider receives what you share or allow it to read. Keep credentials outside recipes and this repository. Chef Bob has no subscription fee; your AI provider and optional services may charge for use.
 
 ## Contribute
 
-Contribute recipe corrections, clearer instructions or reports from your bot setup. Include a recipe ID or tool/version and remove personal data before posting. [Contribution guide](CONTRIBUTING.md)
+The optional helper requires Python 3.9 or newer, with no third-party packages. Run checks from the repository folder:
 
-Report security problems through the [private reporting process](SECURITY.md).
+```sh
+python3 -m unittest discover -s tests -v
+python3 scripts/check_release.py
+```
 
-Original code, documentation and starter recipes use the [MIT license](LICENSE). See [sources and attribution](NOTICE.md) for imported recipes and external materials.
+Read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting changes. [Report bugs](https://github.com/williswee/chef-bob/issues) with reproduction steps and your tool version. Omit personal data. Use [SECURITY.md](SECURITY.md) for private vulnerability reports.
+
+## License
+
+Original code, instructions, documentation, and starter recipes use the [MIT license](LICENSE). [NOTICE.md](NOTICE.md) covers attribution and third-party material.

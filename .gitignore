@@ -3,6 +3,12 @@ private/
 data/
 memory/
 plans/
+# Local test conversations and evaluation output never belong in the package.
+demo-review/
+demo-evaluation/
+cold-start*/
+trial-data/
+test-results/
 USER.md
 MEMORY.md
 SOUL.md

@@ -14,6 +14,7 @@ ROOT_FILES = {
 PUBLIC_DIRS = {'adapters', 'docs', 'templates', 'recipes', 'examples', 'scripts', 'tests', '.github'}
 SKIP_DIRS = {'.git', '__pycache__', '.pytest_cache', '.venv'}
 PRIVATE_NAMES = {'USER.md', 'MEMORY.md', 'SOUL.md', 'IDENTITY.md', 'DREAMS.md'}
+TRIAL_DIRS = {'demo-review', 'demo-evaluation', 'trial-data', 'test-results'}
 
 
 def visible_text(text):
@@ -46,6 +47,8 @@ def check():
         if not path.is_file():
             continue
         files.append(path)
+        if any(part in TRIAL_DIRS or part.startswith('cold-start-') for part in relative.parts[:-1]):
+            errors.append(f'{relative}: local trial data must not enter the public package')
         if len(relative.parts) == 1 and path.name not in ROOT_FILES:
             errors.append(f'{relative}: unexpected root file; review before adding to the release')
         if len(relative.parts) > 1 and relative.parts[0] not in PUBLIC_DIRS:
@@ -98,7 +101,7 @@ def check():
     commands_path = ROOT / 'COMMANDS.md'
     if commands_path.exists():
         commands = re.findall(r'^## (/\S+)$', commands_path.read_text(), re.M)
-        if commands != ['/demo', '/plan', '/preferences', '/recipe-add']:
+        if commands != ['/help', '/plan', '/preferences', '/recipe-add']:
             errors.append('COMMANDS.md: expected exactly the four documented commands')
     if errors:
         for error in errors:

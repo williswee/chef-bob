@@ -4,7 +4,7 @@ Use this path when your assistant can read instructions but has no verified Chef
 
 ## Start in chat
 
-Download the repository ZIP and attach `START_HERE.md`, `SKILL.md`, `soul.md`, `COMMANDS.md` and `recipes/STARTER_RECIPES.md`. Include `docs/demo.md` for a demo. Attach `RECIPES.md` if you want to use the larger imported collection. If file upload is unavailable, paste the instructions and the recipes you want to use.
+Download the repository ZIP and attach `START_HERE.md`, `SKILL.md`, `soul.md`, `COMMANDS.md` and `recipes/STARTER_RECIPES.md`. Attach `RECIPES.md` if you want to use the larger imported collection. If file upload is unavailable, paste the instructions and the recipes you want to use.
 
 Then send:
 
@@ -23,7 +23,7 @@ If the assistant has confirmed local file access, it can follow the normal priva
 ## Use the same four actions
 
 ```text
-Chef Bob: /demo
+Chef Bob: /help
 Chef Bob: /plan Three dinners next week, using my saved preferences.
 Chef Bob: /preferences Use tofu instead of pork from now on.
 Chef Bob: /recipe-add Save the recipe below for my next plan.
@@ -31,7 +31,7 @@ Chef Bob: /recipe-add Save the recipe below for my next plan.
 
 The prefix makes these ordinary chat messages when your tool reserves slash commands. For recipe additions, paste text after the message, provide a link if browsing works, or attach a photo if image reading works. A request to add authorizes a private draft save when storage is available. The assistant should show the saved recipe and flag missing details. Ask for a preview if you want to see it without saving.
 
-During `/demo`, all changes remain in the trial conversation, including recipe additions. Read [the demo guide](../docs/demo.md) for the trial and its handoff to real use. Type "help" to show the menu without resetting progress.
+Ask for a preview to keep changes in the conversation without saving them. Type "help" to show the four-command menu without resetting progress.
 
 For browsing, just ask "Which of my recipes use mushrooms?" or "Show me that recipe." No extra command is needed.
 
