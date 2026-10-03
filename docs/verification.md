@@ -2,11 +2,13 @@
 
 ## Demo study
 
+This study predates the current introduction, optional assistant nickname, and selectable onboarding questions. Those changes are unscored; the results below apply only to the original v06 instructions.
+
 On 3 October 2026, GPT-6.1 Sol with ultra reasoning evaluated ten demo candidates. Each received the same four-turn conversation and one distinct adversarial follow-up, for 50 generated replies. The baseline scores were frozen before each follow-up. See the [ranked summary and methodology](demo-evaluation/README.md).
 
 The selected guide is version 6, with an equally weighted score of 9.00/10. Versions 7, 9, and 10 tied on all four criteria and unnecessary-question count; the predefined earlier-round tie-break selected version 6. Each version received one different adversarial follow-up, so the selected version was not tested against all ten attacks.
 
-This was a fixed-scenario AI conversation study with one sample per version. It did not test human usability, live bot delivery, or real storage and scheduling through the demo. The local helper checks below are separate. The published demo guide matches the selected candidate exactly.
+This was a fixed-scenario AI conversation study with one sample per version. It did not test human usability, live bot delivery, or real storage and scheduling through the demo. The local helper checks below are separate. The historical guide at commit `69f7b7e` matches the selected candidate; the current guide has since changed.
 
 ## v0.1 local checks
 

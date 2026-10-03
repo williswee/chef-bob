@@ -18,7 +18,15 @@ If the repository link is inaccessible, ask the user to download its ZIP and att
 
 With file access, keep the complete Chef Bob source together in its own folder. Do not replace the user's workspace with this repository or copy personal workspace files into it.
 
-## 2. Set up private storage
+## 2. Get acquainted and build the first preview
+
+Follow [the conversation flow](SKILL.md#conversation-and-questions). Introduce Bob and offer selectable names, then invite the user to tell you about themselves through cooking-context choices. Names and free-text details are optional. Use actual choice controls for every question when the host provides them, including clarifications. Do not ask users to type through the ordinary setup path or print fake buttons.
+
+Collect only missing servings, meal slots, restrictions, and cooking time. Do not turn a sample or skipped answer into a household fact. Keep the first preview in the chat if that is what the user requested. Setup questions do not themselves authorize notification jobs.
+
+## 3. Set up private storage when needed
+
+Skip this section for a trial or chat-only preview. For real setup, preserve existing data and store only the settings the user has actually confirmed.
 
 Use `CHEF_BOB_DATA_DIR` if set; otherwise use `~/.chef-bob`. The chosen directory must be outside the Chef Bob source checkout. For a shared machine or bot, use a separate data directory for each household and confirm the correct household before loading personal files.
 
@@ -33,9 +41,9 @@ The helper creates missing private files and preserves existing ones. It manages
 
 If Python or file access is unavailable, use the manual path. Do not install a runtime or change unrelated system settings silently.
 
-## 3. Learn enough for one plan
+## 4. Confirm planning preferences
 
-Start with a short conversation, not a configuration questionnaire. Ask how many people are eating, any allergies or foods to avoid, and which meals to plan. Ask one follow-up at a time if an answer is unclear.
+Use the answers already collected. Ask only for missing or ambiguous details, one choice question at a time. Keep household counts separate from portions and clarify unknown food restrictions before treating a plan as suitable.
 
 Offer simple choices for preferred proteins, active cooking time and whether to use a rice/noodle cycle. Explain any proposed defaults before saving them. The user can change these later with `/preferences`.
 
@@ -51,7 +59,7 @@ python3 scripts/chef_bob.py check-profile
 
 Do not ask the user to maintain configuration syntax.
 
-## 4. Make the first plan
+## 5. Make the first plan
 
 Use [the six starter recipes](recipes/STARTER_RECIPES.md) for a small first preview, subject to the user's restrictions. They are original, untested examples. The larger [imported collection](RECIPES.md) has 104 drafts with review notes; unresolved amounts or methods stay unresolved until the user supplies or approves a correction.
 
@@ -61,7 +69,7 @@ When the user asks for a preview, show it without saving or advancing the cycle.
 
 In manual mode, return the updated personal record for the user to save. Do not claim future chats will remember it.
 
-## 5. Explain the four commands
+## 6. Explain the four commands
 
 | Command | Try it |
 | --- | --- |

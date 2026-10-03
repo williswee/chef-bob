@@ -21,7 +21,11 @@ add recipes to my real collection, or enable reminders.
 If you cannot read the repository, tell me which files to attach.
 ```
 
-The demo lets you try planning, preference changes and recipe additions before setup. Tell Bob what matters in normal language. Type "help" for the menu, "start over" for a fresh trial, or "use this for real" when ready. Chef Bob keeps the trial in the conversation; your AI provider's usual chat-history settings still apply.
+Bob introduces himself and offers to change his name. Next, he asks about you, then gathers what he needs for your first plan. Each question comes with selectable answers when your AI tool provides question controls, so the usual setup needs no typing. You can always add details in your own words, and sharing your name is optional.
+
+In Codex, Bob uses the available question controls. Other hosts need their own quick replies or buttons; this Markdown skill cannot add controls an app does not support. In a text-only host, Bob explains the limitation and offers numbered answers. Button support has not been verified in Claude, OpenClaw, or Hermes.
+
+The demo lets you try planning, preference changes and recipe additions before saving anything. Ask to skip straight to a sample if you prefer. Type "help" for the menu, "start over" for a fresh trial, or "use this for real" when ready. Chef Bob keeps the trial in the conversation; your AI provider's usual chat-history settings still apply. Chosen names and personal introductions stay in this conversation or a handoff you request; the current saved-profile format does not store them.
 
 If the link cannot be opened, download the repository ZIP and attach `SKILL.md`, `COMMANDS.md`, `docs/demo.md` and `recipes/STARTER_RECIPES.md`. No local installation is needed for the chat preview.
 
@@ -90,7 +94,7 @@ Dot, Instinct and Grok users can try the manual path if their product accepts in
 
 The local helper passed 16 tests, including saved-plan revisions, recipe imports and quantity checks across two example weeks. See [what was tested](docs/verification.md) and the remaining host checks.
 
-For the demo, GPT-6.1 Sol with ultra reasoning judged ten versions across 50 generated replies. The selected version scored 9.00/10, tied with three alternatives. The [ranked comparison](docs/demo-evaluation/README.md) covers delightful UX, ease of use, context capturing, and clarity. These are AI judgments from a fixed scenario, not human usability results or live bot tests.
+For the earlier demo, GPT-6.1 Sol with ultra reasoning judged ten versions across 50 generated replies. Version 6 scored 9.00/10, tied with three alternatives. The [historical comparison](docs/demo-evaluation/README.md) covers delightful UX, ease of use, context capturing, and clarity. The current introduction and selectable-question flow were added after that study and have not been scored. Those earlier results are AI judgments from a fixed scenario, not human usability results or live bot tests.
 
 ## Privacy, costs and updates
 

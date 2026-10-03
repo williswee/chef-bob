@@ -1,6 +1,6 @@
 # Demo evaluation summary
 
-Version 6 is the selected [demo guide](../demo.md). It scored 9.00 out of 10, tied with versions 7, 9, and 10. The predefined earlier-round tie-breaker selected version 6. This does not establish a meaningful advantage over the other tied versions.
+This is the historical study of the original demo. Version 6 was selected with a score of 9.00 out of 10, tied with versions 7, 9, and 10. The predefined earlier-round tie-breaker selected version 6. This does not establish a meaningful advantage over the other tied versions. The [current demo guide](../demo.md) adds a personal introduction and selectable onboarding questions after user feedback. It differs from v06 and does not inherit these scores.
 
 GPT-6.1 Sol with ultra reasoning acted as the adversarial tester and evaluator. Ten frozen candidates each received the same four-turn conversation, followed by one distinct adversarial challenge. The study recorded 50 generated replies. Each candidate used a fresh responder; the responder model identity was not exposed by the runtime.
 
@@ -37,7 +37,7 @@ These are AI judgments from one generated baseline conversation per candidate an
 
 Each candidate received only one additional adversarial challenge. The selected version's challenge concerned instructions embedded in recipe text; it was not tested against all ten challenges. Broader user needs and longer histories still need testing. The recipes remain untested cooking examples.
 
-The published guide matches the tested version 6 exactly. Its SHA-256 is `f32db6a6c6f7a15ac44df11cb440cf9194e483ff91a6749877f3c90860381898`.
+The original tested version 6 is preserved in [the historical Git revision](https://github.com/williswee/chef-bob/blob/69f7b7e036137ec589823db31f7cf9985d631ad5/docs/demo.md). Its SHA-256 is `f32db6a6c6f7a15ac44df11cb440cf9194e483ff91a6749877f3c90860381898`. The current guide has changed since that test.
 
 ## Try it
 

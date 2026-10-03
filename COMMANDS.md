@@ -11,11 +11,13 @@ Use these four commands in a conversation with the AI running Chef Bob. They are
 
 You do not need a command for every action. "Show the tofu recipes," "Replace Wednesday's dinner," and "Change that to six servings" work as follow-up requests.
 
+Use [selectable answers](SKILL.md#conversation-and-questions) for every question when the host supports them, including clarification and recipe-import questions. Keep optional free text available. Apply clear requests directly without adding a needless question.
+
 Type "help" or "commands" for the four-command menu, a short example for each, and the available capabilities. Help does not reset your progress. `/demo` replaces the earlier dedicated help command to keep the menu at four. A host's own help command remains unchanged.
 
 ## /demo
 
-Follow [the demo guide](docs/demo.md). Show a small meal-planning trial, accept changes in ordinary language, and preserve the relevant context across turns. Demo state stays in the conversation. Do not initialize or change a personal profile, plan, recipe library, or notification job.
+Follow [the demo guide](docs/demo.md). Introduce Bob, offer to change his name, and get to know the user through selectable answers before the first meal plan. Honor a request to skip directly to a sample. Accept changes in ordinary language and preserve context across turns. Demo state stays in the conversation. Do not initialize or change a personal profile, plan, recipe library, or notification job.
 
 While a demo is active, `/plan`, `/preferences`, and `/recipe-add` also operate on the trial. A request to use it for real follows the guide's handoff; do not silently treat demo samples as real household preferences. An ordinary "help" request shows the menu and useful links without clearing the trial.
 
