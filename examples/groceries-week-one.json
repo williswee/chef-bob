@@ -1,0 +1,107 @@
+[
+  {
+    "name": "Broccoli, small florets",
+    "quantity": 200,
+    "unit": "g"
+  },
+  {
+    "name": "Carrot, thinly sliced",
+    "quantity": 100,
+    "unit": "g"
+  },
+  {
+    "name": "Chickpeas, cooked and drained",
+    "quantity": 240,
+    "unit": "g"
+  },
+  {
+    "name": "Chopped canned tomatoes",
+    "quantity": 400,
+    "unit": "g"
+  },
+  {
+    "name": "Firm tofu, drained and cubed",
+    "quantity": 250,
+    "unit": "g"
+  },
+  {
+    "name": "Garlic, minced",
+    "quantity": 18,
+    "unit": "g"
+  },
+  {
+    "name": "Ginger, grated",
+    "quantity": 10,
+    "unit": "g"
+  },
+  {
+    "name": "Ground black pepper",
+    "quantity": 1,
+    "unit": "g"
+  },
+  {
+    "name": "Lemon juice",
+    "quantity": 20,
+    "unit": "ml"
+  },
+  {
+    "name": "Neutral cooking oil",
+    "quantity": 15,
+    "unit": "ml"
+  },
+  {
+    "name": "Olive oil",
+    "quantity": 30,
+    "unit": "ml"
+  },
+  {
+    "name": "Onion, diced",
+    "quantity": 100,
+    "unit": "g"
+  },
+  {
+    "name": "Salt",
+    "quantity": 4,
+    "unit": "g"
+  },
+  {
+    "name": "Soy sauce",
+    "quantity": 30,
+    "unit": "ml"
+  },
+  {
+    "name": "Spinach, washed",
+    "quantity": 120,
+    "unit": "g"
+  },
+  {
+    "name": "Water",
+    "quantity": 500,
+    "unit": "ml"
+  },
+  {
+    "name": "Water for boiling noodles",
+    "quantity": 2000,
+    "unit": "ml"
+  },
+  {
+    "name": "Water for sauce",
+    "quantity": 60,
+    "unit": "ml"
+  },
+  {
+    "name": "Wheat noodles, dry",
+    "quantity": 180,
+    "unit": "g"
+  },
+  {
+    "name": "White beans, cooked and drained",
+    "quantity": 240,
+    "unit": "g"
+  },
+  {
+    "name": "White rice, dry",
+    "quantity": 300,
+    "unit": "g"
+  }
+]

@@ -1,0 +1,25 @@
+name: Bug or setup problem
+description: Report a problem using fictional or redacted examples.
+body:
+  - type: markdown
+    attributes:
+      value: Do not include household profiles, tokens, chat IDs, or private recipes. Use the private security-reporting form for sensitive issues.
+  - type: input
+    id: version
+    attributes:
+      label: Chef Bob version and AI tool
+      placeholder: v0.1.0, tool name and version
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce with fictional data
+    validations:
+      required: true

@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Carrot, finely diced",
+    "quantity": 375,
+    "unit": "g"
+  },
+  {
+    "name": "Chopped canned tomatoes",
+    "quantity": 800,
+    "unit": "g"
+  },
+  {
+    "name": "Dried oregano",
+    "quantity": 4,
+    "unit": "g"
+  },
+  {
+    "name": "Eggs",
+    "quantity": 3,
+    "unit": "count"
+  },
+  {
+    "name": "Frozen peas",
+    "quantity": 180,
+    "unit": "g"
+  },
+  {
+    "name": "Garlic, minced",
+    "quantity": 12,
+    "unit": "g"
+  },
+  {
+    "name": "Ground cumin",
+    "quantity": 3,
+    "unit": "g"
+  },
+  {
+    "name": "Lentils, cooked and drained",
+    "quantity": 840,
+    "unit": "g"
+  },
+  {
+    "name": "Neutral cooking oil",
+    "quantity": 22.5,
+    "unit": "ml"
+  },
+  {
+    "name": "Olive oil",
+    "quantity": 52.5,
+    "unit": "ml"
+  },
+  {
+    "name": "Onion, diced",
+    "quantity": 440,
+    "unit": "g"
+  },
+  {
+    "name": "Salt",
+    "quantity": 7,
+    "unit": "g"
+  },
+  {
+    "name": "Soy sauce",
+    "quantity": 22.5,
+    "unit": "ml"
+  },
+  {
+    "name": "Tomato passata",
+    "quantity": 300,
+    "unit": "g"
+  },
+  {
+    "name": "Water",
+    "quantity": 450,
+    "unit": "ml"
+  },
+  {
+    "name": "Water for boiling pasta",
+    "quantity": 4000,
+    "unit": "ml"
+  },
+  {
+    "name": "Water for rice",
+    "quantity": 450,
+    "unit": "ml"
+  },
+  {
+    "name": "Water for sauce",
+    "quantity": 150,
+    "unit": "ml"
+  },
+  {
+    "name": "Wheat pasta, dry",
+    "quantity": 360,
+    "unit": "g"
+  },
+  {
+    "name": "White rice, dry",
+    "quantity": 450,
+    "unit": "g"
+  }
+]

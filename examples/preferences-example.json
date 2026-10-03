@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "household": {
+    "adults": 2,
+    "children": 0,
+    "servings": 2
+  },
+  "timezone": "UTC",
+  "diet": {
+    "allergies": [],
+    "dislikes": [],
+    "excluded_ingredients": [],
+    "preferred_proteins": []
+  },
+  "meal_schedule": [
+    {
+      "day": "monday",
+      "slot": "dinner"
+    },
+    {
+      "day": "wednesday",
+      "slot": "dinner"
+    },
+    {
+      "day": "friday",
+      "slot": "dinner"
+    }
+  ],
+  "planning": {
+    "max_active_minutes": 30,
+    "repeat_gap_weeks": 1
+  },
+  "carb_cycle": {
+    "enabled": true,
+    "pattern": "RRNRRN",
+    "start_index": 0,
+    "days": [
+      "monday",
+      "tuesday",
+      "wednesday",
+      "thursday",
+      "friday"
+    ],
+    "skip_behavior": "do_not_advance",
+    "continue_across_weeks": true
+  },
+  "shopping": {
+    "region": null,
+    "units": "metric",
+    "group_by": "meal"
+  },
+  "notifications": {
+    "enabled": false,
+    "channel": null,
+    "schedules": []
+  },
+  "temporary_overrides": []
+}

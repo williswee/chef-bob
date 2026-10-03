@@ -1,0 +1,176 @@
+{
+  "week_start": "2026-01-05",
+  "meals": [
+    {
+      "date": "2026-01-05",
+      "slot": "dinner",
+      "recipe_id": "starter-tomato-chickpea-rice",
+      "servings": 2,
+      "carb": "R",
+      "ingredients": [
+        {
+          "name": "White rice, dry",
+          "quantity": 150,
+          "unit": "g"
+        },
+        {
+          "name": "Chickpeas, cooked and drained",
+          "quantity": 240,
+          "unit": "g"
+        },
+        {
+          "name": "Chopped canned tomatoes",
+          "quantity": 400,
+          "unit": "g"
+        },
+        {
+          "name": "Onion, diced",
+          "quantity": 100,
+          "unit": "g"
+        },
+        {
+          "name": "Garlic, minced",
+          "quantity": 6,
+          "unit": "g"
+        },
+        {
+          "name": "Olive oil",
+          "quantity": 15,
+          "unit": "ml"
+        },
+        {
+          "name": "Water",
+          "quantity": 200,
+          "unit": "ml"
+        },
+        {
+          "name": "Salt",
+          "quantity": 2,
+          "unit": "g"
+        },
+        {
+          "name": "Ground black pepper",
+          "quantity": 0.5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "date": "2026-01-07",
+      "slot": "dinner",
+      "recipe_id": "starter-lemon-white-bean-rice",
+      "servings": 2,
+      "carb": "R",
+      "ingredients": [
+        {
+          "name": "White rice, dry",
+          "quantity": 150,
+          "unit": "g"
+        },
+        {
+          "name": "Water",
+          "quantity": 300,
+          "unit": "ml"
+        },
+        {
+          "name": "White beans, cooked and drained",
+          "quantity": 240,
+          "unit": "g"
+        },
+        {
+          "name": "Spinach, washed",
+          "quantity": 120,
+          "unit": "g"
+        },
+        {
+          "name": "Garlic, minced",
+          "quantity": 6,
+          "unit": "g"
+        },
+        {
+          "name": "Olive oil",
+          "quantity": 15,
+          "unit": "ml"
+        },
+        {
+          "name": "Lemon juice",
+          "quantity": 20,
+          "unit": "ml"
+        },
+        {
+          "name": "Salt",
+          "quantity": 2,
+          "unit": "g"
+        },
+        {
+          "name": "Ground black pepper",
+          "quantity": 0.5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "date": "2026-01-09",
+      "slot": "dinner",
+      "recipe_id": "starter-ginger-tofu-noodles",
+      "servings": 2,
+      "carb": "N",
+      "ingredients": [
+        {
+          "name": "Wheat noodles, dry",
+          "quantity": 180,
+          "unit": "g"
+        },
+        {
+          "name": "Firm tofu, drained and cubed",
+          "quantity": 250,
+          "unit": "g"
+        },
+        {
+          "name": "Broccoli, small florets",
+          "quantity": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Carrot, thinly sliced",
+          "quantity": 100,
+          "unit": "g"
+        },
+        {
+          "name": "Ginger, grated",
+          "quantity": 10,
+          "unit": "g"
+        },
+        {
+          "name": "Garlic, minced",
+          "quantity": 6,
+          "unit": "g"
+        },
+        {
+          "name": "Neutral cooking oil",
+          "quantity": 15,
+          "unit": "ml"
+        },
+        {
+          "name": "Soy sauce",
+          "quantity": 30,
+          "unit": "ml"
+        },
+        {
+          "name": "Water for sauce",
+          "quantity": 60,
+          "unit": "ml"
+        },
+        {
+          "name": "Water for boiling noodles",
+          "quantity": 2000,
+          "unit": "ml"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Synthetic example for structural checks and arithmetic, not a tested or personalised meal plan.",
+    "Boiling water is shown separately; adjust pot and water needs when cooking."
+  ]
+}

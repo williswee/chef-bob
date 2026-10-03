@@ -1,0 +1,172 @@
+{
+  "week_start": "2026-01-12",
+  "meals": [
+    {
+      "date": "2026-01-12",
+      "slot": "dinner",
+      "recipe_id": "starter-lentil-carrot-rice",
+      "servings": 3,
+      "carb": "R",
+      "ingredients": [
+        {
+          "name": "White rice, dry",
+          "quantity": 225,
+          "unit": "g"
+        },
+        {
+          "name": "Water for rice",
+          "quantity": 450,
+          "unit": "ml"
+        },
+        {
+          "name": "Lentils, cooked and drained",
+          "quantity": 360,
+          "unit": "g"
+        },
+        {
+          "name": "Carrot, finely diced",
+          "quantity": 225,
+          "unit": "g"
+        },
+        {
+          "name": "Onion, diced",
+          "quantity": 150,
+          "unit": "g"
+        },
+        {
+          "name": "Tomato passata",
+          "quantity": 300,
+          "unit": "g"
+        },
+        {
+          "name": "Water for sauce",
+          "quantity": 150,
+          "unit": "ml"
+        },
+        {
+          "name": "Olive oil",
+          "quantity": 22.5,
+          "unit": "ml"
+        },
+        {
+          "name": "Ground cumin",
+          "quantity": 3,
+          "unit": "g"
+        },
+        {
+          "name": "Salt",
+          "quantity": 3,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "date": "2026-01-14",
+      "slot": "dinner",
+      "recipe_id": "starter-egg-pea-fried-rice",
+      "servings": 3,
+      "carb": "R",
+      "ingredients": [
+        {
+          "name": "White rice, dry",
+          "quantity": 225,
+          "unit": "g"
+        },
+        {
+          "name": "Water",
+          "quantity": 450,
+          "unit": "ml"
+        },
+        {
+          "name": "Eggs",
+          "quantity": 3,
+          "unit": "count"
+        },
+        {
+          "name": "Frozen peas",
+          "quantity": 180,
+          "unit": "g"
+        },
+        {
+          "name": "Carrot, finely diced",
+          "quantity": 150,
+          "unit": "g"
+        },
+        {
+          "name": "Onion, diced",
+          "quantity": 90,
+          "unit": "g"
+        },
+        {
+          "name": "Neutral cooking oil",
+          "quantity": 22.5,
+          "unit": "ml"
+        },
+        {
+          "name": "Soy sauce",
+          "quantity": 22.5,
+          "unit": "ml"
+        }
+      ]
+    },
+    {
+      "date": "2026-01-16",
+      "slot": "dinner",
+      "recipe_id": "starter-tomato-lentil-pasta",
+      "servings": 4,
+      "carb": "N",
+      "ingredients": [
+        {
+          "name": "Wheat pasta, dry",
+          "quantity": 360,
+          "unit": "g"
+        },
+        {
+          "name": "Lentils, cooked and drained",
+          "quantity": 480,
+          "unit": "g"
+        },
+        {
+          "name": "Chopped canned tomatoes",
+          "quantity": 800,
+          "unit": "g"
+        },
+        {
+          "name": "Onion, diced",
+          "quantity": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Garlic, minced",
+          "quantity": 12,
+          "unit": "g"
+        },
+        {
+          "name": "Olive oil",
+          "quantity": 30,
+          "unit": "ml"
+        },
+        {
+          "name": "Dried oregano",
+          "quantity": 4,
+          "unit": "g"
+        },
+        {
+          "name": "Salt",
+          "quantity": 4,
+          "unit": "g"
+        },
+        {
+          "name": "Water for boiling pasta",
+          "quantity": 4000,
+          "unit": "ml"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Synthetic example for structural checks and arithmetic, not a tested or personalised meal plan.",
+    "Boiling water is shown separately; adjust pot and water needs when cooking.",
+    "Household changed from 2 to 3 servings; Friday has a temporary override to 4 servings."
+  ]
+}
