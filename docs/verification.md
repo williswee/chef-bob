@@ -11,7 +11,7 @@ The [GitHub Actions workflow](../.github/workflows/check.yml) runs these checks 
 
 ## What the checks cover
 
-The helper tests use synthetic fixtures in temporary directories. They cover:
+The helper tests use the fictional data described in [examples/](../examples/README.md) and temporary private directories. They cover:
 
 - Private data paths, symlink protection, and preservation of existing files.
 - Recipe imports, duplicate detection, source retention, and index recovery.

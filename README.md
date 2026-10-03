@@ -66,7 +66,7 @@ Reminders start off. They require your chosen schedule and destination, plus ver
 
 ## Recipes and privacy
 
-The [six starter recipes](recipes/STARTER_RECIPES.md) are complete but not kitchen-tested. The [104 imported recipes](RECIPES.md) retain source links and review notes for missing details. Your additions stay in your private collection. The helper checks data and quantities, not dietary suitability or cooking safety.
+The [six starter recipes](recipes/STARTER_RECIPES.md) are complete but not kitchen-tested. The [104 imported recipes](RECIPES.md) retain source links and review notes for missing details. Your additions stay in your private collection. The helper validates file structure and recipe references. The AI must check portion scaling, dietary suitability, and cooking instructions against the recipes.
 
 Your AI provider receives what you share or allow it to read. Keep credentials outside recipes and this repository. Chef Bob has no subscription fee; your AI provider and optional services may charge for use.
 
@@ -79,7 +79,7 @@ python3 -m unittest discover -s tests -v
 python3 scripts/check_release.py
 ```
 
-Read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting changes. [Report bugs](https://github.com/williswee/chef-bob/issues) with reproduction steps and your tool version. Omit personal data. Use [SECURITY.md](SECURITY.md) for private vulnerability reports.
+See the [repository map](CONTRIBUTING.md#repository-map) for what each file does. Read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting changes. [Report bugs](https://github.com/williswee/chef-bob/issues) with reproduction steps and your tool version. Omit personal data. Use [SECURITY.md](SECURITY.md) for private vulnerability reports.
 
 ## License
 

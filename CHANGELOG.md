@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Explained every repository file and added folder guides for recipe collections and test examples.
 - Added `soul.md` for Bob's default personality and handling of mistakes and disagreement.
 - Onboarding introduces Bob, offers a name change, and learns about the user through selectable answers where supported.
 - Public commands are `/help`, `/plan`, `/preferences`, and `/recipe-add`.

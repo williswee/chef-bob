@@ -71,7 +71,7 @@ There is no required private Google Doc, account, bot, or messaging service. The
 ## Planning rules
 
 - Use one household profile. Keep lasting settings in `preferences.json`, dated meal exceptions in `temporary_overrides`, and saved weeks in `state.json`. A guest count or skipped Friday should not silently become a permanent preference.
-- Apply allergies and explicit exclusions before dislikes, variety, timing, or convenience. Check the full ingredients, sauces, stock, and proposed substitutions. Missing ingredient information is unresolved, not proof that a recipe fits. The helper checks data and quantities; it does not verify allergen safety, nutrition, or cooking safety.
+- Apply allergies and explicit exclusions before dislikes, variety, timing, or convenience. Check the full ingredients, sauces, stock, and proposed substitutions. Missing ingredient information is unresolved, not proof that a recipe fits. The helper checks data structure, numeric validity, and recipe references. It does not verify portion scaling, allergen safety, nutrition, or cooking safety.
 - Respect the requested meal slots and servings. Do not equate children with a fixed fraction of an adult unless the user chooses that serving rule.
 - Prefer complete recipes suitable for the stated cooking time. For an imported draft with missing quantities or steps, identify the gap, use another recipe, or ask a focused question. Do not invent source facts. Label any user-requested proposed variation separately.
 - Scale quantities by `target servings / source servings`. Preserve units, distinguish dry from cooked and drained weights, and show necessary rounding. Cooking time does not scale linearly. Unknown source servings prevent a reliable serving-ratio calculation.

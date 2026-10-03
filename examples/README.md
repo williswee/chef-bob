@@ -1,6 +1,24 @@
-# Two synthetic weeks
+# Example plans
 
 These examples exercise six original starter recipes, the optional `RRNRRN` rotation, and a change in portions. They do not contain household data. They verify arithmetic and storage behaviour, not nutrition, allergy suitability, or cooking results.
+
+These files are developer examples and fixed inputs to [the automated tests](../tests/test_chef_bob.py). Chef Bob does not load them as your preferences or copy them into your plan during onboarding.
+
+## Files in this folder
+
+| File | Purpose |
+| --- | --- |
+| [README.md](README.md) | Explains the example data and shows both plans and their ingredient totals below. |
+| [preferences-example.json](preferences-example.json) | Fictional week-one settings for two servings, with the optional rice/noodle cycle enabled. |
+| [preferences-week-two.json](preferences-week-two.json) | Changes the default to three servings and Friday to four. |
+| [week-one.json](week-one.json) | First week's three meals, with recipe IDs and ingredient quantities. |
+| [week-two.json](week-two.json) | Second week's meals, showing the portion changes and continued cycle. |
+| [groceries-week-one.json](groceries-week-one.json) | Expected ingredient totals for week one, checked against its meals. |
+| [groceries-week-two.json](groceries-week-two.json) | Expected ingredient totals for week two after scaling portions. |
+
+The helper initializes new private profiles from [templates/](../templates), which leave the cycle disabled. It does not use these example profiles as defaults.
+
+## How the example works
 
 Use `preferences-example.json` for week one. For week two, `preferences-week-two.json` changes the household to 3 servings and Friday to 4. Each starter recipe has a base of 2 servings, so the example multiplies every listed quantity by `desired servings / 2`. Cooking time does not scale with portions.
 

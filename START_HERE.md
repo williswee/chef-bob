@@ -63,7 +63,7 @@ Use [the six starter recipes](recipes/STARTER_RECIPES.md) for a small first prev
 
 Show the selected dates and meals, recipe names, servings, preparation notes and a shopping list. State assumptions and conflicts. When a recipe cannot meet a restriction or lacks enough information, choose another available recipe or ask a focused question.
 
-When the user asks for a preview, show it without saving or advancing the cycle. A direct `/plan` request authorizes a local plan save; it does not need a second approval. Use the helper's `save-plan --file` workflow in [SKILL.md](SKILL.md), check the stored result, and show the saved plan for revisions. A repeated request for the same plan must not advance the rice/noodle cycle again. A revision replaces that week's plan rather than adding a duplicate.
+When the user asks for a preview, show it without saving or advancing the cycle. A direct `/plan` request authorizes a local plan save; it does not need a second approval. Use the helper's `save-plan --file` command in [COMMANDS.md](COMMANDS.md#plan) with the [saved plan format](docs/preferences.md#saved-plan-format). Check the stored result and show the saved plan for revisions. A repeated request for the same plan must not advance the rice/noodle cycle again. A revision replaces that week's plan rather than adding a duplicate.
 
 In manual mode, return the updated personal record for the user to save. Do not claim future chats will remember it.
 
