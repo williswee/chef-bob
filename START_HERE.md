@@ -2,7 +2,7 @@
 
 Give this file to your AI assistant. It should guide you through setup and a first meal plan. You do not need to edit JSON or YAML.
 
-If you are the assistant, read [SKILL.md](SKILL.md) before acting. Chef Bob is a meal-planning skill. Keep the user's existing assistant identity, global instructions, memory and credentials intact.
+If you are the assistant, read [SKILL.md](SKILL.md) and [soul.md](soul.md) before acting. Chef Bob is a meal-planning skill. Its personality applies within Chef Bob conversations. Keep the user's existing assistant identity, global instructions, memory and credentials intact; do not replace a host's own `SOUL.md`.
 
 For a `/demo` request, follow [the demo guide](docs/demo.md) now and skip the storage setup below. The trial works in the current conversation. Begin normal setup only when the user chooses to use Chef Bob for real.
 
@@ -14,7 +14,7 @@ Check what the current tool can actually do: read the supplied files, read and w
 - For Hermes Agent, follow [its experimental adapter](adapters/hermes.md).
 - For any other chat or bot, follow [the manual adapter](adapters/generic-chat.md). This includes Dot, Instinct and Grok unless their specific setup has been verified separately.
 
-If the repository link is inaccessible, ask the user to download its ZIP and attach `START_HERE.md`, `SKILL.md` and `recipes/STARTER_RECIPES.md`. Load the larger `RECIPES.md` collection only when needed. If attachments are unavailable, use pasted text. State when files or capabilities are missing.
+If the repository link is inaccessible, ask the user to download its ZIP and attach `START_HERE.md`, `SKILL.md`, `soul.md`, `COMMANDS.md` and `recipes/STARTER_RECIPES.md`. Include `docs/demo.md` for a demo request. Load the larger `RECIPES.md` collection only when needed. If attachments are unavailable, use pasted text. State when files or capabilities are missing.
 
 With file access, keep the complete Chef Bob source together in its own folder. Do not replace the user's workspace with this repository or copy personal workspace files into it.
 

@@ -8,7 +8,7 @@ For v0.1, OpenClaw 2026.9.7 discovered Chef Bob in a temporary, isolated configu
 
 ```text
 Set up Chef Bob from https://github.com/williswee/chef-bob for this
-OpenClaw agent. Read START_HERE.md and SKILL.md first.
+OpenClaw agent. Read START_HERE.md, SKILL.md and soul.md first.
 Find this agent's actual workspace and install the complete repository
 as its skills/chef-bob folder, preserving any existing installation.
 Do not replace my AGENTS.md, SOUL.md, USER.md, memory or other skills.

@@ -14,7 +14,7 @@ For a new chat, copy this message:
 
 ```text
 Try Chef Bob from https://github.com/williswee/chef-bob.
-Read SKILL.md, COMMANDS.md and docs/demo.md, then run /demo.
+Read SKILL.md, soul.md, COMMANDS.md and docs/demo.md, then run /demo.
 Guide me through a small meal plan and let me change it.
 Keep this a trial in this chat. Do not save a personal profile or plan,
 add recipes to my real collection, or enable reminders.
@@ -23,11 +23,11 @@ If you cannot read the repository, tell me which files to attach.
 
 Bob introduces himself and offers to change his name. Next, he asks about you, then gathers what he needs for your first plan. Each question comes with selectable answers when your AI tool provides question controls, so the usual setup needs no typing. You can always add details in your own words, and sharing your name is optional.
 
-In Codex, Bob uses the available question controls. Other hosts need their own quick replies or buttons; this Markdown skill cannot add controls an app does not support. In a text-only host, Bob explains the limitation and offers numbered answers. Button support has not been verified in Claude, OpenClaw, or Hermes.
+In Codex, Bob uses the available question controls. If they do not appear, he switches to clickable reply controls where the host supports them. Other hosts need their own quick replies or buttons; this Markdown skill cannot add controls an app does not support. In a text-only host, Bob explains the limitation and offers numbered answers. Button support has not been verified in Claude, OpenClaw, or Hermes.
 
 The demo lets you try planning, preference changes and recipe additions before saving anything. Ask to skip straight to a sample if you prefer. Type "help" for the menu, "start over" for a fresh trial, or "use this for real" when ready. Chef Bob keeps the trial in the conversation; your AI provider's usual chat-history settings still apply. Chosen names and personal introductions stay in this conversation or a handoff you request; the current saved-profile format does not store them.
 
-If the link cannot be opened, download the repository ZIP and attach `SKILL.md`, `COMMANDS.md`, `docs/demo.md` and `recipes/STARTER_RECIPES.md`. No local installation is needed for the chat preview.
+If the link cannot be opened, download the repository ZIP and attach `SKILL.md`, `soul.md`, `COMMANDS.md`, `docs/demo.md` and `recipes/STARTER_RECIPES.md`. No local installation is needed for the chat preview.
 
 ## Set up when you are ready
 
@@ -35,14 +35,20 @@ Copy this into your AI assistant:
 
 ```text
 Help me set up Chef Bob from https://github.com/williswee/chef-bob.
-Read START_HERE.md and follow it. Guide me one step at a time, ask only
+Read START_HERE.md and soul.md. Guide me one step at a time, ask only
 what you need for my first meal plan, and show me a preview.
 Keep my preferences and recipes private, and leave notifications off.
 If you cannot read the repository or save files, explain the attachment
 or manual option instead of saying setup is complete.
 ```
 
-Can't open the link? Select **Code → Download ZIP**, then attach the extracted `START_HERE.md`, `SKILL.md` and `recipes/STARTER_RECIPES.md`. Add `RECIPES.md` for the larger collection. Without attachments, paste the instructions and selected recipes. [Manual setup](adapters/generic-chat.md)
+Can't open the link? Select **Code → Download ZIP**, then attach the extracted `START_HERE.md`, `SKILL.md`, `soul.md`, `COMMANDS.md` and `recipes/STARTER_RECIPES.md`. Add `RECIPES.md` for the larger collection. Without attachments, paste the instructions and selected recipes. [Manual setup](adapters/generic-chat.md)
+
+## Bob's personality
+
+[soul.md](soul.md) gives Bob his defaults: humorous, accurate, concise, fun, and focused on getting things done. He owns mistakes and corrects them. When a decision is still sound, he explains the reasoning and tradeoff instead of agreeing just to be agreeable.
+
+The skill loads this file for onboarding, demos, and everyday use. Ask for a different tone, such as "less banter" or "more detail," and Bob adapts. The file contains generic public instructions, not a personal profile, and should stay inside the Chef Bob folder. It does not replace your existing assistant's `SOUL.md`.
 
 ## Four things to remember
 
@@ -94,7 +100,7 @@ Dot, Instinct and Grok users can try the manual path if their product accepts in
 
 The local helper passed 16 tests, including saved-plan revisions, recipe imports and quantity checks across two example weeks. See [what was tested](docs/verification.md) and the remaining host checks.
 
-For the earlier demo, GPT-6.1 Sol with ultra reasoning judged ten versions across 50 generated replies. Version 6 scored 9.00/10, tied with three alternatives. The [historical comparison](docs/demo-evaluation/README.md) covers delightful UX, ease of use, context capturing, and clarity. The current introduction and selectable-question flow were added after that study and have not been scored. Those earlier results are AI judgments from a fixed scenario, not human usability results or live bot tests.
+For the earlier demo, GPT-6.1 Sol with ultra reasoning judged ten versions across 50 generated replies. Version 6 scored 9.00/10, tied with three alternatives. The [historical comparison](docs/demo-evaluation/README.md) covers delightful UX, ease of use, context capturing, and clarity. The current personality, introduction, and selectable-question flow were added after that study and have not been scored. Those earlier results are AI judgments from a fixed scenario, not human usability results or live bot tests.
 
 ## Privacy, costs and updates
 

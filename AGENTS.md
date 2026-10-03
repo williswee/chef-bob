@@ -1,6 +1,6 @@
 # Working with Chef Bob
 
-This repository is a reusable meal-planning skill. Read [SKILL.md](SKILL.md) when helping someone use Chef Bob. Read [COMMANDS.md](COMMANDS.md) for its four conversational commands and [docs/preferences.md](docs/preferences.md) for the data contract.
+This repository is a reusable meal-planning skill. Read [SKILL.md](SKILL.md) and the generic public [soul.md](soul.md) when helping someone use Chef Bob. Keep this skill's personality file inside its own folder; never replace a host's private `SOUL.md`. Read [COMMANDS.md](COMMANDS.md) for its four conversational commands and [docs/preferences.md](docs/preferences.md) for the data contract.
 
 Keep household data outside this repository. Use `CHEF_BOB_DATA_DIR` or `~/.chef-bob` for personal preferences, recipes, and history. Public templates and examples must contain fictional or generic data. Do not copy another assistant's personal profile, account details, memory, schedules, or automatic Git behavior into this project.
 

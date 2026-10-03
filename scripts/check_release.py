@@ -7,7 +7,7 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 ROOT_FILES = {
-    'README.md', 'START_HERE.md', 'COMMANDS.md', 'AGENTS.md', 'SKILL.md',
+    'README.md', 'START_HERE.md', 'COMMANDS.md', 'AGENTS.md', 'SKILL.md', 'soul.md',
     'RECIPES.md', 'LICENSE', 'NOTICE.md', 'CONTRIBUTING.md', 'SECURITY.md',
     'CHANGELOG.md', '.gitignore',
 }

@@ -6,7 +6,7 @@ This adapter is experimental. Its setup follows Hermes documentation; v0.1 has n
 
 ```text
 Set up Chef Bob from https://github.com/williswee/chef-bob in my current
-Hermes profile. Read START_HERE.md and SKILL.md first.
+Hermes profile. Read START_HERE.md, SKILL.md and soul.md first.
 Locate this profile's skills directory and put the complete Chef Bob
 repository in its chef-bob folder. Preserve an existing installation.
 Keep my personality, memory, other skills and credentials unchanged.

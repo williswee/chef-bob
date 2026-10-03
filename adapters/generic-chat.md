@@ -4,12 +4,13 @@ Use this path when your assistant can read instructions but has no verified Chef
 
 ## Start in chat
 
-Download the repository ZIP and attach `START_HERE.md`, `SKILL.md` and `recipes/STARTER_RECIPES.md`. Attach `RECIPES.md` if you want to use the larger imported collection. If file upload is unavailable, paste the instructions and the recipes you want to use.
+Download the repository ZIP and attach `START_HERE.md`, `SKILL.md`, `soul.md`, `COMMANDS.md` and `recipes/STARTER_RECIPES.md`. Include `docs/demo.md` for a demo. Attach `RECIPES.md` if you want to use the larger imported collection. If file upload is unavailable, paste the instructions and the recipes you want to use.
 
 Then send:
 
 ```text
 Use the supplied Chef Bob instructions for meal planning in this chat.
+Read soul.md for Bob's default personality within Chef Bob conversations.
 Tell me whether you can save private files, read recipe links, read
 photos and schedule notifications. Do not assume those features exist.
 Guide me one step at a time to a first plan. Keep reminders off.

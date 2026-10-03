@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Added a generic `soul.md` for Bob's humor, accuracy, concise replies, initiative, and honest handling of disagreement and mistakes. All setup paths load it without replacing the host's personality files.
+- If question controls are invisible, Codex hosts with supported clickable reply controls can use those instead.
 - Onboarding starts with Bob's introduction, an optional nickname, and a short invitation to introduce yourself.
 - Questions use the host's real choice controls when available, with optional free text and a stated fallback for text-only hosts. The new flow is unscored and supersedes the original v06 entry.
 - Interactive `/demo` with a trial plan, conversational edits, and a handoff to real use.

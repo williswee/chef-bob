@@ -2,7 +2,7 @@
 
 ## Demo study
 
-This study predates the current introduction, optional assistant nickname, and selectable onboarding questions. Those changes are unscored; the results below apply only to the original v06 instructions.
+This study predates the current personality file, introduction, optional assistant nickname, and selectable onboarding questions. Those changes are unscored; the results below apply only to the original v06 instructions.
 
 On 3 October 2026, GPT-6.1 Sol with ultra reasoning evaluated ten demo candidates. Each received the same four-turn conversation and one distinct adversarial follow-up, for 50 generated replies. The baseline scores were frozen before each follow-up. See the [ranked summary and methodology](demo-evaluation/README.md).
 
