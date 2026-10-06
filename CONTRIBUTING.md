@@ -54,7 +54,15 @@ When adding a file, identify who uses it and update this map or the examples ind
 
 Personal additions made through `/recipe-add` stay private. To share a recipe, submit a separate pull request containing only the recipe and its index entry.
 
-Use the entry format in [RECIPES.md](RECIPES.md). Include the source, stated servings, measured ingredients, ordered steps, times, and any unresolved details. Keep stable IDs unchanged when editing an existing recipe. Mark proposed quantities and method changes as Adapted draft, with a default, bounded range where useful, and notes explaining the change. Distinguish dry, cooked, drained and shell-on weights. Check that every ingredient has a step and that the shopping list can use one concrete amount. Preserve fixed ratios. Do not call a recipe kitchen-tested unless it has actually been cooked and checked.
+Use the entry format in [RECIPES.md](RECIPES.md). Include the source, stated servings, measured ingredients, ordered steps, times, and any unresolved details. Keep stable IDs unchanged when editing an existing recipe.
+
+For an adaptation:
+
+- Mark it **Adapted draft**. Explain added quantities and method changes in its notes. Give a default and a bounded range where useful.
+- Check that every ingredient has a step. Check each alternative separately, and make sure its shopping list can use concrete amounts.
+- Replace undefined packets, bottles, boxes, blocks, tubes, cans and sections with usable weights or volumes. Distinguish dry, cooked, drained and shell-on weights.
+- Preserve fixed ratios. State whether soaking water and stock are part of the total liquid.
+- Include preparation, soaking and resting in elapsed-time estimates. Do not call a recipe kitchen-tested unless it has actually been cooked and checked.
 
 Submit text and assets you own or have permission to distribute. Preserve attribution and describe any license requirements. A link to a page is not permission to copy its photos or all of its text. Use fictional examples; omit household names, account IDs, conversations, and private document links.
 

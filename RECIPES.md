@@ -10,7 +10,7 @@ For a first plan, start with the six complete [starter recipes](recipes/STARTER_
 
 - **Imported draft**: formatted source notes that may still lack amounts or cooking steps. Read **Notes** before planning; use another recipe or clarify any gap that affects cooking or the shopping list.
 - **Adapted draft**: suggested quantities and completed steps have been added for practical use. Defaults, ranges and changes are explained in the entry. These recipes have been checked for consistency but have not been kitchen-tested.
-- Source links and stable recipe IDs are retained. New amounts replace undefined measures where noted; they are not claims about what the original cook used. Some other entries still contain unresolved packet, bowl or scoop sizes.
+- Source links and stable recipe IDs are retained. New amounts replace undefined measures where noted; they are not claims about what the original cook used. Some other entries still contain unresolved amounts, ingredient identities or cooking steps.
 - Apply allergies, exclusions and substitutions when planning. Ingredients in the shared collection are independent of any household's preferences.
 - `/recipe-add` saves additions privately. It does not publish them or edit this file. To share a recipe, follow the [contribution process](CONTRIBUTING.md).
 - Preparation notes, archived entries and variants explicitly marked incomplete remain reference material, not planning defaults.
@@ -68,6 +68,8 @@ This edition uses **°C for oven temperatures** and **cloves for bare garlic cou
 | Reheated leftovers | 74°C |
 
 These endpoints follow [FoodSafety.gov](https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures). For mixed dishes, meet the highest applicable temperature. Seafood methods also follow the [FDA's shellfish checks](https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely): discard damaged clams or live clams that do not close when tapped, and discard any that stay closed after cooking.
+
+Rinse dried mushrooms and fungus before soaking. Use the times in each recipe and cook them promptly after soaking. Refrigerate any soak that needs more than 2 hours, following the [Hong Kong Centre for Food Safety guidance](https://www.cfs.gov.hk/english/multimedia/multimedia_pub/multimedia_pub_fsf_200_04.html). Soaking time counts toward total elapsed time even when it overlaps with other preparation.
 
 ## Recipe index
 
@@ -1217,49 +1219,51 @@ Supplied recipe document.
 
 **Servings:** 5 portions.
 
-**Time:** Tossing: 1 minute. Simmering: 2-3 minutes.
+**Time:** Suggested: 10 minutes preparation and 10 minutes cooking.
 
-**Review:** Imported draft.
+**Review:** Adapted draft. Suggested quantities and method; not kitchen-tested.
 
 #### Ingredients
 
+**Default four main ingredients**
 
-**Choose up to four main ingredients**
+- 1/2 head broccoli, cut into small florets
+- 1/2 head cauliflower, cut into small florets
+- 100 g fresh baby corn, halved lengthways; use 75 to 150 g
+- 75 g fresh shimeji mushrooms, weighed after trimming the roots, clusters separated; use 50 to 150 g
 
-- 1/2 broccoli or 1 small broccoli
-- 1/2 cauliflower
-- 1/2 packet baby corn, halved
-- 1/2 carrot, thinly sliced
-- 1/2 packet shimeiji mushrooms
-- 1 tau kwa (optional)
+**Optional swaps**
 
-**Aromatics**
+- Replace one of the four ingredients above with 1/2 carrot, thinly sliced, or 200 g tau kwa, cubed; use 150 to 250 g tau kwa
 
+**Aromatics and seasoning**
+
+- 1 tbsp cooking oil
 - 4 slices ginger
 - 2 garlic cloves, minced
-
-**Seasoning**
-
-- 100 ml water
+- 100 ml water, plus 1 tbsp at a time if the pan dries before the vegetables soften
 - 1 tsp oyster sauce
-- 1 tbsp wolfberries
+- 1 tbsp wolfberries, rinsed
 - 1 tsp light soy sauce
 
 **Slurry**
 
 - 3/4 tsp cornstarch
-- 1 tbsp water
+- 1 tbsp cold water
 
 #### Method
 
-1. Saute the ginger and garlic until fragrant.
-2. Add the selected main ingredients and toss for 1 minute.
-3. Add the seasoning and simmer for 2-3 minutes.
-4. Mix the cornstarch with its water. Slowly pour in the mixture, stirring continuously, to thicken the sauce.
+1. Choose the four main ingredients, using the default selection or one of the swaps. Cut broccoli and cauliflower into small florets so they cook evenly.
+2. Heat the oil over medium heat. Saute the ginger and garlic for about 30 seconds until fragrant.
+3. Add the baby corn and any carrot or thick vegetable stems first. Toss for 1 minute, then add the florets, mushrooms and any tau kwa.
+4. Add the 100 ml water, oyster sauce, wolfberries and soy sauce. Cover and simmer for 3 to 5 minutes, until the vegetables are tender enough for your preference and the mushrooms are cooked. Add water 1 tbsp at a time if needed.
+5. Mix the cornstarch with its cold water. Stir again, add half to the simmering vegetables, and stir until the sauce thickens. Add the rest only if needed to coat the vegetables, then simmer for about 1 minute and serve.
 
 #### Notes
 
-Packet sizes and the unit for garlic are not specified.
+- Baby-corn, shimeji and tau-kwa weights are suggested amounts, not conversions of the original packets or piece count. More mushrooms or tofu make the shared side dish more substantial.
+- The default uses four main ingredients. Optional carrot or tau kwa replaces one of them; do not add every listed option to the shopping list.
+- The measured frying oil, ingredient order and tenderness check complete the short source method. The original slurry ratio is retained.
 
 #### Source
 
@@ -1273,40 +1277,45 @@ Packet sizes and the unit for garlic are not specified.
 
 **Servings:** 5 portions.
 
-**Time:** Chinese yam boiling: 3 minutes, or lotus root boiling: 5 minutes.
+**Time:** Suggested: 20 minutes preparation and 12 minutes cooking, plus 20 to 30 minutes black-fungus soaking, which can overlap with preparation.
 
-**Review:** Imported draft.
+**Review:** Adapted draft. Suggested quantities and method; not kitchen-tested.
 
 #### Ingredients
 
-- 1/2 broccoli
-- 1/2 carrot, sliced
-- 1/2 packet snow peas
-- 1/2 Chinese yam, sliced, or 1 lotus root, sliced
-- 2 celery sticks, sliced
-- 1/2 packet black fungus
-- 1/2 cup cashew nuts, toasted
-- 1 knob ginger (4 slices)
+- 1/2 broccoli, cut into small florets
+- 1/2 carrot, thinly sliced
+- 100 g snow peas, trimmed; use 75 to 150 g
+- 200 g peeled Chinese yam or lotus root, thinly sliced; use 150 to 250 g
+- 2 celery sticks, peeled and thinly sliced diagonally
+- 5 g dried black fungus; use 3 to 8 g, weighed before soaking
+- 60 g toasted cashew nuts, as a working amount for the original 1/2 cup
+- 4 slices ginger
 - 1 tsp minced garlic
-- 1 tbsp sesame oil, from the method
+- 2 tsp neutral cooking oil
+- 1 tbsp sesame oil
+- Water to cover the fungus generously for soaking, and separate water to cover the sliced root for boiling
 
 **Sauce**
 
 - 1 1/2 tbsp oyster sauce or abalone sauce
-- 1/2 cup water
+- 120 ml water, as a working amount for the original 1/2 cup
 - 1 tbsp wolfberries or 1/2 tsp sugar
 
 #### Method
 
-1. Peel the outer layer from the celery, slice diagonally and soak in water for a while.
-2. Boil the Chinese yam for 3 minutes, or the lotus root for 5 minutes.
-3. Fry the ginger and garlic. Add the vegetables, adding the snow peas and black fungus last.
-4. Add the sesame oil and sauce.
-5. Stir in the cashew nuts when ready to serve.
+1. Rinse the black fungus and soak in enough clean water to cover generously for about 20 to 30 minutes, until expanded and flexible; follow its label if it needs longer. Follow the collection's soaking guidance. Drain, rinse, trim off hard bases and tear into bite-sized pieces. Do not use the soaking water.
+2. Mix the sauce ingredients. The sliced celery can go straight into the pan; the original unspecified celery-soaking step is omitted.
+3. Boil the Chinese yam slices for about 3 minutes, or lotus-root slices for about 5 minutes, until almost tender. Drain.
+4. Heat the neutral oil in a large wok. Fry the ginger and garlic for about 30 seconds. Add the broccoli, carrot and celery; stir-fry for 2 to 3 minutes. Add the drained yam or lotus root, snow peas and fungus; stir-fry for another 2 minutes.
+5. Add the sauce, cover and simmer for about 3 minutes, until the vegetables are cooked but retain some bite. Uncover and reduce excess sauce briefly if needed.
+6. Toss through the sesame oil and cashews, then serve.
 
 #### Notes
 
-Packet sizes, the form of black fungus, celery soaking time and final stir-frying duration are not specified.
+- Suggested quantities and added steps are working adaptations for five portions, not recovered packet measurements. They have not been kitchen-tested.
+- The snow-pea, dried-fungus and peeled-root weights replace undefined packets and variable root sizes. More snow peas or root makes a larger vegetable dish; use less fungus for a lighter texture.
+- Both cup measures use a suggested 240 ml household cup. The cashew weight is a working amount rather than an exact conversion from the original notes.
 
 #### Source
 
@@ -1359,30 +1368,34 @@ Supplied recipe document.
 
 **Servings:** 5 portions.
 
-**Time:** Simmering: 10-15 minutes.
+**Time:** Suggested: 30 to 60 minutes mushroom soaking, with 15 minutes shrimp soaking and preparation during that time, then 15 to 20 minutes cooking.
 
-**Review:** Imported draft.
+**Review:** Adapted draft. Suggested quantities and method; not kitchen-tested.
 
 #### Ingredients
 
-- 1/2 large napa cabbage, cut into strips
-- 1/2 carrot, grated or cut into strips
-- 3 large dried mushrooms, soaked and thinly sliced
+- 1/2 large napa cabbage, cut into strips, with stems and leaves separated
+- 1/2 carrot, grated or cut into thin strips
+- 3 large dried shiitake mushrooms
+- 300 ml warm water, for soaking the mushrooms; reserve 100 ml after straining
 - 2 garlic cloves, minced
-- 1 tsp small shrimp, soaked, smashed and finely chopped
-- 100 ml mushroom soaking liquid, from the method
-- 1/2 tsp oyster sauce, from the method
+- 1 tsp small dried shrimp
+- Warm water to cover the shrimp in a separate small bowl; discard after soaking
+- 1 tbsp cooking oil
+- 1/2 tsp oyster sauce
 
 #### Method
 
-1. Stir-fry the garlic and shrimp until fragrant.
-2. Add the cabbage, carrot and mushrooms.
-3. Add the mushroom soaking liquid and oyster sauce.
-4. Simmer for 10-15 minutes or until the carrot is soft.
+1. Rinse the dried mushrooms. Soak them in 300 ml warm water for about 30 minutes, or up to 60 minutes if needed, until soft throughout. Remove tough stalks and slice the caps. Strain the soaking liquid through a fine sieve and measure 100 ml for the pan. Top up with plain water if less remains; do not add all the soaking water.
+2. Meanwhile, rinse the dried shrimp and soak separately in enough warm water to cover for 15 minutes, until softened. Drain, discard their soaking water, then smash and finely chop the shrimp.
+3. Heat the cooking oil over medium heat. Fry the garlic and shrimp for about 1 minute until fragrant.
+4. Add the cabbage stems, carrot and sliced mushrooms. Stir-fry for 2 minutes, then add the cabbage leaves, measured 100 ml mushroom liquid and oyster sauce.
+5. Cover and simmer gently for 10 to 15 minutes, stirring occasionally, until the carrot and cabbage stems are soft and the mushrooms are cooked. Add plain water 1 tbsp at a time only if the pan dries before the vegetables are tender.
 
 #### Notes
 
-The source does not specify the mushroom or shrimp soaking duration.
+- This adaptation identifies the soaked small shrimp as dried shrimp and supplies soaking times, soaking water and frying oil. The original 100 ml cooking liquid is retained.
+- Thick mushrooms may need longer soaking. Follow the product instructions if they differ and refrigerate any soak that needs more than 2 hours. The listed cooking time does not include unattended soaking.
 
 #### Source
 
@@ -1396,37 +1409,40 @@ Supplied recipe document.
 
 **Servings:** 5 portions.
 
-**Time:** Roasting: 20 minutes.
+**Time:** Suggested: 10 minutes preparation and 25 to 35 minutes cooking.
 
-**Review:** Imported draft.
+**Review:** Adapted draft. Suggested quantities and method; not kitchen-tested.
 
 #### Ingredients
 
-- 1/2 large cabbage, cut into wedges
-- 1/2 packet oyster and shimeiji mushrooms, washed and squeezed dry
-- Salt, quantity not specified, from the method
+- 1/2 large cabbage, cut into 2 to 3 cm thick wedges with enough core to hold them together
+- 75 g fresh oyster mushrooms and 75 g fresh shimeji, weighed after trimming, separated; use 100 to 200 g combined
+- 2 tsp olive oil
+- 1/8 tsp salt, optional
 
 **Sauce**
 
 - 1 garlic clove, minced
-- Small piece of ginger, minced; size not specified
+- 1 tsp minced ginger
 - 1 tbsp butter
 - 1/2 tsp garlic powder
 - 1 1/2 tbsp miso
-- 60-80 ml water
+- 60 ml water; add up to 20 ml more if needed
 - 30 ml cream or fresh milk
 
 #### Method
 
-1. Lightly salt the cabbage and mushrooms. Roast for 20 minutes at 180°C.
-2. Lightly fry the garlic and ginger in the butter.
-3. Add the mushrooms and garlic powder.
-4. Mix the miso with the water and add it, followed by the cream or milk.
-5. Taste and adjust before serving.
+1. Heat the oven to 180°C. Toss the cabbage and mushrooms with the olive oil and optional salt. Spread them on a lined roasting tray. Roast for about 20 minutes, turning the cabbage once, until the mushrooms are cooked and the cabbage is tender at its thickest part. Remove the mushrooms first if ready; let thicker cabbage wedges cook longer.
+2. While the vegetables roast, melt the butter in a small pan. Fry the garlic and ginger over low heat for about 1 minute, then stir in the garlic powder.
+3. Stir the miso into 60 ml water until smooth. Add it to the pan with the cream or milk. Heat gently for 1 to 2 minutes without boiling hard. Add up to 20 ml more water if the sauce is too thick to pour.
+4. Transfer all the roasted mushrooms into the sauce and stir to coat. Spoon the mushroom sauce over the roasted cabbage and serve.
 
 #### Notes
 
-The source appears to use the mushrooms in both roasting and sauce steps but does not clarify how to divide or transfer them. The mushroom packet size is not specified.
+- Suggested quantities and added steps are working adaptations for five portions, not recovered packet measurements. They have not been kitchen-tested.
+- The mushroom weight replaces the unknown half-packet. Use the upper amount for more mushrooms in the sauce.
+- All mushrooms roast first, then go into the sauce. This resolves their appearance in both original cooking steps.
+- Oil, ginger and the optional small salt amount are suggested additions or clarified quantities. Miso already contributes salt, so taste the sauce before adding any more.
 
 #### Source
 
@@ -1440,32 +1456,36 @@ Supplied recipe document.
 
 **Servings:** 5 portions.
 
-**Time:** Not specified.
+**Time:** Suggested: 10 minutes preparation and about 10 minutes cooking.
 
-**Review:** Imported draft.
+**Review:** Adapted draft. Suggested quantities and method; not kitchen-tested.
 
 #### Ingredients
 
-- 1 bundle bok choy
+- 350 g bok choy, trimmed, stems and leaves separated; use 250 to 450 g
 - 4 eggs
 - 1/2 tsp fish sauce
-- A little white pepper
+- 1/8 tsp white pepper
 - 1 tbsp oyster sauce
 - 2 garlic cloves, sliced
 - 8 cherry tomatoes, halved
-- Baby corn, quantity not specified
+- 100 g fresh baby corn, thinly sliced diagonally; use 75 to 150 g
+- 1 tbsp neutral cooking oil, divided
+- 2 tbsp water
 
 #### Method
 
-1. Mix the eggs with the fish sauce and white pepper.
-2. Stir-fry the eggs and set aside.
-3. Stir-fry the garlic, then add the bok choy stems and cook until half cooked.
-4. Add the leaves, cherry tomatoes, baby corn and oyster sauce.
-5. Return the eggs and stir-fry for a while.
+1. Beat the eggs with the fish sauce and white pepper. Cut thicker bok choy stems into bite-sized pieces and keep the leaves separate.
+2. Heat half the oil in a large non-stick frying pan over medium heat. Add the eggs and scramble for about 2 minutes, until just set. Transfer to a clean plate; they will finish heating when returned to the pan.
+3. Add the remaining oil and garlic. Stir-fry for about 30 seconds, then add the bok choy stems and sliced baby corn. Stir-fry for 2 minutes, add the water, cover and cook for another 2 minutes, until the stems and corn are almost tender.
+4. Uncover and add the bok choy leaves, cherry tomatoes and oyster sauce. Stir-fry for about 1 to 2 minutes, until the leaves wilt and the tomatoes soften slightly.
+5. Return the eggs, break them into large pieces and toss for about 1 minute, until the vegetables are tender and the egg reaches 71°C throughout. Serve immediately.
 
 #### Notes
 
-The source does not specify the baby-corn amount or cooking durations.
+- The bok-choy and baby-corn weights, pepper, cooking oil and water are suggested working amounts. They replace an unspecified bunch and missing quantities rather than recover the original measurements. This adaptation has not been kitchen-tested.
+- Use more bok choy or baby corn for a larger vegetable side dish. Slice baby corn thinly so it cooks alongside the stems. The original four eggs and sauce amounts are retained.
+- Cooking times are estimates. The eggs return at the end so they finish heating without becoming dry.
 
 #### Source
 
@@ -1557,42 +1577,42 @@ Supplied recipe document.
 
 **Servings:** 5 portions.
 
-**Time:** Bitter-gourd soaking: 30 minutes.
+**Time:** Suggested: 15 minutes preparation, 30 minutes soaking and 12 minutes cooking.
 
-**Review:** Imported draft.
+**Review:** Adapted draft. Suggested quantities and method; not kitchen-tested.
 
 #### Ingredients
 
-- 1 bitter gourd (200 g), seeded and thinly sliced
-- 3 eggs
+- 1 bitter gourd, 200 g, seeded and thinly sliced
+- 3 eggs, beaten
 - 3 garlic cloves, minced
 - 1 small onion, thinly sliced
-- 1 block tau kwa, cut into cubes
+- 200 g tau kwa, drained and cubed; use 150 to 300 g
 - 1 tbsp mirin
-- 1/4 tsp salt, for sprinkling
+- 1/4 tsp salt, for seasoning
+- 1 tbsp neutral cooking oil, divided
+- 3 g bonito flakes, to finish; use 2 to 5 g
 
-**Source soaking mixture**
+**Soaking mixture**
 
-- Rice water, enough to cover the bitter gourd
+- 500 ml freshly collected rice-rinsing water, or fresh drinking water, enough to cover the bitter gourd
 - 1 tsp salt
 - 1 tsp sugar
 
-**To finish**
-
-- A little cooking oil
-- Bonito flakes, quantity not specified
-
 #### Method
 
-1. Soak the bitter gourd in rice water with the 1 tsp salt and sugar for 30 minutes. Discard the water and rinse the bitter gourd.
-2. Fry the tau kwa in a little oil until brown, then set aside.
-3. Fry the garlic and onion. Add the bitter gourd and mirin.
-4. When the vegetables soften, add the tau kwa, followed by the eggs.
-5. Serve with bonito flakes.
+1. Stir the soaking salt and sugar into the rice-rinsing water or fresh water. Soak the bitter gourd for 30 minutes, then discard the water, rinse and drain.
+2. Heat half the cooking oil in a non-stick frying pan. Fry the tau kwa over medium heat for about 4 to 5 minutes, turning until lightly browned, then set aside.
+3. Add the remaining oil, garlic and onion. Fry for about 2 minutes. Add the bitter gourd, mirin and 1/4 tsp seasoning salt. Stir-fry for about 3 minutes, until the bitter gourd is tender with a little bite.
+4. Return the tau kwa, pour in the beaten eggs and stir gently for about 2 to 3 minutes, until the eggs are set and reach 71°C throughout.
+5. Scatter over the bonito flakes and serve.
 
 #### Notes
 
-The source does not say when to add the 1/4 tsp sprinkling salt or how long to cook the eggs. The rice-water soaking instruction is retained from the source for review.
+- Suggested quantities and added steps are working adaptations for five portions, not recovered packet measurements. They have not been kitchen-tested.
+- The tau-kwa and bonito weights replace an undefined block and garnish amount. Use more tau kwa for a heartier side dish or less bonito for a milder flavour.
+- The soaking-water volume and cooking oil are suggested quantities. Use fresh rice-rinsing water immediately after rinsing rice; fresh drinking water is an alternative.
+- The 1/4 tsp salt seasons the stir-fry. The separate soaking salt is discarded with the soaking water.
 
 #### Source
 
@@ -1606,21 +1626,22 @@ The source does not say when to add the 1/4 tsp sprinkling salt or how long to c
 
 **Servings:** 5 portions.
 
-**Time:** Steaming: 8 minutes.
+**Time:** Suggested: 5 minutes preparation and about 8 minutes steaming.
 
-**Review:** Imported draft.
+**Review:** Adapted draft. Suggested quantities and method; not kitchen-tested.
 
 #### Ingredients
 
-- 1 packet okra (lady's fingers)
-- 1 packet bonito flakes, for seasoning A
+- 250 g okra, washed with only the tough stem tips trimmed; use 200 to 350 g
 
 **Seasoning A**
 
+- 3 g bonito flakes; use 2 to 5 g
 - 1 tsp dashi powder
 - 1 tsp soy sauce
 - 1 tbsp mirin
 - 2 tbsp sesame seeds
+- 1 tbsp hot water, to dissolve the dashi
 
 **Seasoning B**
 
@@ -1631,12 +1652,15 @@ The source does not say when to add the 1/4 tsp sprinkling salt or how long to c
 
 #### Method
 
-1. Steam the okra for 8 minutes.
-2. Choose seasoning A with the bonito flakes, or seasoning B. Pour the chosen seasoning over the okra before serving.
+1. Choose seasoning A or B. For A, dissolve the dashi in the hot water and mix in the soy sauce, mirin and sesame seeds. Keep the bonito flakes aside. For B, mix all its ingredients until the sugar dissolves.
+2. Place the whole okra in a heatproof dish and steam over simmering water for about 8 minutes, until tender when pierced. Thicker pods may need longer. Drain any water from the dish.
+3. Pour over the chosen seasoning. If using A, add the bonito flakes just before serving.
 
 #### Notes
 
-Choose one seasoning variant. Packet sizes are not specified.
+- Suggested quantities and added steps are working adaptations for five portions, not recovered packet measurements. They have not been kitchen-tested.
+- The okra and bonito weights replace unknown packets. More okra makes a larger side dish; more bonito gives a stronger fish flavour.
+- Choose only one seasoning. The hot water in A is a suggested addition to dissolve the powder rather than leave dry granules on the okra.
 
 #### Source
 
@@ -1686,15 +1710,15 @@ Supplied recipe document.
 
 **Servings:** 5 portions.
 
-**Time:** Lotus-root steaming: 10 minutes.
+**Time:** Suggested: 10 minutes preparation, 10 minutes steaming and 6 to 8 minutes stir-frying.
 
-**Review:** Imported draft.
+**Review:** Adapted draft. Suggested quantities and method; not kitchen-tested.
 
 #### Ingredients
 
-- 1 section lotus root, thinly sliced
-- 1 tau kwa
-- 1 tbsp sesame oil, from the method
+- 250 g peeled lotus root, sliced about 3 mm thick; use 200 to 350 g
+- 200 g tau kwa, patted dry and cut into bite-sized pieces; use 150 to 300 g
+- 1 tbsp sesame oil
 
 **Seasoning**
 
@@ -1705,19 +1729,21 @@ Supplied recipe document.
 
 **To finish**
 
-- Toasted sesame seeds, quantity not specified
-- Spring onion, quantity not specified
+- 1 tsp toasted sesame seeds; use up to 2 tsp
+- 1 spring onion, sliced; use up to 2
 
 #### Method
 
-1. Steam the thinly sliced lotus root for 10 minutes.
-2. Heat the sesame oil and stir-fry the lotus root and tau kwa.
-3. Add the seasoning and cook until it has almost evaporated.
-4. Serve with toasted sesame seeds and spring onion.
+1. Mix the seasoning. Steam the sliced lotus root for about 10 minutes, until tender with a slight crunch, then drain well.
+2. Heat the sesame oil in a non-stick frying pan over medium heat. Add the tau kwa and fry for about 3 to 4 minutes, turning to lightly brown the sides.
+3. Add the lotus root and stir-fry for 2 minutes. Pour in the seasoning and cook, tossing, for about 1 to 2 minutes until it coats the ingredients and has nearly evaporated.
+4. Sprinkle with the toasted sesame seeds and spring onion, then serve.
 
 #### Notes
 
-The size of the lotus-root section and tau kwa, and the stir-frying duration, are not specified.
+- Suggested quantities and added steps are working adaptations for five portions, not recovered packet measurements. They have not been kitchen-tested.
+- The peeled lotus-root and tau-kwa weights replace a root section and one unspecified piece. Choose more root for crunch or more tau kwa for a heartier side dish.
+- Garnish amounts and stir-frying times are suggested. Keep the pan over medium heat so the sesame oil and reduced sauce do not scorch.
 
 #### Source
 
@@ -1966,15 +1992,15 @@ Supplied recipe document.
 
 **Servings:** 5 portions.
 
-**Time:** Steam for 9 minutes.
+**Time:** About 20 to 25 minutes, including 9 to 12 minutes of steaming; check the fish rather than relying on time alone.
 
-**Review:** Imported draft.
+**Review:** Adapted draft. Suggested quantities and method; not kitchen-tested.
 
 #### Ingredients
 
-- 250 g fish
-- 1/2 packet shimeji mushrooms
-- A small knob of ginger, sliced
+- 250 g boneless cod fillet, or boneless halibut fillet
+- 75 g fresh shimeji mushrooms, weighed after trimming the base; use 50 to 100 g
+- 10 g fresh ginger, thinly sliced; use 5 to 15 g to taste
 - 1/2 tbsp soy sauce
 - 1 tbsp mirin
 - 1 tbsp white miso paste
@@ -1983,12 +2009,16 @@ Supplied recipe document.
 
 #### Method
 
-1. Mix the ingredients and sauce.
-2. Wrap in baking paper and steam for 9 minutes.
+1. Bring a steamer to a steady steam. Mix the soy sauce, mirin, miso and water until the miso dissolves. Separate the trimmed shimeji into small clusters.
+2. Place the fish on a large sheet of baking paper set on a heatproof plate. Arrange the mushrooms and ginger around and over it, pour over the sauce and dot with the butter. Fold the paper into a loose parcel that holds the sauce.
+3. Steam for 9 to 12 minutes. Open the parcel carefully and check the thickest part of the fish; continue steaming until it reaches 63°C and the mushrooms are tender.
+4. Serve the fish, mushrooms and sauce together.
 
 #### Notes
 
-- The fish type and mushroom packet size are not specified.
+- Cod is the suggested fish for this adaptation; halibut is an alternative. The original notes did not name the fish.
+- The 75 g shimeji default is a suggested trimmed fresh weight, not a conversion of the unknown half-packet. Use the upper end for more mushrooms without changing the sauce.
+- The original 250 g fish amount is preserved as a shared dish for 5 portions.
 
 #### Source
 
@@ -2002,26 +2032,30 @@ Supplied recipe document.
 
 **Servings:** 5 portions.
 
-**Time:** Steam for 8 minutes; marinating time not specified.
+**Time:** Suggested: 10 minutes preparation and about 10 to 15 minutes steaming; check doneness rather than relying on time.
 
-**Review:** Imported draft.
+**Review:** Adapted draft. Suggested quantities and method; not kitchen-tested.
 
 #### Ingredients
 
-- Pomfret; quantity not specified
-- 1 tbsp wolfberries
-- 1 bottle chicken essence
-- Ginger; quantity not specified
+- 1 whole cleaned pomfret, about 500 g after cleaning; use 400 to 700 g
+- 1 tbsp wolfberries, rinsed
+- 70 ml unsalted chicken essence; use 60 to 80 ml
+- 15 g ginger, thinly sliced; use 10 to 20 g
 - 1 tsp fish soy sauce, optional
 
 #### Method
 
-1. Marinate the pomfret with the wolfberries, chicken essence, ginger and optional fish soy sauce.
-2. Steam for 8 minutes and serve.
+1. Pat the cleaned pomfret dry and score its thickest flesh with two shallow cuts on each side. Place half the ginger in a deep heatproof plate and set the fish on top.
+2. Scatter over the wolfberries and remaining ginger. Pour over the chicken essence and optional fish soy sauce. No separate marinating step is needed in this adaptation.
+3. Steam over steadily simmering water, covered. Start checking after 10 minutes and continue until the thickest flesh, away from the bone, reaches 63°C. A larger fish may take longer than 15 minutes.
+4. Serve the fish with its cooking juices and remove bones when portioning.
 
 #### Notes
 
-- The fish weight and chicken essence bottle size are not specified.
+- Suggested quantities and added steps are working adaptations for five portions, not recovered packet measurements. They have not been kitchen-tested.
+- The cleaned-fish weight, chicken-essence volume and ginger amount are suggested working quantities. Bottle sizes vary, so measure the essence instead of assuming one bottle is 70 ml.
+- The fish is a shared dish for five, not five whole fish. Scale from the cleaned weight and allow for bones.
 
 #### Source
 
@@ -2114,19 +2148,20 @@ Supplied recipe document.
 
 **Servings:** 5 portions.
 
-**Time:** Option 1 remains incomplete. For option 2, start checking the fish after 6 minutes of steaming.
+**Time:** About 25 minutes for either option. For option 1, start checking after 10 minutes of steaming; for option 2, start checking after 6 minutes.
 
 **Review:** Adapted draft. Suggested quantities and method; not kitchen-tested.
 
 #### Ingredients
 
-**Option 1: incomplete source notes, not for planning**
+**Option 1: sesame paste, garlic and ginger**
 
-- 300 to 500 g halibut, listed as 2 pieces
-- 1 tsp sesame sauce; type still unknown
-- 2 slices ginger and 1 tbsp wolfberries, for steaming
-- Sauce: 1 tsp oyster sauce, 1 tsp soy sauce and 1 tsp mirin
-- Aromatics: 2 tbsp ginger sticks, 5 garlic cloves, minced, and 4 sprigs spring onion
+- 400 g boneless halibut, in 2 pieces; use 300 to 500 g
+- 1 tsp unsweetened Chinese toasted sesame paste mixed with 2 tsp water, for coating the fish
+- 2 slices ginger and 1 tbsp rinsed wolfberries, for steaming
+- Sauce: 1 tsp oyster sauce, 1 tsp soy sauce, 1 tsp mirin and 1 tbsp water
+- Aromatics: 2 tbsp ginger sticks, 5 garlic cloves, minced, and 4 spring onions, sliced with whites and greens separated
+- 2 tsp neutral cooking oil, for frying the aromatics
 
 **Option 2: ginger and soy sauce**
 
@@ -2137,20 +2172,25 @@ Supplied recipe document.
 
 #### Method
 
-1. Use option 2 for this adaptation. Bring the steamer to a steady steam and place its 250 g fish with the shredded ginger on a heatproof plate.
+**Option 1**
+
+1. Bring the steamer to a steady steam. Mix the sesame paste with its 2 tsp water and spread over the halibut. Place the ginger slices on a heatproof plate, set the fish on top and scatter over the wolfberries.
+2. Steam for 10 to 15 minutes. Check the thickest part after 10 minutes and continue until it reaches 63°C; thicker pieces may take longer.
+3. While the fish steams, mix the option 1 sauce ingredients. Heat the neutral oil in a small pan over medium heat. Fry the ginger sticks, garlic and spring onion whites for about 1 minute, until fragrant but not browned. Add the sauce and simmer for 30 seconds.
+4. Spoon the hot aromatics and sauce over the cooked fish. Scatter over the spring onion greens and serve with the steaming juices.
+
+**Option 2**
+
+1. Bring the steamer to a steady steam and place its 250 g fish with the shredded ginger on a heatproof plate.
 2. Steam and start checking after 6 minutes. Continue until the thickest part of the fish reaches 63°C; timing depends on its thickness.
 3. While the fish steams, combine the option 2 sauce ingredients in a small pan and bring to a gentle simmer.
 4. Pour the hot sauce over the cooked fish and scatter over the sliced spring onion.
 
-**Option 1 source method, incomplete**
-
-The source seasons the fish with sesame sauce, steams it with ginger slices and wolfberries, then tops it with stir-fried ginger, garlic and spring onion combined with its sauce. It gives no steaming time and does not identify the sesame sauce. Do not use option 1 for a plan or shopping list until that sauce is identified and the method is completed.
-
 #### Notes
 
-- Choose one option, never combine both ingredient lists. Option 2 is the usable adapted draft.
-- Option 1 is retained for review. Sesame sauce is not assumed to mean sesame oil.
-- The 250 g fish quantity in option 2 is preserved as a shared dish for 5 portions; it is not increased to a main-course amount.
+- Choose one option and use only that option's ingredients for the shopping list.
+- Option 1 is a proposed complete version. It uses unsweetened Chinese toasted sesame paste thinned with water for the source's unidentified "sesame sauce". This is an explicit substitution, not a claim about what the original author used. The cooking oil, added water and steaming guidance are also suggested additions.
+- Use 400 g fish by default for option 1, or the lower or upper amount to suit the other dishes and appetite. Option 2 keeps the original 250 g fish amount. Both are shared dishes for 5 portions, rather than five individual main courses.
 
 #### Source
 
@@ -2458,31 +2498,39 @@ Supplied recipe document.
 
 **Servings:** 5 portions.
 
-**Time:** Steam for 8 minutes; marinating time not specified.
+**Time:** Suggested: 10 minutes preparation and about 15 to 20 minutes gentle steaming.
 
-**Review:** Imported draft.
+**Review:** Adapted draft. Suggested quantities and method; not kitchen-tested.
 
 #### Ingredients
 
-- 1 box silken tofu
-- 2 eggs
-- 120 ml chicken broth
+- 300 g silken tofu, drained and sliced; use 250 to 350 g
+- 2 eggs, beaten
+- 120 ml chicken broth, cooled
 - 100 g minced pork
-- 1/2 tsp sesame oil, for the pork marinade
-- Corn flour, for the pork marinade; quantity not specified
-- Sauce: 1 tsp soy sauce, 1 tsp oyster sauce, 1 tbsp water, 1/2 tsp sesame oil and 1/2 tsp sugar
+- 1/2 tsp sesame oil, for the pork
+- 1/2 tsp cornflour, for the pork
+
+**Sauce**
+
+- 1 tsp soy sauce
+- 1 tsp oyster sauce
+- 1 tbsp water
+- 1/2 tsp sesame oil
+- 1/2 tsp sugar
 
 #### Method
 
-1. Marinate the minced pork with the sesame oil and corn flour.
-2. Place the tofu in a bowl. Strain the egg over it through a sieve, then add the minced pork.
-3. Steam for 8 minutes.
-4. Drizzle the sauce over when ready to serve.
+1. Mix the minced pork with its sesame oil and cornflour. Break it into small loose pieces rather than one thick mound. No resting time is required in this adaptation.
+2. Mix the beaten eggs with the cooled chicken broth. Place the sliced tofu in a shallow heatproof dish, pour the egg mixture through a sieve over the tofu, then scatter the pork evenly over it. Keep the layer about 3 cm deep or less; use two dishes if necessary.
+3. Cover loosely with foil or a heatproof lid. Steam gently and start checking after 15 minutes. Continue until the custard is set and the egg mixture and pork reach 71°C throughout. A deeper dish takes longer.
+4. Mix all sauce ingredients in a small saucepan. Heat gently while stirring until the sugar dissolves and the sauce is hot. Drizzle over the cooked tofu and egg before serving.
 
 #### Notes
 
-- The source does not say when to add the chicken broth or how to prepare the sauce.
-- The tofu box size is not specified.
+- Suggested quantities and added steps are working adaptations for five portions, not recovered packet measurements. They have not been kitchen-tested.
+- The tofu weight replaces the unknown box size. More tofu adds filling without changing the recorded two eggs and 120 ml broth.
+- The cornflour amount, broth-mixing step and heated sauce preparation are suggested completions. The original fixed 8-minute steam is replaced by a doneness check suitable for the dish's depth.
 
 #### Source
 
@@ -2541,35 +2589,41 @@ Supplied recipe document.
 
 **Servings:** 5 portions.
 
-**Time:** Marinate for at least 30 minutes; steam for 15 minutes or until cooked through.
+**Time:** About 60 minutes, including at least 30 minutes to marinate while the dried ingredients soak, then 15 to 20 minutes to steam.
 
-**Review:** Imported draft.
+**Review:** Adapted draft. Suggested quantities and method; not kitchen-tested.
 
 #### Ingredients
 
-- 3 small chicken thighs, cut into cubes
-- 4 red dates, halved
-- 1/2 packet black fungus
-- 3 dried mushrooms, soaked and thinly sliced
-- 1 tbsp wolfberries
-- Thinly sliced bak kwa, optional; quantity not specified
+- 3 small boneless chicken thighs, cut into 2 cm cubes
+- 4 red dates, halved and pitted
+- 10 g dried black fungus; use 5 to 15 g for less or more fungus
+- 3 dried shiitake mushrooms
+- 1 tbsp wolfberries, rinsed
+- 20 g cooked bak kwa, thinly sliced, optional; use 10 to 30 g if included
 - 1 tbsp oyster sauce
 - 1 tbsp light soy sauce
 - 1 tsp sesame oil
-- 1 tsp corn flour
+- 1 tsp cornflour
 - 1/2 tsp minced ginger
-- A dash of white pepper
-- Chopped spring onion and coriander, for serving; quantities not specified
+- 1/8 tsp white pepper
+- 1 spring onion, chopped, for serving
+- 5 g coriander, chopped, optional; use 3 to 10 g if included
+- Water to cover the dried fungus and mushrooms in separate bowls, for soaking only
 
 #### Method
 
-1. Marinate the chicken with the oyster sauce, light soy sauce, sesame oil, corn flour, ginger and white pepper for at least 30 minutes.
-2. Steam the chicken with the other ingredients for 15 minutes or until cooked through.
-3. Serve with chopped spring onion and coriander.
+1. Mix the chicken with the oyster sauce, light soy sauce, sesame oil, cornflour, ginger and white pepper. Cover and refrigerate for at least 30 minutes.
+2. Rinse the dried fungus and mushrooms. Soak them in separate bowls of warm water until fully softened, usually 20 to 30 minutes for the fungus and 30 minutes for the mushrooms; follow any longer package instructions in the refrigerator. Drain both and discard the water. Trim the fungus's tough bases and tear it into bite-size pieces. Remove the mushroom stems and slice the caps thinly.
+3. Bring a steamer to a steady steam. Combine the marinated chicken, fungus, mushrooms, dates, wolfberries and optional bak kwa on a shallow heatproof plate. Spread into an even layer.
+4. Steam for 15 to 20 minutes. Check a thick chicken cube and continue until its centre reaches 74°C. Keep the steamer supplied with water.
+5. Scatter over the spring onion and optional coriander. Serve with the cooking juices.
 
 #### Notes
 
-- The black fungus packet size is not specified.
+- The dried fungus weight replaces the unknown half-packet with a suggested amount. It is not a conversion of the original packet. The optional bak kwa and garnish amounts are also suggested.
+- Boneless thighs are specified for the cubed chicken method. These amounts make a shared dish for 5 portions.
+- Soak dried fungus only until softened and cook it promptly. If soaking will take more than 2 hours, keep it in the refrigerator. See the [Hong Kong Consumer Council's preparation guidance](https://www.consumer.org.hk/en/press-release/p-556-dried-edible-fungi).
 
 #### Source
 
@@ -2583,24 +2637,25 @@ Supplied recipe document.
 
 **Servings:** 5 portions.
 
-**Time:** Simmer for 30 minutes, then another 10 minutes; soaking and frying times not specified.
+**Time:** About 80 to 90 minutes, including 30 minutes to soak the mushrooms and 40 minutes to braise. Boil the eggs while the mushrooms soak if needed.
 
-**Review:** Imported draft.
+**Review:** Adapted draft. Suggested quantities and method; not kitchen-tested.
 
 #### Ingredients
 
-- 400 g chicken, followed by "2 boneless chicken thighs, 4 drumlets" in the source
-- 1/2 cup black fungus
-- 2 pieces firm tofu, also called tau kwa
-- 8 dried mushrooms; reserve the soaking liquid
-- 5 boiled eggs
-- 1 knob ginger, sliced
-- 2 stalks scallions, halved
-- 2 cloves garlic, smashed whole
+- 400 g boneless chicken thigh, cut into 3 cm pieces
+- 5 g dried black fungus; use 5 to 10 g for more fungus
+- 300 g firm tofu, also called tau kwa, cut into 2 cm pieces; use 200 to 400 g
+- 8 dried shiitake mushrooms
+- 5 hard-boiled eggs, peeled
+- 15 g ginger, sliced; use 10 to 20 g to taste
+- 2 scallions, halved
+- 2 garlic cloves, smashed
 - 2 bay leaves
 - 2 star anise
 - 1 cinnamon stick
-- 1 tsp cloves
+- 1 tsp whole cloves
+- 1 tbsp neutral cooking oil
 - 1.5 tsp oyster sauce
 - 1.5 tsp sesame oil
 - 1 tbsp light soy sauce
@@ -2608,22 +2663,25 @@ Supplied recipe document.
 - 1 tbsp rock sugar
 - 1 tsp fish sauce
 - 2 tbsp Shaoxing wine
-- 400 ml water or reserved mushroom soaking liquid, or enough to cover the chicken
-- Rice or noodles, for serving; quantity not specified
+- 400 ml strained mushroom soaking liquid and water combined, plus up to 200 ml hot water if needed to keep the chicken mostly covered
+- 900 g cooked rice, for serving; use 650 to 1000 g according to appetite, or 300 g dried noodles, using 250 to 350 g instead of rice
+- Water to cover the fungus and mushrooms in separate bowls for soaking
 
 #### Method
 
-1. Soak and slice the mushrooms. Reserve the soaking liquid for the braising sauce.
-2. Stir-fry the ginger, garlic, scallions and tau kwa. Remove the tau kwa when lightly browned.
-3. Add the chicken and fry lightly. Add 400 ml water or mushroom soaking liquid, the remaining seasoning and aromatics. Simmer for 30 minutes.
-4. Add the tau kwa and boiled mushrooms and simmer for another 10 minutes.
-5. Serve with rice or noodles.
+1. Rinse the mushrooms and soak them in warm water for about 30 minutes, until fully softened. Strain the soaking liquid through a fine sieve and measure 400 ml, topping up with water as needed. Remove the mushroom stems and halve the caps. Separately soak the fungus in water for 20 to 30 minutes, or as directed on its packet, until fully softened. Drain and discard its water, trim the tough bases and tear into bite-size pieces.
+2. If starting with raw eggs, cover them with water in a saucepan. Bring to a gentle boil and cook for 10 to 12 minutes, until the yolks and whites are firm. Cool briefly in cold water and peel.
+3. Heat the neutral oil in a snug casserole over medium heat. Brown the tau kwa for 3 to 4 minutes, turning it carefully, then lift it out. Fry the ginger, garlic and scallions for 1 minute. Add the chicken and fry for 3 minutes.
+4. Add the measured 400 ml liquid, mushrooms, bay leaves, star anise, cinnamon, cloves, oyster sauce, sesame oil, both soy sauces, rock sugar, fish sauce and Shaoxing wine. Bring to a simmer, cover and cook gently for 30 minutes. Stir occasionally and add some of the extra hot water if needed to keep the chicken mostly covered.
+5. Add the tau kwa, peeled boiled eggs and softened fungus. Turn the eggs in the sauce, cover and simmer for another 10 minutes. Check that the chicken reaches 74°C and the mushrooms and fungus are tender.
+6. Remove the bay leaves, star anise, cinnamon and any visible whole cloves. Serve with the measured cooked rice or noodles cooked according to their packet instructions.
 
 #### Notes
 
-- The source lists 400 g chicken alongside 2 thighs and 4 drumlets. Confirm the intended amount and whether these cuts are alternatives.
-- The source does not say when to add the boiled eggs or black fungus.
-- The final step calls for boiled mushrooms, but no mushroom-boiling step is given.
+- This adaptation uses the source's 400 g weight as boneless chicken thigh. The separate source count of 2 thighs and 4 drumlets is not treated as an equivalent weight and is not an additional amount to buy.
+- The dried fungus and tau kwa weights, ginger amount, cooking oil, serving quantities and extra-water allowance are suggested amounts. They do not convert the original half-cup of fungus or two pieces of tau kwa.
+- The mushrooms cook in the braising liquid; they do not need a separate boiling step. Add the already boiled eggs and soaked fungus for the final 10 minutes.
+- Soak dried fungus only until softened. If soaking will take more than 2 hours, refrigerate it; see the [Hong Kong Consumer Council's preparation guidance](https://www.consumer.org.hk/en/press-release/p-556-dried-edible-fungi).
 
 #### Source
 
@@ -2717,35 +2775,38 @@ Supplied recipe document.
 
 **Servings:** 5 portions.
 
-**Time:** Simmer for 10 minutes; marinating and frying times not specified.
+**Time:** About 35 to 45 minutes, including 10 minutes to marinate and 15 to 20 minutes to simmer.
 
-**Review:** Imported draft.
+**Review:** Adapted draft. Suggested quantities and method; not kitchen-tested.
 
 #### Ingredients
 
-- 5 cloves garlic, minced
-- 1 sprig spring onion
+- 5 garlic cloves, minced
+- 1 spring onion, sliced, white and green parts separated
 - 200 g minced chicken or pork
-- 1.5 tsp corn flour and 1 tsp soy sauce, for the meat marinade
-- 2 carrots, cubed
-- 5 baby potatoes, cubed
-- 1.5 onions, cubed
+- 1.5 tsp cornflour and 1 tsp soy sauce, for the meat marinade
+- 2 medium carrots, cut into 1 cm cubes
+- 5 baby potatoes, cut into 1 cm cubes
+- 1.5 medium onions, cubed
+- 1 tbsp neutral cooking oil
 - 1 tbsp oyster sauce
 - 1 tbsp dark soy sauce
 - 1 tsp soy sauce, for the seasoning
-- Water, enough to cover the ingredients
-- Corn flour mixed with water, for thickening; quantities not specified
+- 400 ml water; use 300 to 500 ml, enough to just cover the ingredients in a snug pan
+- Slurry: 2 tsp cornflour mixed with 2 tbsp cold water
 
 #### Method
 
-1. Marinate the minced meat with 1.5 tsp corn flour and 1 tsp soy sauce.
-2. Stir-fry the garlic, spring onion, onion and minced meat until fragrant. Add the carrots and potatoes and fry until soft.
-3. Add enough water to cover the ingredients. Simmer for 10 minutes and check that the carrots and potatoes are soft.
-4. Add the seasoning and mix well. Stir in corn flour mixed with water to thicken the sauce.
+1. Mix the minced meat with its 1.5 tsp cornflour and 1 tsp soy sauce. Refrigerate for 10 minutes while preparing the vegetables.
+2. Heat the oil in a deep frying pan or small saucepan over medium heat. Fry the onion, garlic and spring onion whites for 2 minutes. Add the minced meat and stir-fry for 3 to 4 minutes, breaking up any clumps.
+3. Add the carrots and potatoes and stir for 2 minutes. Add the oyster sauce, dark soy sauce, seasoning soy sauce and enough of the measured water to just cover the ingredients. Bring to a simmer.
+4. Partly cover and simmer for 15 to 20 minutes, until a fork enters the potatoes and carrots easily. Stir occasionally; add the remaining measured water if the pan becomes dry. Check that minced chicken reaches 74°C or minced pork reaches 71°C.
+5. Stir the slurry again, then add half to the simmering sauce. Cook for 1 minute. Add more slurry only if needed and simmer for another minute, until the sauce lightly coats the ingredients. Scatter over the spring onion greens and serve.
 
 #### Notes
 
 - The source also calls this dish "ABC".
+- The cooking oil, water range, slurry and timings are suggested additions. Start with half the slurry because potato starch and evaporation also thicken the sauce. The full slurry is a measured starting quantity, not an instruction to add it all.
 
 #### Source
 
@@ -2759,37 +2820,38 @@ Supplied recipe document.
 
 **Servings:** 5 portions.
 
-**Time:** Simmer for 1.5 hours, then leave the pot closed for 1 hour.
+**Time:** About 2 to 3.5 hours. Pork collar usually softens sooner than beef chuck or brisket; use tenderness as the endpoint.
 
-**Review:** Imported draft.
+**Review:** Adapted draft. Suggested quantities and method; not kitchen-tested.
 
 #### Ingredients
 
-- 1 onion
-- 1.5 carrots
-- 4 potatoes
-- 500 to 700 g beef chuck, beef brisket or pork collar
-- 500 ml water
-- 1 sprig basil
-- 1 tsp Italian herbs
-- 2 tomatoes, skins removed and cubed
+- 1 medium onion, thickly sliced
+- 1.5 medium carrots, cut into 2 cm pieces
+- 4 medium potatoes, peeled and cut into 3 cm pieces
+- 600 g beef chuck, beef brisket or pork collar, cut into 3 cm cubes; use 500 to 700 g according to appetite
+- 500 ml water, plus 100 to 300 ml hot water if needed during simmering
+- 1 sprig fresh basil, leaves torn and stalk discarded
+- 1 tsp dried Italian herbs
+- 2 tomatoes, skins removed and flesh cubed
 - 1 tbsp butter
-- 1 bottle pasta sauce
-- 1 packet dried raisins
+- 500 g tomato-based pasta sauce; use 400 to 600 g for a lighter or stronger tomato flavour
+- 30 g raisins; use 20 to 50 g for less or more sweetness
 
 #### Method
 
-1. Cut the ingredients into large cubes and the onion into large slices.
-2. Fry the beef or pork cubes with the butter until lightly browned.
-3. Add the onion, tomatoes, potatoes and carrots. Fry lightly and mix well.
-4. Add the pasta sauce, water and raisins.
-5. Simmer for 1.5 hours using a vacuum pot, then leave the pot closed for another 1 hour.
+1. Melt the butter in a heavy pot over medium heat. Pat the meat dry and brown it in two batches for 3 to 5 minutes per batch, turning the pieces. Transfer to a plate.
+2. Add the onion to the same pot and cook for 3 to 4 minutes. Add the tomatoes and dried Italian herbs; stir for 1 minute.
+3. Return the meat and its juices. Add the pasta sauce, raisins and exactly 500 ml water. Stir, scraping the bottom of the pot, and bring to a gentle simmer.
+4. Cover with the lid slightly ajar and simmer over low heat. Start checking pork after 45 minutes and beef after 90 minutes. Stir every 20 to 30 minutes so the sauce does not catch. If it becomes too thick to stir or starts sticking before the meat softens, add hot water in 50 ml portions.
+5. When the meat is beginning to soften, add the potatoes and carrots. Simmer for another 30 to 40 minutes, until the vegetables are tender and a fork slides easily into the meat. Tougher beef may need longer. Keep simmering gently and add small splashes of water as needed.
+6. If the stew is too thin, uncover and simmer for 5 to 10 minutes, stirring, until the sauce coats the meat. Stir in the basil leaves for the final minute, then serve.
 
 #### Notes
 
-- The ingredients list 500 ml water, while the method says 1 bottle of water. The bottle size is not specified.
-- The pasta sauce bottle and raisin packet sizes are not specified.
-- The source does not say when to add the basil and Italian herbs.
+- The starting water is 500 ml, not an unspecified bottle. Any extra water replaces evaporation during cooking.
+- The sauce and raisin weights are suggested amounts, not conversions of the original bottle and packet.
+- This is a stovetop adaptation. It replaces the unclear vacuum-pot cooking and one-hour hold with a continuous gentle simmer until the meat is tender. Add potatoes and carrots near the end so they keep their shape.
 
 #### Source
 
@@ -2803,36 +2865,40 @@ Supplied recipe document.
 
 **Servings:** 5 portions.
 
-**Time:** Bake with cheese for about 8 minutes; frying time not specified.
+**Time:** About 30 minutes, including 5 to 8 minutes in the oven.
 
-**Review:** Imported draft.
+**Review:** Adapted draft. Suggested quantities and method; not kitchen-tested.
 
 #### Ingredients
 
 - 400 g fresh minced beef
-- 1 onion, cut into small cubes
-- 2 cloves garlic, minced
+- 1 medium onion, finely diced
+- 2 garlic cloves, minced
 - 2 tbsp tomato paste
 - 50 ml water
-- A sprinkle of black pepper
+- 1/4 tsp ground black pepper
 - 1 tsp all-purpose seasoning, or 1 tsp paprika plus 1 tsp mushroom salt
-- 1 tsp oregano or Italian herbs
+- 1 tsp dried oregano or Italian herbs
 - 1 tsp garlic powder
 - 1 tsp onion powder
 - 1 tbsp oil
-- Cheese; quantity not specified
+- 10 small crispy taco shells, or 10 small soft tortillas about 15 cm across
+- 100 g grated cheddar or mozzarella; use 75 to 150 g for less or more cheese
 
 #### Method
 
-1. Stir-fry the onion and garlic in the oil until slightly softened.
-2. Add the beef and fry until it turns light brown.
-3. Add the seasoning and mix until the beef is cooked.
-4. Add the tomato paste and water. Cook until the water evaporates and the filling is juicy rather than watery.
-5. Bake with cheese for about 8 minutes until melted.
+1. Heat the oven to 180°C. Set out a baking dish that holds the taco shells upright. For soft tortillas, keep them aside until the filling is ready.
+2. Heat the oil in a frying pan over medium-high heat. Fry the onion for 3 to 4 minutes, until softened, then add the garlic and cook for 30 seconds.
+3. Add the beef and break it into small pieces. Cook for 5 to 7 minutes. Add the pepper, chosen seasoning, dried herbs, garlic powder and onion powder, then stir for 1 minute. The beef must be cooked through and reach 71°C.
+4. Stir in the tomato paste and 50 ml water. Simmer for 2 to 3 minutes, until the filling holds together and there is no puddle of liquid in the pan.
+5. For crispy tacos, divide the hot filling among the 10 shells and scatter the cheese over them. Bake for 5 to 8 minutes, until the cheese melts and the shells are crisp. Check early if the shell packet gives a shorter heating time.
+6. For soft tacos, warm the tortillas according to their packet instructions so they bend without cracking. Divide the filling and cheese among them, fold and arrange in the baking dish. Cover loosely with foil and bake for 5 to 8 minutes, until the cheese melts.
+7. Serve immediately, with two tacos per portion.
 
 #### Notes
 
-- The baking temperature and cheese quantity are not specified. The source does not describe taco assembly.
+- The cheese quantity and 10-shell yield are suggested additions for the existing 400 g beef filling. They make five portions of two small tacos each.
+- The linked recipe supports a 180°C oven and baking the filled shells with cheese. This version retains the supplied filling quantities and seasoning choices.
 
 #### Source
 
@@ -3182,43 +3248,56 @@ Supplied recipe document.
 
 **Servings:** 5 portions.
 
-**Time:** Soup: boil for 1 hour. Other times not specified.
+**Time:** Suggested: 20 minutes preparation and about 70 minutes cooking. Prepare the toppings during the stock simmer; black-fungus soaking can overlap.
 
-**Review:** Imported draft.
+**Review:** Adapted draft. Suggested quantities and method; not kitchen-tested.
 
 #### Ingredients
 
-- 150 g minced pork or chicken
+- 150 g minced pork or chicken; choose one
 - 1 tbsp minced garlic
-- 10 g black fungus, shredded
-- 1/2 cup dried anchovies, rinsed twice
-- 10 prawns, or chicken bones of an unspecified quantity
-- 1/2 cup yellow beans
+- 10 g dried black fungus, weighed before soaking
+- 40 g dried anchovies, rinsed twice; use 30 to 50 g
+- 10 whole prawns, peeled and deveined, shells reserved for stock, or 300 g raw chicken bones; use 250 to 400 g bones
+- 150 g cooked, drained yellow soybeans; use 100 to 200 g
 - 1 sweet date
-- 2 bundles soya mee
-- 4 boiled eggs
-- 1 bunch leafy vegetables
-- 6 small shallots, fried, for an optional topping
+- 300 g dry soya mee; use 250 to 350 g
+- 4 hard-boiled eggs, peeled and cut into wedges
+- 300 g leafy vegetables such as bok choy, stems and leaves separated; use 250 to 400 g
 - 2 slices ginger
-- 1/2 tbsp light soy sauce, for marinating the meat
-- 1 tbsp sesame oil, for marinating the meat
-- 1 tsp cornstarch, for marinating the meat
+- 1/2 tbsp light soy sauce, for the mince
+- 1 tbsp sesame oil, for the mince
+- 1 tsp cornstarch, for the mince
 - 1 tbsp oyster sauce
-- 100 ml water, for the meat mixture
-- Water for the soup, quantity not specified
-- Fried anchovies, optional topping, quantity not specified
+- 100 ml water, for the mince mixture
+- 1 tbsp neutral cooking oil, for the mince mixture
+- 1.5 litres water for the stock, plus extra hot water to restore the strained stock to 1.5 litres
+- Water for soaking the fungus and cooking the noodles
+
+**Optional toppings**
+
+- 6 small shallots, peeled and thinly sliced
+- 2 tbsp neutral cooking oil, only if frying the shallots
+- 15 g ready-fried anchovies; use 10 to 20 g
 
 #### Method
 
-1. Boil the prawn shells and legs, or chicken bones, with the ginger, sweet date, dried anchovies, and yellow beans for 1 hour.
-2. Marinate the minced meat with the light soy sauce, sesame oil, and cornstarch.
-3. Fry the garlic. Add the marinated meat and stir-fry, then add the shredded black fungus. Mix in the oyster sauce and 100 ml water.
-4. Serve with the soya mee, boiled eggs, and leafy vegetables. Top with fried anchovies and fried shallots if desired.
+1. If using prawns, keep the peeled meat covered in the fridge while making stock. Put their reserved shells, or the chicken bones, in a pot with the ginger, sweet date, rinsed dried anchovies, cooked soybeans and 1.5 litres water. Bring to a full boil, then cover partly and simmer for about 1 hour. Add hot water during simmering if needed to keep the ingredients submerged.
+2. Meanwhile, rinse the dried fungus and cover with plenty of clean water. Soak for about 20 to 30 minutes, or according to its label, until expanded and flexible. Follow the collection's soaking guidance. Drain, rinse, trim off hard bases and shred. Discard its soaking water.
+3. For the optional shallot topping, heat its 2 tbsp oil in a small pan over medium-low heat. Fry the sliced shallots for about 5 to 8 minutes, stirring, until pale golden. Remove with a slotted spoon and drain; they darken as they cool.
+4. Mix the mince with the light soy sauce, sesame oil and cornstarch. Heat its 1 tbsp neutral oil in a separate pan and fry the garlic for about 30 seconds. Add the mince, break up clumps and cook through to 71°C for pork or 74°C for chicken. Add the drained fungus, oyster sauce and the separate 100 ml water. Simmer for about 5 minutes, until the fungus is cooked and the mixture is hot throughout. Keep hot.
+5. Strain the stock into a clean pot and discard the bones or shells, ginger, date and stock solids. Measure the strained liquid and add hot water to make 1.5 litres. Bring back to a simmer.
+6. Add the vegetable stems and simmer for about 2 minutes. If using prawns, add their reserved meat now. Add the vegetable leaves and simmer for about 2 to 4 minutes, until the greens are tender and the prawns are firm and opaque throughout. Add the hard-boiled egg wedges for the final minute to warm them.
+7. Cook the soya mee separately according to its label and drain. Divide among five bowls. Add the mince-and-fungus mixture, greens, egg and prawns if used. Ladle over the stock and finish with the optional fried shallots and ready-fried anchovies.
 
 #### Notes
 
-- The soup water quantity, noodle cooking method, and leafy vegetable preparation are not specified.
-- For the prawn version, the source describes using the shells and legs for stock but does not explain how to cook or serve the prawn meat.
+- Noodle, leafy-vegetable and anchovy weights, chicken-bone weight, stock volume and topping amounts are suggested working quantities. They replace undefined bundles, a bunch, cups and missing measures, rather than recover the original amounts. This adaptation has not been kitchen-tested.
+- Use 250 g dry noodles for a lighter bowl or 350 g for more noodles. Cook them separately so they do not absorb the measured soup stock before serving.
+- The source does not state whether its yellow beans are dry or cooked. This adaptation explicitly uses cooked yellow soybeans as a stock ingredient. Do not put the same weight of raw dry soybeans straight into this method. The stock solids are strained out before serving.
+- Choose the prawn stock or chicken-bone stock. The prawn version reserves the peeled meat for a brief cook near serving time; it does not simmer the meat for an hour.
+- The source's 10 g black fungus is treated as a proposed dry weight. The 1.5 litres of finished stock and the separate 100 ml mince liquid are both counted in the recipe; soaking and noodle water are discarded.
+- Four eggs are retained. Cut them into wedges to share across five portions.
 
 #### Source
 
@@ -3479,46 +3558,52 @@ Supplied recipe document.
 
 **Servings:** 5 portions.
 
-**Time:** Beehoon soak: 6 to 8 minutes. Other times not specified.
+**Time:** About 45 to 60 minutes, plus any longer soak required by the optional dried beancurd sticks. Final noodle cooking takes about 5 to 8 minutes.
 
-**Review:** Imported draft.
+**Review:** Adapted draft. Suggested quantities and method; not kitchen-tested.
 
 #### Ingredients
 
-- 1/2 packet brown rice beehoon, Chilli brand
-- 5 garlic cloves
-- 1 large shallot
-- 1 tbsp dried shrimp, soaked and smashed
-- Cabbage, shredded, quantity not specified
-- Carrot, grated, quantity not specified
-- 3 bean sticks, soaked and sliced, optional
-- 1 packet bean sprouts
+- 300 g dry brown-rice beehoon; use 250 to 350 g for smaller or larger noodle portions
+- Water for soaking the beehoon, enough to cover by 2 cm; drain before cooking
+- 5 garlic cloves, minced
+- 1 large shallot, thinly sliced
+- 1 tbsp dried shrimp
+- 150 ml warm water, for soaking the shrimp; discard after soaking
+- 250 g cabbage, finely shredded; use 200 to 350 g
+- 120 g carrot, coarsely grated; use 100 to 150 g
+- 30 g dried beancurd sticks, optional; use 20 to 50 g
+- Water for soaking the beancurd sticks, enough to cover by 2 cm; drain before cooking
+- 200 g bean sprouts, rinsed and drained; use 150 to 250 g
 - 4 eggs
-- 1/2 tsp fish sauce, for seasoning the eggs
-- 1/2 tsp sesame oil, for seasoning the eggs
-- 200 g sliced fish or 2 chicken thighs, cubed
-- 1 tsp corn flour, for marinating the fish or chicken
-- 1 tsp soy sauce, for marinating the fish or chicken
-- 1 tbsp oyster sauce, for the beehoon seasoning
-- 1 tbsp soy sauce, for the beehoon seasoning
-- 1 tbsp black soy sauce, for the beehoon seasoning
+- 1/2 tsp fish sauce and 1/2 tsp sesame oil, for the eggs
+- 200 g boneless white fish, such as snapper or tilapia, thinly sliced; or 2 boneless chicken thighs, cut into 2 cm cubes
+- 1 tsp cornflour and 1 tsp soy sauce, for the fish or chicken marinade
+- 1 tbsp oyster sauce
+- 1 tbsp soy sauce, for the noodles
+- 1 tbsp black soy sauce
 - 1/2 tsp sugar
-- 250 ml water
-- 1/2 tsp chicken bouillon
-- 3 tbsp oil
-- Snow peas, corn, fish cake, and mushrooms, optional; quantities not specified
+- 250 ml water, for the noodle seasoning, plus up to 250 ml hot water if the noodles need it
+- 1/2 tsp chicken bouillon powder
+- 3 tbsp cooking oil, divided
+- 150 g optional extras in total; use 100 to 200 g of trimmed snow peas, sweetcorn, thinly sliced mushrooms or sliced cooked fish cake
 
 #### Method
 
-1. Soak the beehoon for 6 to 8 minutes. Season the eggs with fish sauce and sesame oil. Marinate the fish or chicken with corn flour and soy sauce.
-2. Fry the fish or chicken and set aside. Fry the eggs and set aside.
-3. Heat 3 tbsp oil and fry the garlic, shallot, and soaked, smashed dried shrimp until fragrant. Add the bean sticks if using.
-4. Add the other vegetables and optional ingredients, then mix in the beehoon and its seasoning.
-5. Serve with the eggs and fish or chicken when ready.
+1. If using dried beancurd sticks, soak in enough warm water to cover by 2 cm for 30 to 60 minutes, or the packet time, until soft throughout. Thick sticks can take longer. Drain and cut into short pieces. Soak the dried shrimp in 150 ml warm water for 15 to 20 minutes, then drain and roughly chop.
+2. Soak the beehoon in room-temperature water for 20 to 30 minutes, or the packet's stir-fry preparation time, until bendable but still firm. Drain well. Meanwhile, mix the fish or chicken with its cornflour and 1 tsp soy sauce; refrigerate for 10 minutes. Beat the eggs with the fish sauce and sesame oil.
+3. Mix the oyster sauce, remaining 1 tbsp soy sauce, black soy sauce, sugar, bouillon and 250 ml water in a jug. Keep the extra hot water separate.
+4. Heat 1 tbsp cooking oil in a large wok over medium-high heat. Fry the fish for about 2 to 4 minutes, until it reaches 63°C, or the chicken for 5 to 7 minutes, until it reaches 74°C. Transfer to a clean plate. Add a second tbsp oil and scramble the eggs until fully set; transfer to the same plate.
+5. Add the remaining tbsp oil. Fry the garlic, shallot and drained shrimp for 1 minute. Add the beancurd sticks, cabbage, carrot and any optional extras. Stir-fry for 3 to 4 minutes, until the cabbage starts to soften.
+6. Add the drained beehoon and the seasoning mixture. Toss over medium heat for about 5 to 8 minutes, until the noodles are tender and have absorbed most of the liquid. If the pan dries out while the noodles are still firm, add hot water 50 ml at a time and keep tossing. Do not add all the extra water automatically.
+7. Add the bean sprouts, cooked eggs and fish or chicken for the final 2 minutes. Toss until the sprouts are cooked and steaming hot and the eggs are fully set, then serve.
 
 #### Notes
 
-- The source gives no final cooking duration or individual preparation details for the optional ingredients.
+- The noodle, vegetable and beancurd weights are suggested amounts. They replace unspecified packets and stick sizes without claiming to recover the original pack weights.
+- Choose the lower noodle amount with more vegetables or other dishes. At the higher end, expect to use more of the reserved hot water.
+- The 3 tbsp oil covers all frying stages; do not add a fresh 3 tbsp at the vegetable stage.
+- Brown-rice noodle brands soften at different speeds. Follow the packet's stir-fry soak instructions when they differ, then use tenderness to judge the final cooking time.
 
 #### Source
 
@@ -3748,35 +3833,43 @@ Supplied recipe document.
 
 **Servings:** 5 portions.
 
-**Time:** Chicken marinade: at least 30 minutes. Cooking time not specified.
+**Time:** About 90 to 120 minutes, including soaking, a 30-minute marinade, one white-rice cooker cycle and a 10-minute rest. Soak and marinate at the same time.
 
-**Review:** Imported draft.
+**Review:** Adapted draft. Suggested quantities and method; not kitchen-tested.
 
 #### Ingredients
 
-- 1.5 cups rice
-- Water and stock: source says "2 cups water (1 cup chicken stock)"; total quantity unclear
-- 300 g pumpkin, cut into large cubes
-- 6 dried mushrooms, soaked and sliced; reserve the soaking water
+- 300 g uncooked jasmine white rice, about 1.5 standard 240 ml measuring cups
+- 480 ml total cooking liquid, made from 240 ml unsalted chicken stock, 120 ml strained mushroom soaking water and 120 ml fresh water
+- 300 g peeled pumpkin, cut into 3 cm cubes
+- 6 medium dried shiitake mushrooms
+- 300 ml warm water, for soaking the mushrooms; only 120 ml goes into the rice
 - 200 g minced chicken
-- 1 tsp soy sauce and 1 tsp sesame oil, for marinating the chicken
-- 3 large shallots
+- 1 tsp soy sauce and 1 tsp sesame oil, for the chicken marinade
+- 3 large shallots, thinly sliced
 - 4 garlic cloves, minced
-- 6 to 8 small scallops, soaked, smashed, and roughly chopped; fresh or dried form not specified
-- 1 tbsp oyster sauce, for seasoning
-- 1 tbsp soy sauce, for seasoning
+- 20 g small dried scallops; use 15 to 30 g for a milder or stronger seafood flavour
+- 200 ml warm water, for soaking the scallops; discard after soaking
+- 1 tbsp cooking oil
+- 1 tbsp oyster sauce
+- 1 tbsp soy sauce, for seasoning the rice
 
 #### Method
 
-1. Marinate the minced chicken with 1 tsp soy sauce and 1 tsp sesame oil for at least 30 minutes.
-2. Fry the shallots, garlic, scallops, and mushrooms. Add the meat and pumpkin, then add the rice and seasoning and mix well.
-3. Cook as usual in a rice cooker. The source suggests trying water-to-rice ratios of 0.8:1 for white rice and 1.3:1 for basmati or brown rice.
+1. Rinse the mushrooms and soak in 300 ml warm water for 30 to 45 minutes, until soft throughout. Slice them and discard the tough stalks. Strain the soaking water through a fine sieve lined with kitchen paper; measure out 120 ml. If less remains, top it up with fresh water to 120 ml. Separately soak the dried scallops in 200 ml warm water for 45 to 60 minutes, until soft enough to shred. Drain and shred them.
+2. Meanwhile, mix the chicken with its 1 tsp soy sauce and 1 tsp sesame oil. Refrigerate for at least 30 minutes. Rinse the rice and drain well for 10 minutes.
+3. Heat the cooking oil in a frying pan over medium heat. Fry the shallots for 2 to 3 minutes, then add the garlic, drained scallops and mushrooms. Fry for another minute.
+4. Add the chicken and break it into small pieces. Cook for 4 to 6 minutes, until cooked through and 74°C. Stir in the pumpkin, drained rice, oyster sauce and remaining 1 tbsp soy sauce for 1 minute.
+5. Transfer to a rice cooker. Mix the 240 ml stock, 120 ml mushroom soaking water and 120 ml fresh water in a jug, then add this entire 480 ml to the cooker. Spread the rice evenly under the liquid. Do not add another 2 cups of water.
+6. Run the white-rice cycle, then leave the lid closed for 10 minutes. Check that the grains are tender and the pumpkin pierces easily with a fork. If the rice still has a hard centre, sprinkle over 2 tbsp hot water and run the cooker for another 5 to 10 minutes, following its instructions. Fluff and serve.
 
 #### Notes
 
-- The original title allows chicken or pork, but the ingredient list specifies minced chicken and gives no separate pork instructions.
-- Confirm whether the 1 cup chicken stock is included in the 2 cups water or additional. The stated liquid amounts also need reconciliation with the suggested water-to-rice ratios.
-- The source asks to reserve the mushroom soaking water but does not say how much to use or whether it replaces another liquid.
+- This working version defines the rice as 300 g uncooked white jasmine rice and interprets the liquid as 480 ml total. The stock and mushroom soaking water are part of that total, not extra liquid. Start with 480 ml; on later batches, use 450 to 500 ml total for firmer or softer rice, changing only the fresh-water portion.
+- Use a 240 ml measuring cup if measuring by volume. A 180 ml rice-cooker cup is smaller. Weighing the rice avoids that difference.
+- This version chooses dried scallops because the original method calls for soaking and shredding them. The weight is a suggested starting amount, not a conversion of the original 6 to 8 scallops.
+- The original liquid ratios conflict with its cup quantities. This adaptation replaces those ratios and does not cover brown rice, which needs a different cooking cycle and liquid amount.
+- The original quantities make five modest portions. Increase the whole recipe if needed, keeping the same rice-to-liquid ratio and within the cooker's capacity.
 
 #### Source
 
@@ -3792,32 +3885,41 @@ Supplied recipe document.
 
 **Servings:** 5 portions.
 
-**Time:** Yoghurt, milk, and optional cheese: final 2 minutes. Other times not specified.
+**Time:** Suggested: 15 minutes preparation and about 30 to 35 minutes cooking.
 
-**Review:** Imported draft.
+**Review:** Adapted draft. Suggested quantities and method; not kitchen-tested.
 
 #### Ingredients
 
-- 1 bottle pasta sauce
+- 500 g prepared tomato pasta sauce; use 400 to 600 g
 - 1 large tomato, diced
 - 1 onion, diced
 - 4 garlic cloves, minced
-- 50 g cauliflower, optional
-- 1 packet mushrooms
-- 300 g minced meat
-- 1 tbsp yoghurt
-- 1/2 cup milk
-- Shredded cheese, optional; quantity not specified
+- 50 g cauliflower, cut into small florets, optional
+- 150 g fresh mushrooms, sliced; use 100 to 200 g
+- 300 g minced beef, pork or chicken; choose one
+- 1 tbsp olive oil
+- 1 tbsp plain yoghurt
+- 120 ml milk, as a working amount for the original 1/2 cup
+- 50 g shredded mozzarella, optional; use 25 to 75 g
+- 400 g dry pasta, for serving; use 375 to 500 g
+- Water for boiling the pasta
 
 #### Method
 
-1. Stir-fry the onion, garlic, and tomato until softened. Add the mushrooms and minced meat and cook through.
-2. Add the yoghurt, milk, and optional cheese for the final 2 minutes.
+1. Heat the oil in a large pan over medium heat. Fry the onion for about 4 minutes until softened, then add the garlic and tomato and cook for 2 minutes.
+2. Add the mince, break up clumps and cook through. Use 71°C for beef or pork mince, or 74°C for chicken. Add the mushrooms and optional cauliflower and cook for about 3 minutes.
+3. Stir in the prepared pasta sauce. Cover partly and simmer for about 15 minutes, stirring occasionally, until the cauliflower is tender if used.
+4. Meanwhile, cook the pasta in boiling water according to its label. Reserve 250 ml pasta water, then drain.
+5. Lower the sauce heat. Stir in the yoghurt, milk and optional cheese and heat gently for the final 2 minutes, without boiling hard.
+6. Toss the pasta with the sauce. Add reserved pasta water 1 tbsp at a time if needed to loosen the sauce, then divide among five portions.
 
 #### Notes
 
-- The source lists bottled pasta sauce and optional cauliflower but does not state when to add them. Bottle and packet sizes are not specified.
-- Pasta quantity and cooking instructions are not provided.
+- Suggested quantities and added steps are working adaptations for five portions, not recovered packet measurements. They have not been kitchen-tested.
+- The sauce, mushrooms, cheese and pasta have suggested measured amounts. Use the upper sauce amount with the upper pasta amount. The original 300 g mince is retained.
+- Pasta is an added serving component so this entry can make a meal. When using the sauce with a different base, omit the pasta from its shopping list.
+- The optional cauliflower now cooks in the sauce. The milk uses a suggested 240 ml household cup.
 
 #### Source
 
@@ -3831,38 +3933,48 @@ Supplied recipe document.
 
 **Servings:** 5 portions.
 
-**Time:** Yoghurt, milk, and optional cheese: final 2 minutes. Other times not specified.
+**Time:** Suggested: 20 minutes preparation and about 35 to 40 minutes cooking.
 
-**Review:** Imported draft.
+**Review:** Adapted draft. Suggested quantities and method; not kitchen-tested.
 
 #### Ingredients
 
 - 2 tomatoes, diced
-- 100 g pumpkin
-- 2 apples
-- 1 carrot
-- 100 g cauliflower
-- 1 sprig basil leaves
-- 3/4 cup boiled red lentils
+- 100 g pumpkin, peeled and diced
+- 2 apples, peeled, cored and diced
+- 1 carrot, diced
+- 100 g cauliflower, cut into small florets
+- Leaves from 1 sprig basil
+- 150 g cooked, drained red lentils, as a working amount for the original 3/4 cup
 - 1 tsp Italian herbs
 - 1 onion, diced
 - 4 garlic cloves, minced
-- 1 packet mushrooms
-- 2 tbsp yoghurt
-- 1/2 cup milk
-- Shredded cheese, quantity not specified, or 1 slice cheese; optional
-- 1.5 tubes tofu or 150 g meat
+- 150 g fresh mushrooms, sliced; use 100 to 200 g
+- 1 tbsp olive oil for the sauce, plus 1 tbsp only if choosing mince
+- 300 ml water, plus up to 100 ml more if needed for simmering or blending
+- 2 tbsp plain yoghurt
+- 120 ml milk, as a working amount for the original 1/2 cup
+- 30 g shredded mozzarella, optional; use 20 to 50 g
+- 250 g drained silken tofu, cut into pieces; use 200 to 300 g, or use the original alternative of 150 g minced beef, pork or chicken
+- 400 g dry pasta, for serving; use 375 to 500 g
+- Water for boiling the pasta
 
 #### Method
 
-1. Stir-fry the onion, garlic, and vegetables until softened.
-2. Add the yoghurt, milk, and optional cheese for the final 2 minutes.
-3. Blend when cooled.
+1. Heat 1 tbsp olive oil in a large saucepan. Fry the onion for about 4 minutes, then add the garlic and cook for 30 seconds. Add the tomatoes, pumpkin, carrot, cauliflower, apples and mushrooms and stir-fry for 3 minutes.
+2. Add the Italian herbs and 300 ml water. Bring to a simmer, cover and cook for about 20 minutes, stirring occasionally, until the vegetables and apples are soft. Add up to 100 ml more water if the pan starts to dry out. During the simmer, boil the pasta according to its label. Reserve 250 ml pasta water, drain and keep the pasta ready to combine.
+3. Meanwhile, if choosing mince, heat the remaining 1 tbsp oil in a separate frying pan and cook the mince through, breaking up clumps. Use 71°C for beef or pork, or 74°C for chicken. Skip this step if choosing tofu.
+4. Stir the cooked lentils and basil into the softened vegetable mixture. Let it cool slightly, then blend with an immersion blender until as smooth as desired. A countertop blender must be suitable for warm liquids and vented according to its instructions.
+5. Return the sauce to low heat. Add the tofu or cooked mince, yoghurt, milk and optional cheese. Heat gently for about 3 to 5 minutes, until the tofu is hot throughout if used. Avoid boiling hard.
+6. Toss the cooked pasta with enough sauce to coat it, adding reserved water 1 tbsp at a time if needed. Serve any extra sauce alongside or refrigerate it promptly.
 
 #### Notes
 
-- The source does not state when to add the apples, basil, lentils, Italian herbs, or tofu/meat, or how to cook the meat option.
-- Tofu tube and mushroom packet sizes, pasta quantity, and pasta cooking instructions are not provided.
+- Suggested quantities and added steps are working adaptations for five portions, not recovered packet measurements. They have not been kitchen-tested.
+- Mushroom, tofu, cheese and pasta amounts are suggested replacements for undefined containers or missing measures. More tofu makes a heartier sauce. Choose tofu or mince, not both.
+- Water, oil and a complete simmering method are proposed additions. The source's two apples are retained and make the sauce sweet.
+- The cooked-lentil weight and milk volume are working interpretations of the original cup measures. Use cooked lentils as listed, not the same weight of dry lentils.
+- Pasta is an added serving component. Omit it from the shopping list when making only the sauce.
 
 #### Source
 
@@ -3930,34 +4042,40 @@ Supplied recipe document.
 
 **Servings:** 5 portions.
 
-**Time:** Covered simmer: 20 minutes. After adding stock: 5 minutes, or until vegetables are soft.
+**Time:** About 40 to 45 minutes, including 10 to 15 minutes of simmering and 3 to 5 minutes to finish the macaroni in the soup.
 
-**Review:** Imported draft.
+**Review:** Adapted draft. Suggested quantities and method; not kitchen-tested.
 
 #### Ingredients
 
-- 1/2 packet brown mushrooms
-- 1/2 onion, diced
-- 1 carrot, diced
-- 1 celery stick, outer layer removed and diced
-- 1 leek
+- 100 g fresh brown mushrooms, weighed after trimming, sliced; use 75 to 150 g
+- 1/2 medium onion, diced
+- 1 medium carrot, cut into 1 cm dice
+- 1 celery stick, tough strings removed and stalk diced
+- 1 small leek, trimmed, washed between the layers and thinly sliced
 - 4 garlic cloves, minced
-- 2 chicken fillets, cut into large cubes
-- 1 packet chicken stock
-- 200 ml water, or enough to cover the vegetables
-- Macaroni, quantity not specified
+- 2 boneless chicken breast fillets, cut into 2 cm cubes
+- 1 tbsp cooking oil or butter
+- 1.25 litres prepared low-salt chicken stock; use 1 to 1.5 litres for a thicker or brothier soup
+- 200 ml water, plus up to 250 ml hot water if needed to finish the pasta
+- 300 g dry macaroni; use 250 to 350 g for smaller or larger pasta portions
+- Water for boiling the macaroni, enough to cover it generously; drain before adding the pasta to the soup
 - 150 ml milk
 
 #### Method
 
-1. Lightly fry the ingredients, then add 200 ml water or enough to cover the vegetables. Cover the pot and simmer for 20 minutes.
-2. Add the chicken stock and bring to a boil. Simmer for 5 minutes, or until the vegetables are soft.
-3. Cook the macaroni separately until about three-quarters cooked, then stir it into the pot.
-4. Add 150 ml milk and serve.
+1. Heat the oil or butter in a large pot over medium heat. Fry the onion, celery and leek for 3 to 4 minutes. Add the garlic and mushrooms and fry for 2 minutes.
+2. Add the carrot, chicken, chosen stock amount and 200 ml water. Bring to a gentle boil, then lower the heat, partially cover and simmer for 10 to 15 minutes. The carrot should be nearly tender and the chicken must reach 74°C.
+3. Meanwhile, boil the macaroni in a separate pan of water for 3 minutes less than the packet's cooking time, then drain. If the packet gives a cooking time below 6 minutes, cook for half that time instead.
+4. Add the drained macaroni to the soup. Simmer for 3 to 5 minutes, stirring, until the pasta and vegetables are tender. If the pasta needs more time and the soup is becoming too thick, add hot water in 50 ml portions.
+5. Turn the heat low, stir in the milk and heat gently for 1 to 2 minutes, until hot throughout. Avoid a hard boil after adding the milk. Serve immediately.
 
 #### Notes
 
-- The source does not specify the chicken stock packet volume or macaroni quantity. It does not state a final cooking duration after the partly cooked macaroni is added.
+- The stock quantity means ready-to-use stock, including any water used to dilute concentrate according to its label. It does not mean an entire packet of stock powder or undiluted concentrate.
+- The default broth starts with 1.25 litres stock, 200 ml water and 150 ml milk, or 1.6 litres before evaporation and pasta absorption. Choose 1 litre stock for a thicker soup or 1.5 litres for more broth.
+- Mushroom and macaroni weights are suggested amounts. The supplied two chicken fillets and 150 ml milk are retained.
+- For make-ahead meals, cook the macaroni fully and store it separately from the soup so it does not absorb all the broth. Cool and refrigerate promptly. Reheat the soup and pasta together to 74°C, adding water as needed.
 
 #### Source
 
@@ -3973,45 +4091,60 @@ Supplied recipe document.
 
 **Servings:** 5 portions.
 
-**Time:** Salmon: bake for 10 minutes. Carrots: steam for 5 minutes. Zucchini and crab sticks: steam for 3 minutes each.
+**Time:** Suggested: about 50 minutes including rice cooking; fillings can cook while the rice rests.
 
-**Review:** Imported draft.
+**Review:** Adapted draft. Suggested quantities and method; not kitchen-tested.
 
 #### Ingredients
 
-- Salmon mayo filling: 600 g salmon, described as 2.5 pieces
-- Salmon mayo filling: 2 tsp sesame oil
-- Salmon mayo filling: 1.5 carrots, shredded
-- Salmon mayo filling: 1.5 zucchini, shredded
-- Salmon mayo filling: 1/2 packet crab sticks
-- Salmon mayo filling: 1 tsp soy sauce
-- Salmon mayo filling: 1 cube cream cheese
-- Salmon mayo filling: 3 tbsp Greek yoghurt
-- Salmon mayo filling: 1.5 tsp mayonnaise
-- Japanese-style scrambled eggs: 4 eggs
-- Japanese-style scrambled eggs: 1 tsp soy sauce
-- Japanese-style scrambled eggs: 1/2 tsp dashi powder
-- Japanese-style scrambled eggs: 1 tsp mirin
-- Japanese-style scrambled eggs: 1 tsp water
-- Rice: 1.5 cups Japanese rice
-- Rice: 2 packets furikake
-- Rice: 1.5 tbsp apple cider vinegar
-- Rice: 1.5 tbsp mirin, non-alcoholic as specified in the source
-- Seaweed, for serving; quantity not specified
-- Pork floss, for serving; quantity not specified
+**Salmon filling**
+
+- 600 g boneless salmon
+- 2 tsp sesame oil
+- 1 1/2 carrots, shredded
+- 1 1/2 zucchini, shredded
+- 100 g ready-cooked crab sticks, sliced; use 75 to 150 g
+- 1 tsp soy sauce
+- 30 g cream cheese, softened; use 20 to 50 g
+- 3 tbsp Greek yoghurt
+- 1 1/2 tsp mayonnaise
+
+**Scrambled eggs**
+
+- 4 eggs
+- 1 tsp soy sauce
+- 1/2 tsp dashi powder
+- 1 tsp mirin
+- 1 tsp water
+- 1 tsp neutral cooking oil
+
+**Rice and serving**
+
+- 225 g dry Japanese short-grain rice, as a suggested replacement for the unclear 1 1/2 cups
+- 300 ml water for the rice, or the amount specified by the rice label
+- 10 g furikake; use 5 to 15 g
+- 1 1/2 tbsp apple cider vinegar
+- 1 1/2 tbsp non-alcoholic mirin
+- 5 full-size nori sheets, halved for hand rolls or cut into strips for rice balls
+- 30 g pork floss, optional; use 20 to 50 g
 
 #### Method
 
-1. Bake the salmon with 2 tsp sesame oil at 180°C for 10 minutes.
-2. Steam the shredded carrots for 5 minutes, zucchini for 3 minutes, and crab sticks for 3 minutes. Drain excess water from the carrots and zucchini using a strainer.
-3. Mix the salmon, carrots, zucchini, and crab sticks with 1 tsp soy sauce, the cream cheese, Greek yoghurt, and mayonnaise.
-4. Mix warm Japanese rice with the furikake, apple cider vinegar, and non-alcoholic mirin.
-5. Serve with rice, seaweed, and pork floss.
+1. Rinse and drain the rice. Put it in a saucepan with 300 ml water, bring to a simmer, cover and cook over low heat for about 15 minutes. Turn off the heat and leave covered for 10 minutes. Follow the rice label's water and timing instructions if they differ.
+2. Meanwhile, heat the oven to 180°C. Coat the salmon with its sesame oil and bake on a lined tray. Start checking after 10 minutes and continue until its thickest part reaches 63°C. Flake it and check carefully for bones.
+3. Steam the carrots for about 5 minutes and the zucchini for about 3 minutes, until just tender. Heat the ready-cooked crab sticks according to their label. Drain and gently press excess moisture from the vegetables. Mix them with the salmon, crab sticks, filling soy sauce, cream cheese, yoghurt and mayonnaise.
+4. Beat the eggs with their soy sauce, dashi powder, mirin and water. Heat the neutral oil in a non-stick pan and scramble the mixture over medium-low heat until set and at least 71°C.
+5. Mix the warm rice with the furikake, vinegar and non-alcoholic mirin. Let it cool just enough to handle. Divide the rice, salmon mixture and eggs into five equal meal portions.
+6. For hand rolls, give each portion two nori halves. Spread a thin layer of rice over one end, add a little salmon mixture and egg, then roll into a cone and eat promptly. Serve filling that does not fit alongside; do not overfill.
+7. For onigiri instead, shape each rice portion into two small balls with clean damp hands. Make an indentation, add about 1 tsp salmon filling, close the rice around it and wrap with a nori strip. Serve the remaining filling and scrambled egg alongside. Add the optional pork floss to either serving style.
 
 #### Notes
 
-- The source supplies ingredients for Japanese-style scrambled eggs but gives no cooking method. Sushi rolling and onigiri shaping instructions are also not provided.
-- Cream cheese cube and furikake packet sizes are not specified. The source does not say whether the rice quantity is measured before or after cooking.
+- Suggested quantities and added steps are working adaptations for five portions, not recovered packet measurements. They have not been kitchen-tested.
+- Crab sticks, cream cheese and furikake now have measured working amounts. More furikake makes the rice more strongly seasoned; start with 5 g if the blend is salty.
+- The original rice cups did not specify cooked or dry. This adaptation proposes 225 g dry rice rather than claiming to recover that amount. The five portions have modest rice and generous filling; serve excess filling alongside the rolls or rice balls.
+- Rice cooking, egg cooking and both assembly options are proposed completions. Nori and optional pork-floss amounts are suggested.
+- Eat promptly or refrigerate leftovers promptly. Do not leave cooked rice or fish at room temperature for extended assembly.
 
 #### Source
 
@@ -4025,35 +4158,40 @@ Supplied recipe document.
 
 **Servings:** 5 portions.
 
-**Time:** Carrot: steam for 5 minutes. Other times not specified.
+**Time:** Suggested: about 30 minutes using ready-cooked rice; prepare the fillings while heating the rice.
 
-**Review:** Imported draft.
+**Review:** Adapted draft. Suggested quantities and method; not kitchen-tested.
 
 #### Ingredients
 
-- 1/3 cup mixed-grain rice
-- 2/3 cup Japanese rice
+- 150 g plain ready-cooked mixed-grain rice
+- 300 g plain ready-cooked Japanese short-grain rice
 - 1 tbsp sesame oil
-- Sesame seed powder, quantity not specified
-- 3 small sheets Korean salted seaweed
-- 1 can tuna, drained in a strainer
+- 1 tsp ground toasted sesame seeds; use up to 2 tsp
+- 3 small sheets Korean salted seaweed, crumbled into the rice
+- 150 g canned tuna, drained weight; use 120 to 200 g
 - 1/2 carrot, shredded
-- 1/3 bowl corn
-- Boiled egg, optional; quantity not specified
+- 75 g cooked sweetcorn kernels; use 50 to 100 g
+- 1 hard-boiled egg, chopped, optional
 - 1 tsp soy sauce
 - 2 tbsp Greek yoghurt
 - 1 tsp mayonnaise
+- 3 full-size unseasoned nori sheets, for rolling
 
 #### Method
 
-1. Mix the warm rice with sesame oil, sesame seed powder, and the Korean salted seaweed.
-2. Steam the shredded carrot for 5 minutes. Drain excess water from the tuna.
-3. Mix the tuna, carrot, corn, and optional boiled egg with soy sauce, Greek yoghurt, and mayonnaise.
+1. Heat the ready-cooked rice according to its label until steaming hot. If using freshly cooked rice instead, weigh 150 g mixed-grain and 300 g Japanese rice after cooking. Combine them while warm and mix in the sesame oil, ground sesame and crumbled Korean salted seaweed. Let cool just enough to handle.
+2. Steam the shredded carrot for about 5 minutes, until tender, then drain well. Drain the tuna thoroughly and mix it with the carrot, cooked corn, optional chopped hard-boiled egg, soy sauce, yoghurt and mayonnaise.
+3. Place a full-size nori sheet shiny-side down on a rolling mat. Spread one-third of the rice thinly over the lower two-thirds of the sheet. Place a narrow line of filling across the rice about 3 cm from the bottom edge.
+4. Roll firmly from the bottom, using the mat to keep the filling together. Dampen the bare top edge with a little water to seal. Repeat with the other sheets and rice. Serve any filling that does not fit alongside rather than overfilling the rolls.
+5. Cut each roll into bite-sized slices with a damp knife and divide the rolls and any extra filling among five portions. Eat promptly, or refrigerate promptly until serving.
 
 #### Notes
 
-- The source does not provide rolling or assembly instructions. It does not specify whether the rice quantities are measured before or after cooking.
-- The source's "mix all of the above" follows the filling ingredients; interpreted here as the filling, separately from the seasoned rice. Confirm this scope.
+- Suggested quantities and added steps are working adaptations for five portions, not recovered packet measurements. They have not been kitchen-tested.
+- The tuna uses drained grams rather than an unknown can. Corn and sesame now have suggested working amounts. More tuna makes a fish-heavy filling; more corn makes it sweeter.
+- The original rice cups did not specify cooked or dry. The 150 g and 300 g cooked weights are proposed replacements that keep the recorded one-to-two grain ratio. Ready-cooked rice gives a definite purchase amount without assuming a water ratio for an unspecified grain blend. Do not use these weights for dry rice.
+- The three small salted seaweed sheets season the rice. Three full-size nori sheets are a proposed separate ingredient for rolling. These make five small shared-dish portions.
 
 #### Source
 
@@ -4069,54 +4207,69 @@ Supplied recipe document.
 
 **Servings:** 5 portions.
 
-**Time:** Cheese bake: about 8 minutes. Other times not specified.
+**Time:** Suggested: 25 minutes preparation and about 25 minutes cooking.
 
-**Review:** Imported draft.
+**Review:** Adapted draft. Suggested quantities and method; not kitchen-tested.
 
 #### Ingredients
 
-- Beef filling: 400 g fresh minced beef
-- Beef filling: 1 onion, finely diced
-- Beef filling: 2 garlic cloves, minced
-- Beef filling: 2 tbsp tomato paste
-- Beef filling: 50 ml water
-- Beef filling: black pepper, a sprinkle
-- Beef filling: 1 tsp all-purpose seasoning, or 1 tsp paprika plus 1 tsp mushroom salt
-- Beef filling: 1 tsp oregano or Italian herbs
-- Beef filling: 1 tsp garlic powder
-- Beef filling: 1 tsp onion powder
-- Beef filling: 1 tbsp oil
-- Beef filling: cheese for baking, type and quantity not specified
-- Tofu scrambled eggs: 6 eggs
-- Tofu scrambled eggs: 1/2 packet silken tofu
-- Tofu scrambled eggs: mozzarella cheese, quantity not specified
-- Tofu scrambled eggs: salt, a sprinkle
-- Tofu scrambled eggs: 1 tbsp milk
-- Tofu scrambled eggs: butter, quantity not specified
-- Guacamole: 1 avocado
-- Guacamole: 2 tbsp Greek yoghurt
-- Guacamole: juice of 1/2 lime
-- Guacamole: salt, a sprinkle
-- Guacamole: 1 tsp garlic powder
-- Guacamole: 1 shallot
-- Guacamole: 1/2 packet baby tomatoes, cubed
-- Gardenia wraps or hard-shell tacos, for serving; quantity not specified
-- Shredded carrots, for serving; quantity not specified
-- Mesclun salad, for serving; quantity not specified
-- Fish fingers, optional, for serving; quantity not specified
+**Beef filling**
+
+- 400 g fresh minced beef
+- 1 onion, finely diced
+- 2 garlic cloves, minced
+- 2 tbsp tomato paste
+- 50 ml water
+- 1/8 tsp black pepper
+- 1 tsp all-purpose seasoning, or 1 tsp paprika plus 1 tsp mushroom salt
+- 1 tsp oregano or Italian herbs
+- 1 tsp garlic powder
+- 1 tsp onion powder
+- 1 tbsp oil
+- 75 g grated cheddar or mozzarella, for baking; use 50 to 100 g
+
+**Tofu scrambled eggs**
+
+- 6 eggs
+- 150 g silken tofu, drained; use 100 to 200 g
+- 30 g grated mozzarella; use 20 to 50 g
+- 1/8 tsp salt
+- 1 tbsp milk
+- 10 g butter
+
+**Guacamole**
+
+- 1 avocado
+- 2 tbsp Greek yoghurt
+- Juice of 1/2 lime
+- 1/8 tsp salt
+- 1 tsp garlic powder
+- 1 small shallot, finely chopped
+- 100 g cherry tomatoes, diced; use 75 to 150 g
+
+**To serve**
+
+- 5 medium soft wraps, about 25 cm across, or 10 hard-shell tacos
+- 100 g shredded carrot; use 75 to 150 g
+- 75 g mesclun salad; use 50 to 100 g
+- 250 g frozen fish fingers, optional; use 200 to 300 g
 
 #### Method
 
-1. For the beef filling, stir-fry the onion and garlic in 1 tbsp oil until slightly softened. Add the beef and fry until it turns light brown.
-2. Add the seasoning and mix well until the beef is cooked. Add tomato paste and water and cook until the water evaporates, leaving a juicy filling rather than a watery one.
-3. Bake with cheese for about 8 minutes, until melted.
-4. For the tofu scrambled eggs, cook the eggs, silken tofu, mozzarella, salt, and milk with butter.
-5. Serve with wraps or hard-shell tacos, shredded carrots, mesclun salad, and optional fish fingers.
+1. Heat the oven to 180°C. If using the optional fish fingers, cook them on a separate tray according to their label's temperature and timing; adjust the oven between components if needed. Keep them hot for serving.
+2. Heat the oil in a frying pan. Fry the onion for about 4 minutes, then add the garlic and fry for 30 seconds. Add the beef and cook, breaking up clumps, until it reaches 71°C.
+3. Stir in the pepper, chosen all-purpose seasoning or paprika-and-mushroom-salt alternative, herbs, garlic powder and onion powder. Add the tomato paste and water. Simmer for 2 to 3 minutes until the filling is moist but not watery.
+4. Transfer the cooked beef to a shallow ovenproof dish. Scatter the baking cheese over it and bake at 180°C for about 8 minutes, until melted. The cheese is baked on the beef, before assembly.
+5. Beat the eggs with the milk and salt. Melt the butter in a non-stick pan over medium-low heat, add the drained tofu and break it into small pieces. Add the eggs and stir gently until set and at least 71°C. Fold in the mozzarella and remove from the heat once melted.
+6. Mash the avocado with the yoghurt, lime juice, salt and garlic powder. Stir in the shallot and diced tomatoes to make the guacamole.
+7. Warm the wraps or taco shells according to their label. Divide the beef, eggs, guacamole, carrot and salad among five servings, with fish fingers if chosen. Fill each wrap modestly, fold in the sides and roll, or spoon filling into the taco shells. Serve excess filling alongside rather than overfilling.
 
 #### Notes
 
-- The source lists guacamole ingredients without a preparation method.
-- The baking temperature and exactly what is baked with the cheese are not specified. The wrap assembly method and fish finger preparation are also not given.
+- Suggested quantities and added steps are working adaptations for five portions, not recovered packet measurements. They have not been kitchen-tested.
+- Tofu and tomato weights replace undefined half-packets. Cheese, butter, salad and serving-base amounts are proposed. Use less tofu or cheese for lighter eggs, or more for a larger filling.
+- Choose soft wraps or hard-shell tacos. Fish fingers are optional and use their own product cooking instructions; they are not assumed to cook during the beef's 8-minute cheese bake.
+- This is a generous shared meal with several fillings. The original 400 g beef and six eggs are retained; divide everything among five portions and serve filling that does not fit alongside.
 
 #### Source
 
@@ -4553,40 +4706,48 @@ Supplied recipe document.
 
 **Servings:** 5 portions.
 
-**Time:** Not specified.
+**Time:** Suggested: 20 minutes preparation and about 25 minutes cooking.
 
-**Review:** Imported draft.
+**Review:** Adapted draft. Suggested quantities and method; not kitchen-tested.
 
 #### Ingredients
 
-- 5 large tomatoes, cubed
+- 5 large tomatoes, diced
 - 2 garlic cloves, minced
-- 4 eggs
-- 1 large shallot
-- 1 packet chicken stock, 1 litre
-- White part of spring onion, mentioned in the method; quantity not specified
-- 250 g sliced fish
-- 1 tsp light soy sauce, for marinating the fish
-- Cornstarch, for marinating the fish; quantity not specified
-- 1 tsp sesame oil, for marinating the fish
-- 1 small bowl chopped corn, steamed
-- 1 packet mushrooms
-- 1 packet leafy vegetables
-- 2 bundles mee sua or soya mee
-- 1 box silken tofu
-- 1 tbsp oyster sauce and 1 tbsp ketchup, optional, after tasting
+- 4 eggs, beaten
+- 1 large shallot, finely chopped
+- 1 litre prepared chicken stock
+- White parts of 2 spring onions, sliced
+- 250 g boneless firm white fish, such as cod or sea bass, sliced about 1 cm thick
+- 1 tsp light soy sauce, for the fish
+- 1 tsp cornstarch, for the fish
+- 1 tsp sesame oil, for the fish
+- 100 g cooked sweetcorn kernels; use 75 to 150 g
+- 150 g fresh mushrooms, trimmed and sliced; use 100 to 200 g
+- 250 g leafy vegetables such as bok choy, stems and leaves separated; use 200 to 350 g
+- 250 g dry mee sua or soya mee; use 200 to 300 g
+- 300 g silken tofu, drained and cubed; use 250 to 400 g
+- 1 tbsp neutral cooking oil
+- 500 ml water to dilute the stock; add up to 250 ml more if a thinner soup is preferred
+- Water for cooking the noodles
+- 1 tbsp oyster sauce and 1 tbsp ketchup, optional after tasting
 
 #### Method
 
-1. Season the sliced fish with light soy sauce, cornstarch, and sesame oil. Steam the chopped corn.
-2. For the soup, fry the garlic, shallot, and white spring onion. Add the cubed tomatoes and fry until paste-like.
-3. Add the chicken stock and bring to a boil. Taste and add the optional oyster sauce and ketchup if needed.
-4. Serve with the listed fish, corn, mushrooms, leafy vegetables, noodles, and tofu.
+1. Coat the fish with its soy sauce, cornstarch and sesame oil. Keep chilled while preparing the soup.
+2. Heat the cooking oil in a large pot. Fry the garlic, shallot and spring-onion whites for about 1 minute. Add the tomatoes and cook for about 8 minutes, stirring, until they soften and begin to break down.
+3. Add the 1 litre stock, 500 ml water and mushrooms. Bring to a simmer and cook for 5 minutes. Taste, then add the optional oyster sauce and ketchup only if desired.
+4. Add the vegetable stems, cooked corn and tofu. Simmer for about 3 minutes. Add the fish and vegetable leaves and simmer gently for about 3 to 5 minutes, until the fish reaches 63°C and the vegetables are tender.
+5. Pour in the beaten eggs in a thin stream while stirring gently. Continue simmering until the egg is set and the soup reaches at least 71°C. Add up to 250 ml more water if a thinner soup is preferred, then return to a simmer.
+6. Cook the chosen noodles separately according to their label and drain. Divide the noodles among five bowls and ladle over the hot soup and toppings. Serve promptly so the noodles do not soften excessively.
 
 #### Notes
 
-- This recipe remains in Archive, as in the source.
-- The source does not specify when to add the 4 eggs, how to cook the fish, mushrooms, leafy vegetables, or noodles, or when to add the tofu. The final serving step does not resolve these gaps.
+- Suggested quantities and added steps are working adaptations for five portions, not recovered packet measurements. They have not been kitchen-tested.
+- This recipe remains in Archive and is not a planning default. Its archived status is unchanged.
+- Mushroom, vegetable, tofu, corn and dry-noodle amounts are proposed replacements for packets, a box, a bowl and bundles. More noodles make a fuller bowl; less leaves more room for broth and toppings.
+- The source's 1 litre stock is retained. An additional 500 ml water is a proposed addition for five bowls, with up to 250 ml more for preference. Noodles cook separately so they do not absorb this broth before serving.
+- Fish type, spring onion, cornstarch, cooking oil and the missing cooking steps are suggested completions.
 
 #### Source
 

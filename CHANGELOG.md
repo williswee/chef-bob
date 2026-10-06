@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Completed quantities and methods in 27 further recipe updates, including both steamed-halibut options, pumpkin rice, tacos, stir-fried beehoon and macaroni soup. Replaced remaining undefined package and section measures with suggested weights or volumes.
 - Added suggested quantities, flexible ranges and completed cooking steps to 31 recipes; marked them as adapted drafts awaiting kitchen testing.
 - Standardized oven temperatures to °C and bare garlic counts to cloves. Explained how Bob chooses and scales one amount from each range for shopping lists.
 - Corrected the maple-miso halibut and sweet-and-sour tofu titles while retaining their recipe IDs and source links.
