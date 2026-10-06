@@ -2,16 +2,46 @@
 
 104 recipe entries and variants, including incomplete recipe notes. Imported on **3 October 2026** from the maintainer's recipe collection, last modified **26 August 2026**.
 
+All recipes below use a **5-portion base**. See [portions and scaling](#portions-and-scaling) to adjust them.
+
 For a first plan, start with the six complete [starter recipes](recipes/STARTER_RECIPES.md). Use the index below to browse this larger collection. Ask Chef Bob to show a dish or category in plain language. The [command guide](COMMANDS.md) explains `/help`, `/plan`, `/preferences`, and `/recipe-add`.
 
 ## How to use this collection
 
 - Entries marked **Imported draft** have been formatted consistently but still contain source gaps. Missing values are **Not specified**, and conflicts appear under **Notes**. Clarify missing information before using a recipe for a detailed shopping list or cooking instructions.
 - Ingredients, quantities, methods, variants, and attribution links have been preserved. Ingredient amounts have not been guessed. External source pages have not been independently re-imported or checked.
-- Some oven temperatures only say "degrees"; the scale is unresolved. Servings and bowl, packet, scoop, or bottle sizes also need clarification in many entries.
+- Some oven temperatures only say "degrees"; the scale is unresolved. Bowl, packet, scoop, or bottle sizes also need clarification in many entries.
 - Recipe ingredients are independent of household preferences. Apply allergies, exclusions, and substitutions when planning rather than deleting ingredients from the shared collection.
 - `/recipe-add` saves additions in your private data directory. It does not publish them or edit this shared file. Contribute a reviewed recipe through the [contribution process](CONTRIBUTING.md) when you want to share it.
 - The preparation notes and archived recipe are retained as source material for review. They are not approved planning defaults.
+
+## Portions and scaling
+
+Every recipe in this collection is based on **5 portions**. The listed ingredient quantities make the full five-portion batch. The maintainer confirmed this on 6 October 2026, replacing the earlier missing or conflicting serving notes.
+
+To cook a different amount, multiply each specified ingredient quantity by **your portions / 5**.
+
+| Portions wanted | Multiply listed quantities by |
+| ---: | ---: |
+| 1 | 0.2 |
+| 2 | 0.4 |
+| 3 | 0.6 |
+| 4 | 0.8 |
+| 5 | 1, use as written |
+| 6 | 1.2 |
+| 10 | 2 |
+
+For example, 500 g of an ingredient becomes 200 g for 2 portions or 300 g for 3 portions. Each recipe's portion count refers to that dish; a side dish is still a side dish.
+
+Follow recipe-specific scaling notes first. The [ginger soy fish sauce](#ginger-soy-baked-salmon), for example, should not be doubled automatically. Cooking times and temperatures do not scale with portions; check the batch size and method separately. Missing quantities and undefined bowl, packet, or scoop sizes still need clarification.
+
+You can ask Bob:
+
+```text
+Use RECIPES.md to plan dinners for 3 portions. Its recipes are based on
+5 portions, so scale the listed quantities by 0.6. Follow any recipe-specific
+scaling notes, apply my food preferences, and flag missing measurements.
+```
 
 ## Recipe index
 
@@ -162,7 +192,7 @@ These preparation notes come from the supplied document and await review.
 
 **ID:** `chrysanthemum-herbal-drink`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Not specified.
 
@@ -194,7 +224,7 @@ Supplied recipe document.
 
 **ID:** `luo-han-guo-herbal-drink`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Not specified.
 
@@ -226,7 +256,7 @@ Supplied recipe document.
 
 **ID:** `apple-and-pear-soup-without-meat`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Not specified.
 
@@ -259,7 +289,7 @@ Supplied recipe document.
 
 **ID:** `papaya-and-white-fungus-dessert`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Not specified.
 
@@ -294,7 +324,7 @@ Supplied recipe document.
 
 **ID:** `cheng-tng`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Peach resin soaking: at least 8 hours. Pang dahai soaking: 30 minutes. Simmering stages: 30, 30 and 10 minutes.
 
@@ -335,7 +365,7 @@ The water quantity, cup size, form of lotus and whether the longan is fresh or d
 
 **ID:** `abc-soup`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Not specified.
 
@@ -380,7 +410,7 @@ Supplied recipe document.
 
 **ID:** `apple-and-pear-pork-rib-soup`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Not specified.
 
@@ -416,7 +446,7 @@ Supplied recipe document.
 
 **ID:** `apple-and-fig-soup-with-lily-bulbs`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Not specified.
 
@@ -450,7 +480,7 @@ Supplied recipe document.
 
 **ID:** `chicken-and-fish-maw-soup`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Not specified.
 
@@ -485,7 +515,7 @@ Supplied recipe document.
 
 **ID:** `pumpkin-and-tomato-chicken-soup`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Not specified.
 
@@ -517,7 +547,7 @@ The title names pumpkin, but pumpkin is absent from the ingredient list. Confirm
 
 **ID:** `lotus-root-pork-rib-soup`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Not specified.
 
@@ -551,7 +581,7 @@ Supplied recipe document.
 
 **ID:** `cordyceps-chicken-soup`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Not specified.
 
@@ -586,7 +616,7 @@ Supplied recipe document.
 
 **ID:** `white-fungus-and-pear-chicken-soup`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Not specified.
 
@@ -624,7 +654,7 @@ Supplied recipe document.
 
 **ID:** `winter-melon-soup-with-chicken-or-pork`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Not specified.
 
@@ -659,7 +689,7 @@ Supplied recipe document.
 
 **ID:** `old-cucumber-soup-with-chicken-or-pork`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Not specified.
 
@@ -692,7 +722,7 @@ The source suggests choosing a heavy, wrinkled old cucumber and claims higher nu
 
 **ID:** `chayote-and-sweet-corn-soup-with-chicken-or-pork`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Not specified.
 
@@ -728,7 +758,7 @@ A cooking method is not specified.
 
 **ID:** `herbal-chicken-soup`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Not specified.
 
@@ -764,7 +794,7 @@ Supplied recipe document.
 
 **ID:** `liu-wei-pork-soup`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Low-heat cooking: 2 hours. Add longan after 1 hour and qi zi in the final 5 minutes.
 
@@ -816,7 +846,7 @@ Supplied recipe document.
 
 **ID:** `fish-soup`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Baking: 25 minutes. Simmering: 4 hours.
 
@@ -866,7 +896,7 @@ Confirm the ginger amount, water quantity and temperature scale before cooking. 
 
 **ID:** `pumpkin-and-chestnut-soup`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Not specified.
 
@@ -901,7 +931,7 @@ Water quantity and method are not specified.
 
 **ID:** `watercress-pork-rib-soup`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Anchovy soaking: 15 minutes. Add watercress in the final 15 minutes. Total cooking time not specified.
 
@@ -939,7 +969,7 @@ Supplied recipe document.
 
 **ID:** `daikon-and-carrot-pork-rib-soup`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Not specified.
 
@@ -976,7 +1006,7 @@ Supplied recipe document.
 
 **ID:** `army-stew`
 
-**Servings:** 3-4 people.
+**Servings:** 5 portions.
 
 **Time:** Not specified.
 
@@ -1034,7 +1064,7 @@ Supplied recipe document.
 
 **ID:** `eggplant-and-broccoli`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Steaming: 5 minutes.
 
@@ -1075,7 +1105,7 @@ Supplied recipe document.
 
 **ID:** `eggplant-with-minced-meat`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Eggplant cooking: 15 minutes. Simmering: 3 minutes.
 
@@ -1119,7 +1149,7 @@ The oven/air-fryer setting and temperature are not specified. Confirm the intend
 
 **ID:** `broccoli-with-egg-slurry`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Not specified.
 
@@ -1162,7 +1192,7 @@ Supplied recipe document.
 
 **ID:** `mixed-vegetables`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Tossing: 1 minute. Simmering: 2-3 minutes.
 
@@ -1218,7 +1248,7 @@ Packet sizes and the unit for garlic are not specified.
 
 **ID:** `chinese-yam-or-lotus-root-with-mixed-vegetables`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Chinese yam boiling: 3 minutes, or lotus root boiling: 5 minutes.
 
@@ -1265,7 +1295,7 @@ Supplied recipe document.
 
 **ID:** `nonya-cabbage`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Ingredient soaking: 15 minutes. Simmering: 15 minutes.
 
@@ -1304,7 +1334,7 @@ Supplied recipe document.
 
 **ID:** `stir-fried-cabbage`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Simmering: 10-15 minutes.
 
@@ -1341,7 +1371,7 @@ Supplied recipe document.
 
 **ID:** `roasted-cabbage`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Roasting: 20 minutes.
 
@@ -1385,7 +1415,7 @@ Supplied recipe document.
 
 **ID:** `stir-fried-bok-choy-with-eggs`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Not specified.
 
@@ -1424,7 +1454,7 @@ The source does not specify the garlic unit, baby-corn amount or cooking duratio
 
 **ID:** `leafy-vegetables-with-garlic-version-1`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Stems: about 3 minutes. Leaves: about 3 minutes.
 
@@ -1460,7 +1490,7 @@ Supplied recipe document.
 
 **ID:** `leafy-vegetables-with-garlic-version-2`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Vegetable stir-frying: 1 minute, or until starting to soften.
 
@@ -1502,7 +1532,7 @@ Supplied recipe document.
 
 **ID:** `bitter-gourd-with-tofu-and-eggs`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Bitter-gourd soaking: 30 minutes.
 
@@ -1551,7 +1581,7 @@ The source does not say when to add the 1/4 tsp sprinkling salt or how long to c
 
 **ID:** `steamed-okra`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Steaming: 8 minutes.
 
@@ -1595,7 +1625,7 @@ Choose one seasoning variant. Packet sizes are not specified.
 
 **ID:** `steamed-spinach-with-broth`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Spinach steaming: 5 minutes. Broth simmering: 15 minutes.
 
@@ -1631,7 +1661,7 @@ Supplied recipe document.
 
 **ID:** `japanese-stir-fried-lotus-root-and-tau-kwa`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Lotus-root steaming: 10 minutes.
 
@@ -1678,7 +1708,7 @@ Supplied recipe document.
 
 **ID:** `japanese-steamed-egg`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Steam for 15 minutes.
 
@@ -1715,7 +1745,7 @@ Supplied recipe document.
 
 **ID:** `steamed-egg-minced-meat`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Steam for 15 minutes; fry meat for 1 to 2 minutes before seasoning, then cook with slurry for 1 to 2 minutes.
 
@@ -1759,7 +1789,7 @@ Supplied recipe document.
 
 **ID:** `minced-pork-omelette`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Microwave carrot for 1.5 minutes; frying time not specified.
 
@@ -1797,7 +1827,7 @@ Supplied recipe document.
 
 **ID:** `red-onion-omelette`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Not specified.
 
@@ -1830,7 +1860,7 @@ Supplied recipe document.
 
 **ID:** `otah-egg`
 
-**Servings:** 2 to 3 people.
+**Servings:** 5 portions.
 
 **Time:** Steam for 15 minutes.
 
@@ -1868,7 +1898,7 @@ Supplied recipe document.
 
 **ID:** `taiwanese-dan-bing`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Not specified.
 
@@ -1907,7 +1937,7 @@ Supplied recipe document.
 
 **ID:** `miso-mushroom-fish`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Steam for 9 minutes.
 
@@ -1943,7 +1973,7 @@ Supplied recipe document.
 
 **ID:** `steamed-pomfret`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Steam for 8 minutes; marinating time not specified.
 
@@ -1976,7 +2006,7 @@ Supplied recipe document.
 
 **ID:** `steamed-dory-fillet`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Steam for 8 minutes.
 
@@ -2016,7 +2046,7 @@ Supplied recipe document.
 
 **ID:** `honey-baked-miso-halibut`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Marinate for 2 hours; stand out of the fridge for 15 minutes; bake for 6 minutes and broil for 8 minutes.
 
@@ -2053,7 +2083,7 @@ Supplied recipe document.
 
 **ID:** `steamed-halibut-garlic-ginger`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Option 1 not specified. Option 2: steam for 6 minutes.
 
@@ -2094,7 +2124,7 @@ Supplied recipe document.
 
 **ID:** `tomato-egg`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Fry garlic and onion for about 15 seconds; cook tomatoes for 1 to 2 minutes. Total time not specified.
 
@@ -2135,7 +2165,7 @@ Supplied recipe document.
 
 **ID:** `fried-egg-shallots-spring-onion`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Not specified.
 
@@ -2170,7 +2200,7 @@ Supplied recipe document.
 
 **ID:** `baked-tomato-fish-foil`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Stir-fry for about 2 minutes; steam vegetables for 6 minutes; bake fish for 15 minutes. Sauce simmering time not specified.
 
@@ -2213,7 +2243,7 @@ Supplied recipe document.
 
 **ID:** `baked-salmon-teriyaki`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Marinate for 1 hour; bake for 10 minutes.
 
@@ -2249,7 +2279,7 @@ Supplied recipe document.
 
 **ID:** `ginger-soy-baked-salmon`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Not specified.
 
@@ -2287,7 +2317,7 @@ Supplied recipe document.
 
 **ID:** `japanese-creamy-fish-stew`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Not specified.
 
@@ -2331,7 +2361,7 @@ Supplied recipe document.
 
 **ID:** `sweet-sour-fried-tofu-fish`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Not specified.
 
@@ -2379,7 +2409,7 @@ Supplied recipe document.
 
 **ID:** `steamed-tofu-egg-pork`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Steam for 8 minutes; marinating time not specified.
 
@@ -2417,7 +2447,7 @@ Supplied recipe document.
 
 **ID:** `miso-mapo-tofu`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Simmer for 2 minutes; marinating and frying times not specified.
 
@@ -2460,7 +2490,7 @@ Supplied recipe document.
 
 **ID:** `steamed-chicken-mushrooms-black-fungus`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Marinate for at least 30 minutes; steam for 15 minutes or until cooked through.
 
@@ -2502,7 +2532,7 @@ Supplied recipe document.
 
 **ID:** `braised-chicken-mushrooms-tau-kwa`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Simmer for 30 minutes, then another 10 minutes; soaking and frying times not specified.
 
@@ -2556,7 +2586,7 @@ Supplied recipe document.
 
 **ID:** `soya-chicken-potato-stew`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Simmer for 30 minutes; add optional sweet potato for the final 10 to 15 minutes.
 
@@ -2600,7 +2630,7 @@ Supplied recipe document.
 
 **ID:** `baked-honey-soy-chicken`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Marinate for 30 minutes; bake for 35 minutes, then another 5 to 10 minutes.
 
@@ -2639,7 +2669,7 @@ Supplied recipe document.
 
 **ID:** `potatoes-carrots-minced-meat`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Simmer for 10 minutes; marinating and frying times not specified.
 
@@ -2681,7 +2711,7 @@ Supplied recipe document.
 
 **ID:** `beef-pork-tomato-stew`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Simmer for 1.5 hours, then leave the pot closed for 1 hour.
 
@@ -2725,7 +2755,7 @@ Supplied recipe document.
 
 **ID:** `minced-beef-tacos`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Bake with cheese for about 8 minutes; frying time not specified.
 
@@ -2768,7 +2798,7 @@ Supplied recipe document.
 
 **ID:** `japanese-pork-stew`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Simmer vegetables for 30 minutes; pork cooking time not specified.
 
@@ -2808,7 +2838,7 @@ Supplied recipe document.
 
 **ID:** `garlicky-stir-fried-beef`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Marinate for 3 hours or longer; fry beef for 2 minutes per side; cook bean sprouts for 3 minutes.
 
@@ -2851,7 +2881,7 @@ Supplied recipe document.
 
 **ID:** `sweet-sour-pork-ribs`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Blanch for 5 minutes; simmer for 1 hour; final sauce reduction time not specified.
 
@@ -2890,7 +2920,7 @@ Supplied recipe document.
 
 **ID:** `fried-brown-rice-chicken`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Not specified.
 
@@ -2936,7 +2966,7 @@ Supplied recipe document.
 
 **ID:** `fried-basmati-rice-chicken-seafood`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Prawn soak: 30 minutes. Other times not specified.
 
@@ -2989,7 +3019,7 @@ Supplied recipe document.
 
 **ID:** `fried-brown-rice-reduced-seasoning`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Not specified.
 
@@ -3039,7 +3069,7 @@ Supplied recipe document.
 
 **ID:** `miso-butter-corn-fried-rice-chicken`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Not specified.
 
@@ -3080,7 +3110,7 @@ Supplied recipe document.
 
 **ID:** `soya-mee-soup`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Soup: boil for 1 hour. Other times not specified.
 
@@ -3132,7 +3162,7 @@ Supplied recipe document.
 
 **ID:** `vietnamese-beef-noodle-soup`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Vacuum pot: 2 hours.
 
@@ -3178,7 +3208,7 @@ Supplied recipe document.
 
 **ID:** `coconut-chicken-noodle-soup`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Vacuum pot: 2 hours; wolfberries added for the final 15 minutes.
 
@@ -3216,7 +3246,7 @@ Supplied recipe document.
 
 **ID:** `oyakodon`
 
-**Servings:** 4 people, as stated in the sauce heading.
+**Servings:** 5 portions.
 
 **Time:** Not specified.
 
@@ -3245,7 +3275,7 @@ Supplied recipe document.
 
 #### Notes
 
-- The sauce heading specifies 4 people. The source gives 2 eggs in the method.
+- The source gives 2 eggs in the method.
 - The source does not state when to combine the sauce ingredients, how to bring the chicken mixture to a simmer after setting it aside, or when to add the spring onion. Confirm these gaps before relying on this draft.
 
 #### Source
@@ -3260,7 +3290,7 @@ Supplied recipe document.
 
 **ID:** `ginger-scallion-chicken-rice-noodles`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Mushrooms and black fungus: stir-fry for 1 minute. Other times not specified.
 
@@ -3303,7 +3333,7 @@ Supplied recipe document.
 
 **ID:** `soy-milk-ramen`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Soak: 30 minutes to 1 hour. Soup: simmer for 1 hour. Eggs: boil for 8 minutes.
 
@@ -3363,7 +3393,7 @@ Supplied recipe document.
 
 **ID:** `stir-fried-beehoon-fish-chicken`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Beehoon soak: 6 to 8 minutes. Other times not specified.
 
@@ -3416,7 +3446,7 @@ Supplied recipe document.
 
 **ID:** `tomato-curry-udon`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Simmer: 15 minutes, or until onions and tomatoes are soft.
 
@@ -3463,7 +3493,7 @@ Supplied recipe document.
 
 **ID:** `seafood-white-beehoon`
 
-**Servings:** 4 adults and 3 children, as stated for the beehoon and stock.
+**Servings:** 5 portions.
 
 **Time:** Broth: 30 minutes; clams during the final 15 minutes. Prawn soak: 30 minutes. Beehoon soak: 3 minutes. Initial prawn and fish fry: 1 to 2 minutes.
 
@@ -3507,7 +3537,7 @@ Supplied recipe document.
 
 #### Notes
 
-- The source specifies 4 bundles beehoon and 2 stock packets for 4 adults and 3 children. It also describes the stock as "2 pkt chicken broth (2ltr pkt)". Confirm whether 2 litres is the total volume or each packet's volume.
+- The source specifies 4 bundles beehoon and 2 stock packets. It describes the stock as "2 pkt chicken broth (2ltr pkt)". Confirm whether 2 litres is the total volume or each packet's volume.
 - The ingredient list allows 200 to 300 g fish, while the frying instruction says 200 g.
 - The clam instruction appears twice in the source; it is retained once here. Its order relative to the 30-minute simmer and shell removal is unclear.
 - The source does not specify the final cooking time after the partly cooked prawns, fish, and eggs return to the pan.
@@ -3524,7 +3554,7 @@ Supplied recipe document.
 
 **ID:** `white-braised-hokkien-mee`
 
-**Servings:** 3 adults and 3 children, as stated for the noodles.
+**Servings:** 5 portions.
 
 **Time:** Broth: 30 minutes; clams during the final 15 minutes. Prawn soak: 30 minutes. Initial prawn and optional fish fry: 1 to 2 minutes.
 
@@ -3568,7 +3598,7 @@ Supplied recipe document.
 
 #### Notes
 
-- The source states 4 packets of yellow noodles for 3 adults and 3 children; packet size is not specified.
+- The source lists 4 packets of yellow noodles; packet size is not specified.
 - The sliced onion and separate bunch of leafy vegetables are listed without specific cooking steps.
 - The egg ingredient lists 2 eggs with cornstarch and water; the method calls this an egg slurry without explaining how to combine it.
 - The order of shell removal and adding clams during the final 15 minutes is unclear. The final cooking time after returning the partly cooked prawns and fish is not specified.
@@ -3583,7 +3613,7 @@ Supplied recipe document.
 
 **ID:** `dashi-garlic-butter-fried-rice`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Not specified.
 
@@ -3624,7 +3654,7 @@ Supplied recipe document.
 
 **ID:** `pumpkin-rice`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Chicken marinade: at least 30 minutes. Cooking time not specified.
 
@@ -3668,7 +3698,7 @@ Supplied recipe document.
 
 **ID:** `tomato-pasta-sauce-bottled`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Yoghurt, milk, and optional cheese: final 2 minutes. Other times not specified.
 
@@ -3707,7 +3737,7 @@ Supplied recipe document.
 
 **ID:** `tomato-pasta-sauce-homemade`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Yoghurt, milk, and optional cheese: final 2 minutes. Other times not specified.
 
@@ -3752,7 +3782,7 @@ Supplied recipe document.
 
 **ID:** `bolognese-pasta`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Sauce: simmer for 30 minutes, or until vegetables are soft. Eggs: boil for 8 minutes.
 
@@ -3801,7 +3831,7 @@ Supplied recipe document.
 
 **ID:** `creamy-chicken-macaroni-soup`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Covered simmer: 20 minutes. After adding stock: 5 minutes, or until vegetables are soft.
 
@@ -3844,7 +3874,7 @@ Supplied recipe document.
 
 **ID:** `japanese-sushi-onigiri`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Salmon: bake for 10 minutes. Carrots: steam for 5 minutes. Zucchini and crab sticks: steam for 3 minutes each.
 
@@ -3897,7 +3927,7 @@ Supplied recipe document.
 
 **ID:** `korean-kimbap`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Carrot: steam for 5 minutes. Other times not specified.
 
@@ -3941,7 +3971,7 @@ Supplied recipe document.
 
 **ID:** `mexican-wraps`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Cheese bake: about 8 minutes. Other times not specified.
 
@@ -4006,7 +4036,7 @@ Supplied recipe document.
 
 **ID:** `yoghurt-pancakes`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Not specified.
 
@@ -4035,7 +4065,7 @@ Supplied recipe document.
 
 **ID:** `baked-salmon-sweet-potato-nuggets`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Salmon: bake for 8 minutes. Sweet potato: microwave for 7 minutes. Other vegetables: microwave for 3 minutes. Final bake: 30 minutes.
 
@@ -4073,7 +4103,7 @@ Supplied recipe document.
 
 **ID:** `tofu-meatballs`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Bake: 20 minutes. Pan-fry: 3 minutes per side, or until slightly browned.
 
@@ -4113,7 +4143,7 @@ Supplied recipe document.
 
 **ID:** `fish-pumpkin-scallop-porridge`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Not specified.
 
@@ -4146,7 +4176,7 @@ Supplied recipe document.
 
 **ID:** `fish-wolfberry-carrot-porridge`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Not specified.
 
@@ -4179,7 +4209,7 @@ Supplied recipe document.
 
 **ID:** `minced-pork-carrot-porridge`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Not specified.
 
@@ -4214,7 +4244,7 @@ Supplied recipe document.
 
 **ID:** `minced-chicken-vegetable-porridge`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Not specified.
 
@@ -4247,7 +4277,7 @@ Supplied recipe document.
 
 **ID:** `beef-sweet-potato-porridge`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Not specified.
 
@@ -4280,7 +4310,7 @@ Supplied recipe document.
 
 **ID:** `chicken-drumstick-soup-carrot-leek-potato`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Not specified.
 
@@ -4311,7 +4341,7 @@ Supplied recipe document.
 
 **ID:** `chicken-drumstick-soup-carrot-potato-tomato`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Not specified.
 
@@ -4343,7 +4373,7 @@ Supplied recipe document.
 
 **ID:** `chicken-rice-cauliflower`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Not specified.
 
@@ -4379,7 +4409,7 @@ Supplied recipe document.
 
 **ID:** `fried-rice-kids`
 
-**Servings:** Source says "2 feeds"; portion size not specified.
+**Servings:** 5 portions.
 
 **Time:** Not specified.
 
@@ -4400,7 +4430,7 @@ Supplied recipe document.
 
 #### Method
 
-1. Cook the rice. The source describes 6 scoops for "2 feeds".
+1. Cook the rice.
 2. Marinate the minced chicken with cornstarch and sesame oil.
 3. Fry the minced garlic and shallot with the shredded carrot and cabbage until soft.
 4. Scramble 1 egg.
@@ -4423,7 +4453,7 @@ Supplied recipe document.
 
 **ID:** `tomato-egg-soup-mee-sua`
 
-**Servings:** Not specified.
+**Servings:** 5 portions.
 
 **Time:** Not specified.
 

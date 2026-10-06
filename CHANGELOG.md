@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Confirmed a five-portion base for all 104 imported recipes, removed outdated serving notes, and added a scaling guide.
 - Explained every repository file and added folder guides for recipe collections and test examples.
 - Added `soul.md` for Bob's default personality and handling of mistakes and disagreement.
 - Onboarding introduces Bob, offers a name change, and learns about the user through selectable answers where supported.

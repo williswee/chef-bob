@@ -16,7 +16,7 @@ Start with `README.md` to use Chef Bob. The files below support setup, private s
 | [COMMANDS.md](COMMANDS.md) | Behavior of the four public commands. |
 | [soul.md](soul.md) | Bob's tone, accuracy, and response to mistakes or disagreement. |
 | [AGENTS.md](AGENTS.md) | Rules for AI agents working in this repository. |
-| [RECIPES.md](RECIPES.md) | The 104 imported recipe entries, their index, sources, and review notes. |
+| [RECIPES.md](RECIPES.md) | The 104 imported recipes for 5 portions, their scaling guide, index, sources, and review notes. |
 | [CONTRIBUTING.md](CONTRIBUTING.md) | This file map and the process for contributing and checking changes. |
 | [CHANGELOG.md](CHANGELOG.md) | Changes grouped by release. |
 | [LICENSE](LICENSE) | MIT license for the project's original work. |

@@ -59,7 +59,7 @@ Do not ask the user to maintain configuration syntax.
 
 ## 5. Make the first plan
 
-Use [the six starter recipes](recipes/STARTER_RECIPES.md) for a small first preview, subject to the user's restrictions. They are original, untested examples. The larger [imported collection](RECIPES.md) has 104 drafts with review notes; unresolved amounts or methods stay unresolved until the user supplies or approves a correction.
+Use [the six starter recipes](recipes/STARTER_RECIPES.md) for a small first preview, subject to the user's restrictions. They are original, untested examples. The larger [imported collection](RECIPES.md) has 104 drafts, each based on 5 portions. Follow its [scaling guide](RECIPES.md#portions-and-scaling) and review notes. Unresolved ingredient amounts or methods stay unresolved until the user supplies or approves a correction.
 
 Show the selected dates and meals, recipe names, servings, preparation notes and a shopping list. State assumptions and conflicts. When a recipe cannot meet a restriction or lacks enough information, choose another available recipe or ask a focused question.
 
