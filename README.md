@@ -66,7 +66,9 @@ Reminders start off. They require your chosen schedule and destination, plus ver
 
 ## Recipes and privacy
 
-The [six starter recipes](recipes/STARTER_RECIPES.md) are complete but not kitchen-tested. The [104 imported recipes](RECIPES.md) each use a **5-portion base**, with a [scaling guide](RECIPES.md#portions-and-scaling) for other amounts. They retain source links and review notes for missing details. Your additions stay in your private collection. The helper validates file structure and recipe references. The AI must check portion scaling, dietary suitability, and cooking instructions against the recipes.
+The [six starter recipes](recipes/STARTER_RECIPES.md) are complete but not kitchen-tested. The [104 imported recipes](RECIPES.md) each use a **5-portion base**, with a [scaling guide](RECIPES.md#portions-and-scaling) for other amounts. Adapted drafts include [suggested defaults and ranges](RECIPES.md#choosing-quantities); other entries still flag missing details. Source links are retained, and the adaptations have not been kitchen-tested.
+
+Your additions stay in your private collection. The helper validates file structure and recipe references. The AI must check portion scaling, dietary suitability, and cooking instructions against the recipes.
 
 Your AI provider receives what you share or allow it to read. Keep credentials outside recipes and this repository. Chef Bob has no subscription fee; your AI provider and optional services may charge for use.
 

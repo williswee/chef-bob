@@ -2,7 +2,7 @@
 
 Chef Bob's original instructions, helper code, documentation, and original starter recipes are released under the [MIT license](LICENSE).
 
-The maintainer supplied the recipe collection in [RECIPES.md](RECIPES.md) and authorized its inclusion. Individual entries preserve the supplied source links. Formatting an entry does not establish that it has been tested or resolve missing recipe details.
+The maintainer supplied the recipe collection in [RECIPES.md](RECIPES.md) and authorized its inclusion. Individual entries preserve the supplied source links. Entries marked Adapted draft include suggested quantities and method additions described in their notes. These are not claims about the original source measurements, and the adaptations have not been kitchen-tested. Formatting alone does not resolve gaps in other entries.
 
 Linked websites, photos, videos, brands, and third-party materials remain subject to their owners' terms. Chef Bob's license does not relicense external pages or grant rights to their media. The repository does not bundle those external photos or videos.
 

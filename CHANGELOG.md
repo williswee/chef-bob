@@ -2,6 +2,9 @@
 
 ## Unreleased
 
+- Added suggested quantities, flexible ranges and completed cooking steps to 31 recipes; marked them as adapted drafts awaiting kitchen testing.
+- Standardized oven temperatures to °C and bare garlic counts to cloves. Explained how Bob chooses and scales one amount from each range for shopping lists.
+- Corrected the maple-miso halibut and sweet-and-sour tofu titles while retaining their recipe IDs and source links.
 - Confirmed a five-portion base for all 104 imported recipes, removed outdated serving notes, and added a scaling guide.
 - Explained every repository file and added folder guides for recipe collections and test examples.
 - Added `soul.md` for Bob's default personality and handling of mistakes and disagreement.

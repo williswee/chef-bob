@@ -62,21 +62,22 @@ Ask for a timezone when it is needed to resolve dates or set reminders. Otherwis
 | Command behavior | [COMMANDS.md](COMMANDS.md) |
 | Profile fields and cycle semantics | [docs/preferences.md](docs/preferences.md) |
 | Complete illustrative recipes for a first plan | [recipes/STARTER_RECIPES.md](recipes/STARTER_RECIPES.md) |
-| Imported recipe ideas with source gaps | [RECIPES.md](RECIPES.md) |
+| Imported recipes and adaptations, with review notes | [RECIPES.md](RECIPES.md) |
 | User's current settings and history | `preferences.json` and `state.json` in the private data directory |
 | Recipes added by the user | `recipes.md` in the private data directory |
 
-There is no required private Google Doc, account, bot, or messaging service. The six starter recipes are original examples with explicit quantities, not kitchen-tested recipes. The 104 imported reference entries remain drafts. An import's review status does not establish redistribution rights.
+There is no required private Google Doc, account, bot, or messaging service. The six starter recipes are original examples with explicit quantities, not kitchen-tested recipes. The 104 reference entries include imported drafts with source gaps and adapted drafts with suggested quantities and steps. Neither label means kitchen-tested. An import's review status does not establish redistribution rights.
 
 ## Planning rules
 
 - Use one household profile. Keep lasting settings in `preferences.json`, dated meal exceptions in `temporary_overrides`, and saved weeks in `state.json`. A guest count or skipped Friday should not silently become a permanent preference.
 - Apply allergies and explicit exclusions before dislikes, variety, timing, or convenience. Check the full ingredients, sauces, stock, and proposed substitutions. Missing ingredient information is unresolved, not proof that a recipe fits. The helper checks data structure, numeric validity, and recipe references. It does not verify portion scaling, allergen safety, nutrition, or cooking safety.
 - Respect the requested meal slots and servings. Do not equate children with a fixed fraction of an adult unless the user chooses that serving rule.
-- Prefer complete recipes suitable for the stated cooking time. For an imported draft with missing quantities or steps, identify the gap, use another recipe, or ask a focused question. Do not invent source facts. Label any user-requested proposed variation separately.
+- Prefer complete recipes suitable for the stated cooking time. For an imported draft with missing quantities or steps, identify the gap, use another recipe, or ask a focused question. Do not invent source facts. Label any user-requested proposed variation separately. Published adapted drafts already supply suggested defaults and ranges; use them when the method is complete and fits the user. Do not treat those suggestions as recovered source measurements or exclude an otherwise usable adaptation solely because it is marked draft. A variant explicitly marked incomplete remains excluded.
 - Scale quantities by `target servings / source servings`. Every recipe in `RECIPES.md` uses a maintainer-confirmed base of 5 portions; the separate `recipes/STARTER_RECIPES.md` recipes use 2. Follow recipe-specific scaling notes, including any sauce exceptions. New private recipes use their own stated yield; do not assume 5. Preserve units, distinguish dry from cooked and drained weights, and show necessary rounding. Cooking time does not scale linearly. Unknown source servings prevent a reliable serving-ratio calculation.
 - Honor the configured carb sequence only when enabled. Derive its position from saved eligible meals; never maintain a counter that advances each time the agent reruns.
 - With the default `repeat_gap_weeks: 1`, avoid a dish served in the immediately preceding calendar week. Track stable recipe IDs, including renamed entries. Check meaningful variants rather than evading a repeat by changing a title.
+- For ingredient ranges, choose one amount before making the grocery list. Use the published default unless preferences or the recipe notes support another amount. Scale that amount and the range bounds from the stated yield. For cooked quantities, use the product's labelled yield to calculate the dry purchase amount, or explicitly list ready-cooked food. Do not treat cooked and dry weights as interchangeable. Select one of any alternatives; count reserved oil or liquid only once. Preserve precise custard and slurry ratios and method instructions to add seasoning gradually. See the [quantity guide](RECIPES.md#choosing-quantities).
 - Produce a dated meal plan, recipe links, a grocery list with quantities tied to meals, and useful preparation reminders. Keep pantry checks separate from items to buy. A dish replacement must update its ingredients, grocery totals, and reminders.
 
 Save structured plans with the helper's `save-plan` action. It stores weeks by their Monday date. Saving an identical plan again must not add meals or advance the cycle. When revising a saved week, preserve unrelated weeks and resolve any conflict with later plans rather than silently changing them.
